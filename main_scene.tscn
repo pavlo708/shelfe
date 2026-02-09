@@ -1,0 +1,345 @@
+[gd_scene load_steps=40 format=3 uid="uid://bcwdlyke21ojo"]
+
+[ext_resource type="Texture2D" uid="uid://t3qs7c6n8tcj" path="res://wardrobes/wardrobe.png" id="1_0f027"]
+[ext_resource type="Script" uid="uid://dge7bdn56432n" path="res://main_scene.gd" id="1_671wp"]
+[ext_resource type="Script" uid="uid://be4nejuyhkn1m" path="res://Shelf.gd" id="3_gyfs4"]
+[ext_resource type="Texture2D" uid="uid://b82j6dyo3mxtr" path="res://wardrobes/wardrobeleftdown1.png" id="4_mo76n"]
+[ext_resource type="Texture2D" uid="uid://bqnun1s8gwp8j" path="res://wardrobes/wardrobeleftdown2.png" id="5_42l1d"]
+[ext_resource type="Texture2D" uid="uid://nrp43y131ws0" path="res://wardrobes/wardrobeleftup1.png" id="6_2jcla"]
+[ext_resource type="Texture2D" uid="uid://qa60ekextwda" path="res://wardrobes/wardrobeleftup2.png" id="7_m35m6"]
+[ext_resource type="Texture2D" uid="uid://bcfxfry6v3a3s" path="res://wardrobes/wardroberightdown1.png" id="8_u0ygc"]
+[ext_resource type="Texture2D" uid="uid://c4wld24blbm4p" path="res://wardrobes/wardroberightdown2.png" id="9_7th4q"]
+[ext_resource type="Texture2D" uid="uid://hudkw5ds1ds1" path="res://wardrobes/wardroberightup1.png" id="10_6jybn"]
+[ext_resource type="Texture2D" uid="uid://cmlc1lar0io2u" path="res://wardrobes/wardroberightup2.png" id="11_84odl"]
+[ext_resource type="Texture2D" uid="uid://iasjugpuia8t" path="res://wardrobes/wardrobecenter1.png" id="12_ak604"]
+[ext_resource type="Texture2D" uid="uid://cw4iltefjnry6" path="res://wardrobes/wardrobecenter2.png" id="13_vimvf"]
+[ext_resource type="Texture2D" uid="uid://bfadfm11ysxrq" path="res://wardrobes/wardrobeleft1.png" id="14_6jybn"]
+[ext_resource type="Texture2D" uid="uid://cxxyseh4xvyja" path="res://wardrobes/wardrobeleft2.png" id="15_84odl"]
+[ext_resource type="Texture2D" uid="uid://c68vnieww2uby" path="res://wardrobes/wardrobecenter11.png" id="16_ak604"]
+[ext_resource type="Texture2D" uid="uid://c5p2ro8yu8dy3" path="res://wardrobes/wardrobecenter12.png" id="17_vimvf"]
+[ext_resource type="Texture2D" uid="uid://xliprjf2jkgw" path="res://wardrobes/wardroberight1.png" id="18_ghshe"]
+[ext_resource type="Texture2D" uid="uid://om40vlw5gg51" path="res://wardrobes/wardroberight2.png" id="19_fv2he"]
+[ext_resource type="Texture2D" uid="uid://bfpcpsbbwlog8" path="res://wardrobes/wardrobecenterup1.png" id="20_ak604"]
+[ext_resource type="Texture2D" uid="uid://codsj16cgnkkk" path="res://wardrobes/wardrobecenterup2.png" id="21_vimvf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2c62f"]
+size = Vector2(176, 190)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gyfs4"]
+size = Vector2(181, 190)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_d5x1h"]
+size = Vector2(176, 120)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8mm7a"]
+size = Vector2(176, 120)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hq1ik"]
+size = Vector2(173.5, 193)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nfk4m"]
+size = Vector2(175.25, 190)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_66tet"]
+size = Vector2(179.5, 125)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7ycvg"]
+size = Vector2(173.5, 123.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wr18j"]
+size = Vector2(162.5, 193)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qwutr"]
+size = Vector2(154, 187.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5smuj"]
+size = Vector2(176, 265.75)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_y5ved"]
+size = Vector2(180, 269.75)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kv3aw"]
+size = Vector2(154, 268.75)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_o7u2a"]
+size = Vector2(154, 263.75)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ijoax"]
+size = Vector2(178, 267.75)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j8kkg"]
+size = Vector2(175, 260.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6jybn"]
+size = Vector2(157.5, 127.25)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_84odl"]
+size = Vector2(152.5, 123.25)
+
+[node name="MainScene" type="Node2D"]
+script = ExtResource("1_671wp")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(519, 291)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_0f027")
+
+[node name="Shelves" type="Node2D" parent="."]
+
+[node name="Shelf1" type="Area2D" parent="Shelves"]
+script = ExtResource("3_gyfs4")
+
+[node name="CollisionShape2D1" type="CollisionShape2D" parent="Shelves/Shelf1"]
+position = Vector2(87, 501)
+shape = SubResource("RectangleShape2D_2c62f")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Shelves/Shelf1"]
+visible = false
+position = Vector2(519, 291)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("4_mo76n")
+
+[node name="Shelf2" type="Area2D" parent="Shelves"]
+script = ExtResource("3_gyfs4")
+shelf_id = 2
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Shelves/Shelf2"]
+position = Vector2(268.5, 499)
+shape = SubResource("RectangleShape2D_gyfs4")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Shelves/Shelf2"]
+visible = false
+position = Vector2(519, 291)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("5_42l1d")
+
+[node name="Shelf3" type="Area2D" parent="Shelves"]
+script = ExtResource("3_gyfs4")
+shelf_id = 3
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Shelves/Shelf3"]
+position = Vector2(91, 71)
+shape = SubResource("RectangleShape2D_d5x1h")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Shelves/Shelf3"]
+visible = false
+position = Vector2(519, 291)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("6_2jcla")
+
+[node name="Shelf4" type="Area2D" parent="Shelves"]
+script = ExtResource("3_gyfs4")
+shelf_id = 4
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Shelves/Shelf4"]
+position = Vector2(273, 70)
+shape = SubResource("RectangleShape2D_8mm7a")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Shelves/Shelf4"]
+visible = false
+position = Vector2(519, 291)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("7_m35m6")
+
+[node name="Shelf5" type="Area2D" parent="Shelves"]
+script = ExtResource("3_gyfs4")
+shelf_id = 5
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="Shelves/Shelf5"]
+position = Vector2(767.25, 502)
+shape = SubResource("RectangleShape2D_hq1ik")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Shelves/Shelf5"]
+visible = false
+position = Vector2(519, 291)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("8_u0ygc")
+
+[node name="Shelf6" type="Area2D" parent="Shelves"]
+script = ExtResource("3_gyfs4")
+shelf_id = 6
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="Shelves/Shelf6"]
+position = Vector2(947.375, 498)
+shape = SubResource("RectangleShape2D_nfk4m")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Shelves/Shelf6"]
+visible = false
+position = Vector2(519, 291)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("9_7th4q")
+
+[node name="Shelf7" type="Area2D" parent="Shelves"]
+script = ExtResource("3_gyfs4")
+shelf_id = 7
+
+[node name="CollisionShape2D7" type="CollisionShape2D" parent="Shelves/Shelf7"]
+position = Vector2(772.25, 72.5)
+shape = SubResource("RectangleShape2D_66tet")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Shelves/Shelf7"]
+visible = false
+position = Vector2(519, 291)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("10_6jybn")
+
+[node name="Shelf8" type="Area2D" parent="Shelves"]
+script = ExtResource("3_gyfs4")
+shelf_id = 8
+
+[node name="CollisionShape2D8" type="CollisionShape2D" parent="Shelves/Shelf8"]
+position = Vector2(948.25, 72.25)
+shape = SubResource("RectangleShape2D_7ycvg")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Shelves/Shelf8"]
+visible = false
+position = Vector2(519, 291)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("11_84odl")
+
+[node name="Shelf9" type="Area2D" parent="Shelves"]
+script = ExtResource("3_gyfs4")
+shelf_id = 9
+
+[node name="CollisionShape2D9" type="CollisionShape2D" parent="Shelves/Shelf9"]
+position = Vector2(442.75, 500.5)
+shape = SubResource("RectangleShape2D_wr18j")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Shelves/Shelf9"]
+visible = false
+position = Vector2(519, 291)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("12_ak604")
+
+[node name="Shelf10" type="Area2D" parent="Shelves"]
+script = ExtResource("3_gyfs4")
+shelf_id = 10
+
+[node name="CollisionShape2D10" type="CollisionShape2D" parent="Shelves/Shelf10"]
+position = Vector2(601, 500.5)
+shape = SubResource("RectangleShape2D_qwutr")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Shelves/Shelf10"]
+visible = false
+position = Vector2(519, 291)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("13_vimvf")
+
+[node name="Shelf11" type="Area2D" parent="Shelves"]
+script = ExtResource("3_gyfs4")
+shelf_id = 11
+
+[node name="CollisionShape2D11" type="CollisionShape2D" parent="Shelves/Shelf11"]
+position = Vector2(88, 268.875)
+shape = SubResource("RectangleShape2D_5smuj")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Shelves/Shelf11"]
+visible = false
+position = Vector2(519, 291)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("14_6jybn")
+
+[node name="Shelf12" type="Area2D" parent="Shelves"]
+script = ExtResource("3_gyfs4")
+shelf_id = 12
+
+[node name="CollisionShape2D12" type="CollisionShape2D" parent="Shelves/Shelf12"]
+position = Vector2(271, 268.875)
+shape = SubResource("RectangleShape2D_y5ved")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Shelves/Shelf12"]
+visible = false
+position = Vector2(519, 291)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("15_84odl")
+
+[node name="Shelf13" type="Area2D" parent="Shelves"]
+script = ExtResource("3_gyfs4")
+shelf_id = 13
+
+[node name="CollisionShape2D13" type="CollisionShape2D" parent="Shelves/Shelf13"]
+position = Vector2(449, 270.375)
+shape = SubResource("RectangleShape2D_kv3aw")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Shelves/Shelf13"]
+visible = false
+position = Vector2(519, 291)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("16_ak604")
+
+[node name="Shelf14" type="Area2D" parent="Shelves"]
+script = ExtResource("3_gyfs4")
+shelf_id = 14
+
+[node name="CollisionShape2D14" type="CollisionShape2D" parent="Shelves/Shelf14"]
+position = Vector2(597, 271.875)
+shape = SubResource("RectangleShape2D_o7u2a")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Shelves/Shelf14"]
+visible = false
+position = Vector2(519, 291)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("17_vimvf")
+
+[node name="Shelf15" type="Area2D" parent="Shelves"]
+script = ExtResource("3_gyfs4")
+shelf_id = 15
+
+[node name="CollisionShape2D15" type="CollisionShape2D" parent="Shelves/Shelf15"]
+position = Vector2(768, 269.875)
+shape = SubResource("RectangleShape2D_ijoax")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Shelves/Shelf15"]
+visible = false
+position = Vector2(519, 291)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("18_ghshe")
+
+[node name="Shelf16" type="Area2D" parent="Shelves"]
+script = ExtResource("3_gyfs4")
+shelf_id = 16
+
+[node name="CollisionShape2D16" type="CollisionShape2D" parent="Shelves/Shelf16"]
+position = Vector2(950.5, 268.25)
+shape = SubResource("RectangleShape2D_j8kkg")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Shelves/Shelf16"]
+visible = false
+position = Vector2(519, 291)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("19_fv2he")
+
+[node name="Shelf17" type="Area2D" parent="Shelves"]
+script = ExtResource("3_gyfs4")
+shelf_id = 17
+
+[node name="CollisionShape2D17" type="CollisionShape2D" parent="Shelves/Shelf17"]
+position = Vector2(441.25, 71.375)
+shape = SubResource("RectangleShape2D_6jybn")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Shelves/Shelf17"]
+visible = false
+position = Vector2(519, 291)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("20_ak604")
+
+[node name="Shelf18" type="Area2D" parent="Shelves"]
+script = ExtResource("3_gyfs4")
+shelf_id = 18
+
+[node name="CollisionShape2D18" type="CollisionShape2D" parent="Shelves/Shelf18"]
+position = Vector2(601.75, 70.375)
+shape = SubResource("RectangleShape2D_84odl")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Shelves/Shelf18"]
+visible = false
+position = Vector2(519, 291)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("21_vimvf")
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="LineEdit" type="LineEdit" parent="UI"]
+offset_top = 618.0
+offset_right = 1038.0
+offset_bottom = 649.0

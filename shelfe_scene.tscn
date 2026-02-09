@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cedfrxkhjamte"]
+
+[ext_resource type="Script" uid="uid://d3jrstxfkmn74" path="res://shelfe_scene.gd" id="1_rf65b"]
+
+[node name="ShelfeScene" type="Node2D"]
+script = ExtResource("1_rf65b")
