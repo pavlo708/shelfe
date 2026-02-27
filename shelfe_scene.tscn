@@ -1,6 +1,22 @@
 [gd_scene load_steps=2 format=3 uid="uid://cedfrxkhjamte"]
 
-[ext_resource type="Script" uid="uid://d3jrstxfkmn74" path="res://shelfe_scene.gd" id="1_rf65b"]
+[sub_resource type="GDScript" id="GDScript_ybj2d"]
+script/source = "##shelf_scene
+#extends Node2D
+#
+#@onready var label = $UI/Label # Твой текстовый узел
+#
+#func _ready():
+	#var id = DataManager.current_shelf_id
+	#var items = DataManager.cabinet_data.get(id, [])
+	#
+	#if items.is_empty():
+		#label.text = \"На этой полке пусто\"
+	#else:
+		#label.text = \"Полка №\" + str(id) + \":\\n\\n\"
+		#for item in items:
+			#label.text += \"- \" + item + \"\\n\"
+"
 
 [node name="ShelfeScene" type="Node2D"]
-script = ExtResource("1_rf65b")
+script = SubResource("GDScript_ybj2d")

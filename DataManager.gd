@@ -1,5 +1,7 @@
-extends Node
+#DataManager
+extends Node 
 var current_shelf_id: int = 0
+const SAVE_PATH = "user://cabinet_save.json"
 # База данных шкафа: номер полки -> список предметов
 var cabinet_data = {
 	1: ["Весы лабораторные «Рычажные» – 5 шт.", 
@@ -101,8 +103,8 @@ var cabinet_data = {
 		'Модель строения Солнца – 1 шт.'  
 		],
 	15: ['Телескоп – 1 шт.', 
-	'Карта звездного неба – 10 шт.', 
-	'Атлас по астрономии – 14 шт.' 
+		'Карта звездного неба – 10 шт.', 
+		'Атлас по астрономии – 14 шт.' 
 		],
 	16: ["Книги", 
 		"Генератор звуковой – 2 шт.",
@@ -111,13 +113,81 @@ var cabinet_data = {
 	17: ['Глобус «Звездного неба» – 1 шт.', 
 		 'Модель «Небесная сфера» – 1 шт.'
 		 ],
-	18: ["Коробка с проводами", "Старый телефон"]
+	18: ["ваша информация"
+		]
 }
-
+func _ready():
+	load_data_from_disk() # Читаем файл при старте
+	
 # Функция для поиска номера полки по названию предмета
-func find_shelf_by_item(item_name: String) -> int:
-	for shelf_id in cabinet_data:
-		for item in cabinet_data[shelf_id]:
-			if item_name.to_lower() in item.to_lower():
-				return shelf_id
-	return 0 # Не найдено
+func find_all_shelves_by_item(search_text: String) -> Array:
+	var results = []
+	search_text = search_text.to_lower()
+	
+	for id in cabinet_data.keys():
+		for item in cabinet_data[id]:
+			if search_text in item.to_lower():
+				# Если ID — это отсек (например, 101), превращаем его в 1
+				var shelf_id = id
+				if id >= 100:
+					shelf_id = id / 100 # Целочисленное деление (105 / 100 = 1)
+				
+				if not shelf_id in results:
+					results.append(shelf_id)
+	return results
+	
+func load_data_from_disk():
+	if not FileAccess.file_exists(SAVE_PATH):
+		return 
+	
+	var file = FileAccess.open(SAVE_PATH, FileAccess.READ)
+	var json_string = file.get_as_text()
+	var json = JSON.new()
+	var error = json.parse(json_string)
+	
+	if error == OK:
+		var raw_data = json.data
+		cabinet_data = {}
+		# Превращаем строковые ключи "1" обратно в целые числа 1
+		for key in raw_data.keys():
+			cabinet_data[int(key)] = raw_data[key]
+	else:
+		pass
+
+func save_data_to_disk():
+	var file = FileAccess.open(SAVE_PATH, FileAccess.WRITE)
+	var json_string = JSON.stringify(cabinet_data)
+	file.store_string(json_string)	
+# Функция для создания красивого текстового отчета
+
+func export_to_path(full_path: String) -> bool:
+	var file = FileAccess.open(full_path, FileAccess.WRITE)
+	if not file: return false
+	
+	file.store_line("СПИСОК ИМУЩЕСТВА")
+	file.store_line("==============================\n")
+	
+	var main_shelves = []
+	for id in cabinet_data.keys():
+		var m_id = id if id < 100 else id / 100
+		if not m_id in main_shelves: main_shelves.append(m_id)
+	main_shelves.sort()
+
+	for m_id in main_shelves:
+		file.store_line("ПОЛКА №" + str(m_id))
+		
+		var shelf_content = []
+		if cabinet_data.has(m_id): shelf_content.append_array(cabinet_data[m_id])
+		
+		var sub_keys = cabinet_data.keys()
+		sub_keys.sort()
+		for sub_id in sub_keys:
+			if sub_id > m_id * 100 and sub_id < m_id * 100 + 100:
+				shelf_content.append_array(cabinet_data[sub_id])
+		
+		for item in shelf_content:
+			file.store_line("  - " + item)
+		file.store_line("") 
+		
+	file.close()
+	return true

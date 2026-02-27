@@ -1,35 +1,30 @@
+# shelf.gd
 extends Area2D
 
 @export var shelf_id: int = 1
-# Достаем спрайт, который лежит ВНУТРИ этой Area2D
-@onready var highlight_sprite =$HighlightSprite
+var is_hovered: bool = false
+var is_highlighting: bool = false
+var highlight_alpha: float = 0.0
 
-func _ready():
-	# По умолчанию подсветка каждой полки выключена
-	highlight_sprite.visible = false
-	
-	mouse_entered.connect(_on_mouse_entered)
-	mouse_exited.connect(_on_mouse_exited)
-	input_event.connect(_on_input_event)
-
-func _on_mouse_entered():
-	# Включаем спрайт подсветки ПОВЕРХ основного шкафа
-	highlight_sprite.visible = true
-
-func _on_mouse_exited():
-	# Выключаем
-	highlight_sprite.visible = false
-
-func _on_input_event(_viewport, event, _shape_idx):
-	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
-		DataManager.current_shelf_id = shelf_id
-		get_tree().change_scene_to_file("res://ShelfScene.tscn")
+func _draw():
+	for child in get_children():
+		if child is CollisionShape2D and child.shape is RectangleShape2D:
+			var rect = child.shape.get_rect()
+			rect.position += child.position
+			
+			if is_highlighting:
+				draw_rect(rect, Color(1, 1, 0, highlight_alpha * 0.4), true)
+				draw_rect(rect, Color(1, 1, 0, highlight_alpha), false, 2.5)
+			elif is_hovered:
+				draw_rect(rect, Color(1, 1, 1, 0.15), true)
+				draw_rect(rect, Color(1, 1, 1, 0.5), false, 1.2)
 
 func highlight():
+	is_highlighting = true
 	var tween = create_tween()
-	highlight_sprite.visible = true
-	# Мигаем именно спрайтом подсветки
-	tween.tween_property(highlight_sprite, "modulate:a", 0.0, 0.3)
-	tween.tween_property(highlight_sprite, "modulate:a", 1.0, 0.3)
-	tween.set_loops(3)
-	tween.finished.connect(func(): highlight_sprite.visible = false)
+	for i in range(3):
+		tween.tween_property(self, "highlight_alpha", 1.0, 0.3)
+		tween.parallel().tween_callback(queue_redraw)
+		tween.tween_property(self, "highlight_alpha", 0.0, 0.3)
+		tween.parallel().tween_callback(queue_redraw)
+	tween.finished.connect(func(): is_highlighting = false; queue_redraw())
