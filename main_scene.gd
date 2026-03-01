@@ -37,15 +37,26 @@ func _ready():
 	var save_btn = info_panel.find_child("SaveButton", true, false)
 	if save_btn: save_btn.hide()
 	
+# В main_scene.gd измени:
+
 func _on_shelf_clicked(_viewport, event, _shape_idx, s_id):
-	# Проверяем, что это именно нажатие кнопки мыши
 	if event is InputEventMouseButton and event.pressed:
+		# Формула ID: (Кабинет * 1000) + (Шкаф * 100) + Полка
+		var full_id = GlobalSettings.get_full_id(s_id)
+		
 		if event.button_index == MOUSE_BUTTON_RIGHT:
-			# ПКМ - переход
-			enter_zoomed_shelf(s_id)
+			GlobalSettings.current_shelf_id = s_id
+			get_tree().change_scene_to_file("res://zoomed_shelf.tscn")
 		elif event.button_index == MOUSE_BUTTON_LEFT:
-			# ЛКМ - информация
-			show_shelf_info_combined(s_id)
+			show_shelf_info_combined(full_id)
+
+func _on_back_button_pressed():
+	# Если это шкаф из лаборантской (ID 3, 4, 5...), возвращаемся в лаборантскую
+	if GlobalSettings.current_wardrobe >= 3:
+		get_tree().change_scene_to_file("res://Scene_Lab_View.tscn")
+	else:
+		# Если это основные шкафы, возвращаемся в кабинет
+		get_tree().change_scene_to_file("res://Scene_Cabinet_View.tscn")
 
 func _process(_delta):
 	# Тултип следует за мышкой

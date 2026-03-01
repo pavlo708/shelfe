@@ -9,6 +9,7 @@ var current_shelf_id = 0
 var hovered_index = -1 
 
 func _ready():
+	
 	current_shelf_id = GlobalSettings.current_shelf_id
 	info_panel.hide()
 	edit_items_box.text_changed.connect(_on_text_changed)
@@ -65,9 +66,7 @@ func _on_item_clicked(_viewport, event, _shape_idx, item_index: int):
 	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
 		var item_full_id = (current_shelf_id * 100) + (item_index + 1)
 		GlobalSettings.currently_editing_id = item_full_id
-		
-		# Устанавливаем заголовок: всегда начинается с 1 внутри каждой полки
-		# Находим Label заголовка внутри InfoPanel
+	
 		var title = info_panel.find_child("TitleLabel", true, false)
 		if title:
 			title.text = "Предмет №" + str(item_index + 1)

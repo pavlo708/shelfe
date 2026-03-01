@@ -1,0 +1,46 @@
+[gd_scene load_steps=6 format=3 uid="uid://bvebvvdvu2t21"]
+
+[ext_resource type="Script" uid="uid://b3dgqgbw0lql4" path="res://scene_lab_view.gd" id="1_c0wth"]
+[ext_resource type="Texture2D" uid="uid://dptncte734afe" path="res://sprites/BackButtonNorm.png" id="2_ye6jw"]
+[ext_resource type="Texture2D" uid="uid://bos55l286lpnu" path="res://sprites/BackButtonPress.png" id="3_7k0y7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xf34m"]
+size = Vector2(438.5, 627.75)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ugxyw"]
+size = Vector2(465, 564.5)
+
+[node name="Scene_Lab_View" type="Node2D"]
+script = ExtResource("1_c0wth")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="LabWardrobeA" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LabWardrobeA"]
+position = Vector2(221, 366.125)
+shape = SubResource("RectangleShape2D_xf34m")
+
+[node name="BackButton" type="TextureButton" parent="LabWardrobeA"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="LabWardrobeB" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LabWardrobeB"]
+position = Vector2(1034.5, 396.75)
+shape = SubResource("RectangleShape2D_ugxyw")
+
+[node name="BackButton" type="TextureButton" parent="LabWardrobeB"]
+offset_left = 14.0
+offset_top = -15.0
+offset_right = 95.0
+offset_bottom = 66.0
+texture_normal = ExtResource("2_ye6jw")
+texture_pressed = ExtResource("3_7k0y7")
+texture_hover = ExtResource("3_7k0y7")
+ignore_texture_size = true
+stretch_mode = 0
+
+[connection signal="pressed" from="LabWardrobeA/BackButton" to="." method="_on_back_button_pressed"]
+[connection signal="pressed" from="LabWardrobeB/BackButton" to="." method="_on_back_button_pressed"]

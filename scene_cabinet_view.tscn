@@ -1,0 +1,53 @@
+[gd_scene load_steps=7 format=3 uid="uid://d28e24t5fui2w"]
+
+[ext_resource type="Script" uid="uid://d0gyk6bj6c35h" path="res://scene_cabinet_view.gd" id="1_76kyt"]
+[ext_resource type="Texture2D" uid="uid://dptncte734afe" path="res://sprites/BackButtonNorm.png" id="2_vc6xo"]
+[ext_resource type="Texture2D" uid="uid://bos55l286lpnu" path="res://sprites/BackButtonPress.png" id="3_f472g"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k4pne"]
+size = Vector2(500, 283)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vc6xo"]
+size = Vector2(242, 236)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_f472g"]
+size = Vector2(165.5, 422.5)
+
+[node name="Scene_Cabinet_View" type="Node2D"]
+script = ExtResource("1_76kyt")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="BigWardrobe" type="Area2D" parent="."]
+priority = 1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BigWardrobe"]
+position = Vector2(307, 150)
+shape = SubResource("RectangleShape2D_k4pne")
+
+[node name="WallWardrobe" type="Area2D" parent="."]
+priority = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WallWardrobe"]
+position = Vector2(161, 569)
+shape = SubResource("RectangleShape2D_vc6xo")
+
+[node name="LabDoor" type="Area2D" parent="."]
+priority = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LabDoor"]
+position = Vector2(1195.25, 506.75)
+shape = SubResource("RectangleShape2D_f472g")
+
+[node name="BackButton" type="TextureButton" parent="."]
+offset_left = 1190.0
+offset_top = 3.0
+offset_right = 1265.0
+offset_bottom = 78.0
+texture_normal = ExtResource("2_vc6xo")
+texture_pressed = ExtResource("3_f472g")
+texture_hover = ExtResource("3_f472g")
+ignore_texture_size = true
+stretch_mode = 0
+
+[connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]

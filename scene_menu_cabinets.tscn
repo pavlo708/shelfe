@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://cxom2fnqidhpe"]
+
+[ext_resource type="Script" uid="uid://bsfpc04dmpra3" path="res://scene_menu_cabinets.gd" id="1_j71vs"]
+[ext_resource type="Texture2D" uid="uid://orxv3tycdd7c" path="res://sprites/Corridor.png" id="2_h0g32"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j71vs"]
+size = Vector2(194.25, 529.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h0g32"]
+size = Vector2(184.5, 531.5)
+
+[node name="Scene_Menu_Cabinets" type="Node2D"]
+script = ExtResource("1_j71vs")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(643, 361.5)
+scale = Vector2(1.0126582, 0.8502358)
+texture = ExtResource("2_h0g32")
+
+[node name="Door1" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Door1"]
+position = Vector2(258, 380)
+shape = SubResource("RectangleShape2D_j71vs")
+
+[node name="Door2" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Door2"]
+position = Vector2(1056, 398)
+shape = SubResource("RectangleShape2D_h0g32")
