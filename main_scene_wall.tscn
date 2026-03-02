@@ -1,7 +1,7 @@
-[gd_scene load_steps=15 format=3 uid="uid://bvuiduowm3tyi"]
+[gd_scene load_steps=16 format=3 uid="uid://bvuiduowm3tyi"]
 
 [ext_resource type="Script" uid="uid://dge7bdn56432n" path="res://main_scene.gd" id="1_q2igj"]
-[ext_resource type="Texture2D" uid="uid://dasxdyw8aeo28" path="res://ShelfsWall/DELETE.png" id="2_q2igj"]
+[ext_resource type="Texture2D" uid="uid://34243sfq7ela" path="res://ShelfsWall/ShelfWall.png" id="2_q2igj"]
 [ext_resource type="Script" uid="uid://bgj70wo42ooko" path="res://shelf.gd" id="3_lahn2"]
 [ext_resource type="Texture2D" uid="uid://c7uxcyk58mvp5" path="res://sprites/cancel_icon.png" id="4_cxxq6"]
 [ext_resource type="Texture2D" uid="uid://df1286ffcxt7" path="res://sprites/cancel3_icon.png" id="5_t1yfc"]
@@ -10,30 +10,33 @@
 [ext_resource type="Texture2D" uid="uid://bos55l286lpnu" path="res://sprites/BackButtonPress.png" id="8_4aah5"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2c62f"]
-size = Vector2(212, 332)
+size = Vector2(118.5, 132.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_gyfs4"]
-size = Vector2(224, 339)
+size = Vector2(119, 132.75)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_d5x1h"]
-size = Vector2(217.5, 367)
+size = Vector2(116.375, 132.75)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8mm7a"]
-size = Vector2(200, 339)
+size = Vector2(121, 132.75)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hq1ik"]
-size = Vector2(151, 228)
+size = Vector2(118.8125, 132.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_nfk4m"]
-size = Vector2(149, 225)
+size = Vector2(117.5, 132.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7tl87"]
+size = Vector2(117.5, 132.5)
 
 [node name="MainSceneWall" type="Node2D"]
 script = ExtResource("1_q2igj")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 z_index = -1
-position = Vector2(439.47845, 375.3254)
-scale = Vector2(0.7192954, 0.7192954)
+position = Vector2(439.81543, 352.33984)
+scale = Vector2(0.1159083, 0.11590827)
 texture = ExtResource("2_q2igj")
 
 [node name="Shelves" type="Node2D" parent="."]
@@ -42,7 +45,7 @@ texture = ExtResource("2_q2igj")
 script = ExtResource("3_lahn2")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Shelves/Shelf1"]
-position = Vector2(110, 381)
+position = Vector2(60.75, 374.75)
 shape = SubResource("RectangleShape2D_2c62f")
 
 [node name="Shelf2" type="Area2D" parent="Shelves"]
@@ -50,7 +53,7 @@ script = ExtResource("3_lahn2")
 shelf_id = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Shelves/Shelf2"]
-position = Vector2(334, 381.5)
+position = Vector2(179.5, 374.625)
 shape = SubResource("RectangleShape2D_gyfs4")
 
 [node name="Shelf3" type="Area2D" parent="Shelves"]
@@ -58,7 +61,7 @@ script = ExtResource("3_lahn2")
 shelf_id = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Shelves/Shelf3"]
-position = Vector2(550.25, 363.5)
+position = Vector2(297.8125, 374.625)
 shape = SubResource("RectangleShape2D_d5x1h")
 
 [node name="Shelf4" type="Area2D" parent="Shelves"]
@@ -66,26 +69,32 @@ script = ExtResource("3_lahn2")
 shelf_id = 4
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Shelves/Shelf4"]
-position = Vector2(773, 381.5)
+position = Vector2(462.5, 374.625)
 shape = SubResource("RectangleShape2D_8mm7a")
 
 [node name="Shelf5" type="Area2D" parent="Shelves"]
-visible = false
 script = ExtResource("3_lahn2")
 shelf_id = 5
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Shelves/Shelf5"]
-position = Vector2(651.5, 372)
+position = Vector2(582.59375, 374.75)
 shape = SubResource("RectangleShape2D_hq1ik")
 
 [node name="Shelf6" type="Area2D" parent="Shelves"]
-visible = false
 script = ExtResource("3_lahn2")
 shelf_id = 6
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Shelves/Shelf6"]
-position = Vector2(803.5, 371.5)
+position = Vector2(701.25, 374.75)
 shape = SubResource("RectangleShape2D_nfk4m")
+
+[node name="Shelf7" type="Area2D" parent="Shelves"]
+script = ExtResource("3_lahn2")
+shelf_id = 7
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Shelves/Shelf7"]
+position = Vector2(820, 374)
+shape = SubResource("RectangleShape2D_7tl87")
 
 [node name="UI" type="CanvasLayer" parent="."]
 

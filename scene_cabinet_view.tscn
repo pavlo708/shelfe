@@ -1,42 +1,46 @@
-[gd_scene load_steps=7 format=3 uid="uid://d28e24t5fui2w"]
+[gd_scene load_steps=8 format=3 uid="uid://d28e24t5fui2w"]
 
 [ext_resource type="Script" uid="uid://d0gyk6bj6c35h" path="res://scene_cabinet_view.gd" id="1_76kyt"]
+[ext_resource type="Texture2D" uid="uid://bhoorqj5g5nbc" path="res://LabShelfs/Cabinet.png" id="2_f472g"]
 [ext_resource type="Texture2D" uid="uid://dptncte734afe" path="res://sprites/BackButtonNorm.png" id="2_vc6xo"]
 [ext_resource type="Texture2D" uid="uid://bos55l286lpnu" path="res://sprites/BackButtonPress.png" id="3_f472g"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k4pne"]
-size = Vector2(500, 283)
+size = Vector2(198, 136.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vc6xo"]
-size = Vector2(242, 236)
+size = Vector2(85, 236)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_f472g"]
-size = Vector2(165.5, 422.5)
+size = Vector2(165.5, 448.25)
 
 [node name="Scene_Cabinet_View" type="Node2D"]
 script = ExtResource("1_76kyt")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(638, 271)
+scale = Vector2(0.8050595, 0.80505955)
+texture = ExtResource("2_f472g")
 
 [node name="BigWardrobe" type="Area2D" parent="."]
 priority = 1
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="BigWardrobe"]
-position = Vector2(307, 150)
+position = Vector2(200, 236.25)
 shape = SubResource("RectangleShape2D_k4pne")
 
 [node name="WallWardrobe" type="Area2D" parent="."]
 priority = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="WallWardrobe"]
-position = Vector2(161, 569)
+position = Vector2(55.5, 425)
 shape = SubResource("RectangleShape2D_vc6xo")
 
 [node name="LabDoor" type="Area2D" parent="."]
 priority = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="LabDoor"]
-position = Vector2(1195.25, 506.75)
+position = Vector2(1141, 315.875)
 shape = SubResource("RectangleShape2D_f472g")
 
 [node name="BackButton" type="TextureButton" parent="."]

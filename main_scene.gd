@@ -36,8 +36,6 @@ func _ready():
 	# Скрываем кнопку сохранения, если она есть (например, по имени узла)
 	var save_btn = info_panel.find_child("SaveButton", true, false)
 	if save_btn: save_btn.hide()
-	
-# В main_scene.gd измени:
 
 func _on_shelf_clicked(_viewport, event, _shape_idx, s_id):
 	if event is InputEventMouseButton and event.pressed:
