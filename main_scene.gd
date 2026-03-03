@@ -36,17 +36,40 @@ func _ready():
 	# Скрываем кнопку сохранения, если она есть (например, по имени узла)
 	var save_btn = info_panel.find_child("SaveButton", true, false)
 	if save_btn: save_btn.hide()
+# Эту функцию нужно вставить в main_scene.gd
+func show_info(full_id: int):
+	# 1. Получаем текст из словаря по ID
+	var info_text = ""
+	if DataManager.cabinet_data.has(str(full_id)):
+		info_text = DataManager.cabinet_data[str(full_id)]
+	else:
+		info_text = "Пусто"
 
+	# 2. Ищем узел, который отвечает за показ текста (например, Label или RichTextLabel)
+	# Предположим, у вас в сцене есть Panel/LabelInfo
+	var label = get_node_or_null("UI/InfoPanel/Label") 
+	
+	if label:
+		label.text = info_text
+		$UI/InfoPanel.show() # Показываем панель
+	else:
+		# Если узла нет, просто выводим в консоль, чтобы не было ошибки
+		print("Информация для ID ", full_id, ": ", info_text)
+		
 func _on_shelf_clicked(_viewport, event, _shape_idx, s_id):
 	if event is InputEventMouseButton and event.pressed:
-		# Формула ID: (Кабинет * 1000) + (Шкаф * 100) + Полка
-		var full_id = GlobalSettings.get_full_id(s_id)
-		
-		if event.button_index == MOUSE_BUTTON_RIGHT:
+		# s_id — это номер полки (1, 2, 3...)
+		# GlobalSettings.current_wardrobe — уже должен быть установлен при входе в сцену
+		if event.button_index == MOUSE_BUTTON_LEFT:
+			# Показываем текст из словаря по универсальному ID
+			var full_id = GlobalSettings.get_full_id(s_id)
+			show_info(full_id)
+			
+		elif event.button_index == MOUSE_BUTTON_RIGHT:
+			# Запоминаем данные и уходим в Zoom
 			GlobalSettings.current_shelf_id = s_id
+			GlobalSettings.last_scene_path = get_tree().current_scene.scene_file_path
 			get_tree().change_scene_to_file("res://zoomed_shelf.tscn")
-		elif event.button_index == MOUSE_BUTTON_LEFT:
-			show_shelf_info_combined(full_id)
 
 func _on_back_button_pressed():
 	# Если это шкаф из лаборантской (ID 3, 4, 5...), возвращаемся в лаборантскую

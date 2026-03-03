@@ -1,9 +1,10 @@
-[gd_scene load_steps=9 format=3 uid="uid://bvebvvdvu2t21"]
+[gd_scene load_steps=10 format=3 uid="uid://bvebvvdvu2t21"]
 
 [ext_resource type="Script" uid="uid://b3dgqgbw0lql4" path="res://scene_lab_view.gd" id="1_c0wth"]
 [ext_resource type="Texture2D" uid="uid://b5r1x148ade1p" path="res://LabShelfs/Lab.png" id="2_7k0y7"]
 [ext_resource type="Texture2D" uid="uid://dptncte734afe" path="res://sprites/BackButtonNorm.png" id="2_ye6jw"]
 [ext_resource type="Texture2D" uid="uid://bos55l286lpnu" path="res://sprites/BackButtonPress.png" id="3_7k0y7"]
+[ext_resource type="Script" uid="uid://bgj70wo42ooko" path="res://shelf.gd" id="3_xf34m"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xf34m"]
 size = Vector2(63.25, 627.75)
@@ -25,31 +26,35 @@ position = Vector2(640.8333, 360)
 scale = Vector2(0.9270833, 0.9270833)
 texture = ExtResource("2_7k0y7")
 
-[node name="LabWardrobe1" type="Area2D" parent="."]
+[node name="LabWardrobe3" type="Area2D" parent="."]
 priority = 3
+script = ExtResource("3_xf34m")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="LabWardrobe1"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LabWardrobe3"]
 position = Vector2(33.375, 366.125)
 shape = SubResource("RectangleShape2D_xf34m")
 
-[node name="LabWardrobe2" type="Area2D" parent="."]
+[node name="LabWardrobe4" type="Area2D" parent="."]
 priority = 4
+script = ExtResource("3_xf34m")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="LabWardrobe2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LabWardrobe4"]
 position = Vector2(283.4375, 407)
 shape = SubResource("RectangleShape2D_ugxyw")
 
-[node name="LabWardrobe3" type="Area2D" parent="."]
+[node name="LabWardrobe5" type="Area2D" parent="."]
 priority = 5
+script = ExtResource("3_xf34m")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="LabWardrobe3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LabWardrobe5"]
 position = Vector2(669.5, 342)
 shape = SubResource("RectangleShape2D_3hm4x")
 
-[node name="LabWardrobe4" type="Area2D" parent="."]
+[node name="LabWardrobe6" type="Area2D" parent="."]
 priority = 6
+script = ExtResource("3_xf34m")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="LabWardrobe4"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LabWardrobe6"]
 position = Vector2(1123.5, 359.375)
 shape = SubResource("RectangleShape2D_pvfe0")
 

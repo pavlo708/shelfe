@@ -7,17 +7,21 @@ var is_highlighting: bool = false
 var highlight_alpha: float = 0.0
 
 func _draw():
-	for child in get_children():
-		if child is CollisionShape2D and child.shape is RectangleShape2D:
-			var rect = child.shape.get_rect()
-			rect.position += child.position
+	if is_hovered:
+		var shape_node = $CollisionShape2D
+		if shape_node and shape_node.shape is RectangleShape2D:
+			var rect = shape_node.shape.get_rect()
 			
-			if is_highlighting:
-				draw_rect(rect, Color(1, 1, 0, highlight_alpha * 0.4), true)
-				draw_rect(rect, Color(1, 1, 0, highlight_alpha), false, 2.5)
-			elif is_hovered:
-				draw_rect(rect, Color(1, 1, 1, 0.15), true)
-				draw_rect(rect, Color(1, 1, 1, 0.5), false, 1.2)
+			# Сохраняем текущую матрицу трансформации, чтобы рисовать 
+			# относительно позиции CollisionShape2D, а не родителя Area2D
+			draw_set_transform(shape_node.position, shape_node.rotation, shape_node.scale)
+			
+			# Рисуем заливку и контур
+			draw_rect(rect, Color(1, 1, 1, 0.2), true)  # Полупрозрачный белый
+			draw_rect(rect, Color(1, 1, 1, 0.8), false, 2.0) # Яркий контур
+			
+			# Сбрасываем трансформацию обратно
+			draw_set_transform(Vector2.ZERO, 0, Vector2.ONE)
 
 func highlight():
 	is_highlighting = true
