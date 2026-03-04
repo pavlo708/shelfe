@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c3u3ynnxw7dc8"
-path="res://.godot/imported/Sprite (29).png-36bbe7cd9d80062a68ab5aa96d34ca6d.ctex"
+uid="uid://wlrmnjon2vka"
+path="res://.godot/imported/SWall5.png-7f778428d26d0c62592676f89afc0e12.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LabShelfs/Sprite (29).png"
-dest_files=["res://.godot/imported/Sprite (29).png-36bbe7cd9d80062a68ab5aa96d34ca6d.ctex"]
+source_file="res://ShelfsWall/SWall5.png"
+dest_files=["res://.godot/imported/SWall5.png-7f778428d26d0c62592676f89afc0e12.ctex"]
 
 [params]
 

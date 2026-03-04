@@ -13,7 +13,6 @@ var current_hovered_shelf: Area2D = null
 func _ready():
 	info_panel.hide()
 	tooltip_label.hide()
-	
 	if search_input:
 		search_input.text_submitted.connect(_on_search_submitted)
 	
@@ -148,27 +147,13 @@ func show_shelf_info_combined(shelf_id):
 	# Объединяем в текст. Если пусто — будет пустая строка.
 	edit_items_box.text = "\n".join(display_lines)
 	info_panel.show()
-
+func _on_text_changed():
+	var full_id = str(GlobalSettings.currently_editing_id)
+	if full_id == "0": return
+	
+	DataManager.cabinet_data[full_id] = edit_items_box.text.split("\n")
+	DataManager.save_data_to_disk()
+	
 func _on_close_button_pressed():
 	DataManager.save_data_to_disk()
 	info_panel.hide()
-
-func _on_export_button_pressed():
-	# Просто открываем окно выбора файла
-	export_dialog.popup_centered()
-	
-func _on_export_file_selected(path: String):
-	# Когда пользователь выбрал путь и нажал "Сохранить"
-	var success = DataManager.export_to_path(path)
-	
-	if success:
-		export_status_label.text = "Файл успешно сохранен!"
-	else:
-		export_status_label.text = "Ошибка при сохранении файла."
-	
-	export_status_label.show()
-	await get_tree().create_timer(3.0).timeout
-	export_status_label.hide()
-	
-func _on_text_changed():
-	pass

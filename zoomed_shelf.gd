@@ -4,52 +4,40 @@ extends Node2D
 @onready var shelf_background = $Sprite2D
 @onready var info_panel = $UI/InfoPanel
 @onready var edit_items_box = $UI/InfoPanel/EditItemsBox
+@onready var title_label: Label = $UI/InfoPanel/VBoxContainer/TitleLabel
 
 var current_shelf_id = 0
 var hovered_index = -1       # Используем это имя везде
 var current_group: Node2D = null # Объявляем переменную для группы
 
 func _ready():
+	info_panel.hide()
+	edit_items_box.editable = true
 	current_shelf_id = GlobalSettings.current_shelf_id
 	var w_id = GlobalSettings.current_wardrobe
 	
-	# 1. Скрываем вообще всё, что начинается на "Items"
+	# Скрываем всё, ищем нужную группу (шкаф 3 или 5)
 	for child in get_children():
-		if child is Node2D and child.name.begins_with("Items"):
-			child.hide()
+		if child.name.begins_with("Items"): child.hide()
 	
-	# 2. Формируем ИМЯ узла, который мы хотим показать
 	var target_name = ""
-	
 	match w_id:
-		1: # Большой шкаф в кабинете
-			target_name = "Items" + str(current_shelf_id)
-		2: # Шкаф у стены
-			target_name = "ItemsWall" + str(current_shelf_id)
-		3: # Первый шкаф лабы
-			target_name = "Items3_" + str(current_shelf_id)
-		5: # Второй шкаф лабы
-			target_name = "Items5_" + str(current_shelf_id)
-		# Шкафы 4 и 6 мы не обрабатываем, так как сделали им "прямое редактирование"
-	
-	print("Пытаюсь найти узел: ", target_name) # Смотри это в консоли Godot!
+		1: target_name = "Items" + str(current_shelf_id)
+		2: target_name = "ItemsWall" + str(current_shelf_id)
+		3: target_name = "Items3_" + str(current_shelf_id)
+		5: target_name = "Items5_" + str(current_shelf_id)
 
-	# 3. Пытаемся включить узел
 	current_group = get_node_or_null(target_name)
-	
 	if current_group:
 		current_group.show()
-		print("Узел найден и показан!")
-		
-		# Подключаем сигналы к предметам внутри группы
 		for i in range(current_group.get_child_count()):
 			var child = current_group.get_child(i)
 			if child is Area2D:
+				# Передаем индекс предмета i в функцию клика
 				child.input_event.connect(_on_item_clicked.bind(i))
-				child.mouse_entered.connect(_on_mouse_entered_item.bind(i))
-				child.mouse_exited.connect(_on_mouse_exited_item.bind(i))
-	else:
-		print("ОШИБКА: В сцене zoomed_shelf нет узла с именем ", target_name)
+
+	if not edit_items_box.text_changed.is_connected(_on_text_changed):
+		edit_items_box.text_changed.connect(_on_text_changed)
 				
 func _setup_items_in_group(group: Node2D):
 	for child in group.get_children():
@@ -76,27 +64,27 @@ func _on_mouse_exited(node: Area2D):
 	node.queue_redraw()
 	
 func _on_mouse_entered_item(item_idx: int):
-	hovered_index = item_idx # Исправлено имя
-	queue_redraw() # Рисуем свет
+	hovered_index = item_idx
+	queue_redraw()
 
 func _on_mouse_exited_item(item_idx: int):
 	if hovered_index == item_idx:
-		hovered_index = -1 # Исправлено имя
+		hovered_index = -1
 	queue_redraw()
 	
 func _on_item_clicked(_viewport, event, _shape_idx, item_idx: int):
 	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
-		# Универсальный ID предмета: 
-		# (Кабинет * 1000) + (Шкаф * 100) + (Полка * 10) + Индекс предмета
-		var base_shelf_id = GlobalSettings.get_full_id(current_shelf_id)
-		var item_unique_id = (base_shelf_id * 10) + (item_idx + 1)
+		# Создаем УНИКАЛЬНЫЙ ID для предмета: полка + индекс (например 1501 + 1 = 15011)
+		var shelf_full_id = GlobalSettings.get_full_id(current_shelf_id)
+		var item_id = str(shelf_full_id) + str(item_idx + 1)
 		
-		GlobalSettings.currently_editing_id = item_unique_id
+		GlobalSettings.currently_editing_id = int(item_id)
 		
-		info_panel.show()
-		# Загружаем данные (теперь как массив строк или текст)
-		var data = DataManager.cabinet_data.get(str(item_unique_id), "")
+		var data = DataManager.cabinet_data.get(item_id, "")
 		edit_items_box.text = str(data)
+		
+		title_label.text = "Предмет №" + str(item_idx + 1)
+		info_panel.show()
 
 # ЭТА ФУНКЦИЯ РИСУЕТ СВЕТ ПОВЕРХ КОЛЛИЗИИ
 func _draw():
@@ -120,47 +108,18 @@ func _draw():
 			draw_rect(Rect2(rect_pos, size), Color(1, 1, 1, 0.8), false, 2.0) # Рамка
 		
 func _on_text_changed():
-	# 1. Получаем текущий ID предмета/полки
-	var id_to_save = GlobalSettings.currently_editing_id
-	if id_to_save == 0: return # На всякий случай
-	
-	# 2. Собираем текст в массив
-	var raw_text = edit_items_box.text
-	var new_items = []
-	for line in raw_text.split("\n"):
-		if line.strip_edges() != "":
-			new_items.append(line.strip_edges())
-	
-	# 3. Обновляем данные в оперативной памяти
-	DataManager.cabinet_data[id_to_save] = new_items
-	
-	# 4. Сохраняем на физический диск (автоматически)
+	var id = str(GlobalSettings.currently_editing_id)
+	if id == "0": return
+	DataManager.cabinet_data[id] = edit_items_box.text
 	DataManager.save_data_to_disk()
 	
-	# Необязательно: можно добавить принт для проверки, потом удалишь
-	# print("Автосохранение для ID: ", id_to_save)
-func _on_save_button_pressed():
-	var id_to_save = GlobalSettings.currently_editing_id
-	var raw_text = edit_items_box.text
-	var new_items = []
-	
-	# Правильное разбиение текста на строки
-	for line in raw_text.split("\n"):
-		if line.strip_edges() != "":
-			new_items.append(line.strip_edges())
-	
-	# Сохраняем в СИНГЛТОН (DataManager), а не в локальную переменную
-	DataManager.cabinet_data[id_to_save] = new_items
-	
-	# Вызываем сохранение на диск
-	DataManager.save_data_to_disk()
-	
-	info_panel.hide()
-
 func _on_back_button_pressed():
-	# Переходим по сохраненному пути
 	get_tree().change_scene_to_file(GlobalSettings.last_scene_path)
 
 func _on_close_button_pressed():
-	DataManager.save_data_to_disk() # Финальное сохранение перед закрытием
+	info_panel.hide()
+
+func _on_save_button_pressed():
+	# Кнопка "Сохранить" теперь просто закрывает окно, так как сохранение идет в реальном времени
+	DataManager.save_data_to_disk()
 	info_panel.hide()

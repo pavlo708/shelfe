@@ -3,10 +3,10 @@
 [ext_resource type="Script" uid="uid://bnfep7nnyc4v0" path="res://main_scene_lab.gd" id="1_7ijfx"]
 [ext_resource type="Texture2D" uid="uid://b5r1x148ade1p" path="res://LabShelfs/Lab.png" id="2_470gg"]
 [ext_resource type="Script" uid="uid://bgj70wo42ooko" path="res://shelf.gd" id="3_gnvfl"]
-[ext_resource type="Texture2D" uid="uid://cbi2y2vfx1qpq" path="res://LabShelfs/ShelfLab1.png" id="4_470gg"]
+[ext_resource type="Texture2D" path="res://LabShelfs/ShelfLab1.png" id="4_470gg"]
 [ext_resource type="Texture2D" uid="uid://c7uxcyk58mvp5" path="res://sprites/cancel_icon.png" id="4_ynyxu"]
 [ext_resource type="Texture2D" uid="uid://df1286ffcxt7" path="res://sprites/cancel3_icon.png" id="5_470gg"]
-[ext_resource type="Texture2D" uid="uid://weq36mi8j31c" path="res://LabShelfs/ShelfLabDoor1.png" id="5_qwfgu"]
+[ext_resource type="Texture2D" uid="uid://b1krvir47w6pa" path="res://LabShelfs/ShelfLabDoor1.png" id="5_qwfgu"]
 [ext_resource type="Texture2D" uid="uid://dhi3w278dkbqy" path="res://LabShelfs/ShelfLabPC.png" id="5_r8llx"]
 [ext_resource type="Texture2D" uid="uid://bh7jjljh1pbwd" path="res://sprites/cancel2_icon.png" id="6_qwfgu"]
 [ext_resource type="Texture2D" uid="uid://bini16wxk5fwf" path="res://LabShelfs/ShelfLabDoor2.png" id="6_r8llx"]
@@ -41,31 +41,31 @@ size = Vector2(213, 154)
 size = Vector2(431.6875, 535.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uua08"]
-size = Vector2(136, 132)
+size = Vector2(201, 113)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_icla3"]
-size = Vector2(147.5, 121.125)
+size = Vector2(228.75, 103.5625)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_52in3"]
-size = Vector2(115.625, 124.25)
+size = Vector2(201.8125, 97.125)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_muw3u"]
-size = Vector2(137.5, 298)
+size = Vector2(205.75, 318)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wsdc5"]
-size = Vector2(151.75, 306.5)
+size = Vector2(228.875, 322.25)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_66sy7"]
-size = Vector2(111.25, 294.5625)
+size = Vector2(199.625, 313.28125)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xmmaf"]
-size = Vector2(144.5, 225.5)
+size = Vector2(210.25, 238.75)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_soqeh"]
-size = Vector2(141.5, 226.125)
+size = Vector2(225.75, 234.0625)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7o5yb"]
-size = Vector2(107.75, 233.0625)
+size = Vector2(205.875, 251.53125)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_470gg"]
 size = Vector2(323, 643)
@@ -173,10 +173,11 @@ position = Vector2(223.15625, 403.25)
 shape = SubResource("RectangleShape2D_2c62f")
 
 [node name="Wardrobe5" type="Node2D" parent="Wardrobes"]
+visible = false
 
 [node name="ShelfLabDoor1" type="Sprite2D" parent="Wardrobes/Wardrobe5"]
-position = Vector2(211, 336.4537)
-scale = Vector2(0.9398148, 0.9398148)
+position = Vector2(319.4074, 336.4074)
+scale = Vector2(0.6593605, 0.6593605)
 texture = ExtResource("5_qwfgu")
 
 [node name="Shelves" type="Node2D" parent="Wardrobes/Wardrobe5"]
@@ -185,7 +186,7 @@ texture = ExtResource("5_qwfgu")
 script = ExtResource("3_gnvfl")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf1"]
-position = Vector2(75, 74)
+position = Vector2(100.5, 54.5)
 shape = SubResource("RectangleShape2D_uua08")
 
 [node name="Shelf2" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves"]
@@ -193,7 +194,7 @@ script = ExtResource("3_gnvfl")
 shelf_id = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf2"]
-position = Vector2(220.25, 66.4375)
+position = Vector2(316.625, 51.21875)
 shape = SubResource("RectangleShape2D_icla3")
 
 [node name="Shelf3" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves"]
@@ -201,7 +202,7 @@ script = ExtResource("3_gnvfl")
 shelf_id = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf3"]
-position = Vector2(355.1875, 69.875)
+position = Vector2(535.09375, 46.5625)
 shape = SubResource("RectangleShape2D_52in3")
 
 [node name="Shelf4" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves"]
@@ -209,7 +210,7 @@ script = ExtResource("3_gnvfl")
 shelf_id = 4
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf4"]
-position = Vector2(81.25, 293)
+position = Vector2(106.125, 272)
 shape = SubResource("RectangleShape2D_muw3u")
 
 [node name="Shelf5" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves"]
@@ -217,7 +218,7 @@ script = ExtResource("3_gnvfl")
 shelf_id = 5
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf5"]
-position = Vector2(227.125, 285.75)
+position = Vector2(324.5625, 267.875)
 shape = SubResource("RectangleShape2D_wsdc5")
 
 [node name="Shelf6" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves"]
@@ -225,7 +226,7 @@ script = ExtResource("3_gnvfl")
 shelf_id = 6
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf6"]
-position = Vector2(356.375, 279.71875)
+position = Vector2(541.1875, 256.35938)
 shape = SubResource("RectangleShape2D_66sy7")
 
 [node name="Shelf7" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves"]
@@ -233,7 +234,7 @@ script = ExtResource("3_gnvfl")
 shelf_id = 7
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf7"]
-position = Vector2(87.75, 558.25)
+position = Vector2(109.875, 553.625)
 shape = SubResource("RectangleShape2D_xmmaf")
 
 [node name="Shelf8" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves"]
@@ -241,7 +242,7 @@ script = ExtResource("3_gnvfl")
 shelf_id = 8
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf8"]
-position = Vector2(235.25, 554.9375)
+position = Vector2(330.125, 552.96875)
 shape = SubResource("RectangleShape2D_soqeh")
 
 [node name="Shelf9" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves"]
@@ -249,7 +250,7 @@ script = ExtResource("3_gnvfl")
 shelf_id = 9
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf9"]
-position = Vector2(360.125, 546.46875)
+position = Vector2(548.0625, 544.2344)
 shape = SubResource("RectangleShape2D_7o5yb")
 
 [node name="Wardrobe6" type="Node2D" parent="Wardrobes"]
@@ -273,8 +274,8 @@ shape = SubResource("RectangleShape2D_470gg")
 
 [node name="TooltipLabel" type="Label" parent="UI"]
 z_index = 10
-offset_left = 935.0
-offset_top = 3.0
+offset_left = 882.0
+offset_top = 42.0
 offset_right = 1280.0
 offset_bottom = 722.0
 theme_override_font_sizes/font_size = 11
@@ -312,15 +313,6 @@ custom_minimum_size = Vector2(350, 680)
 layout_mode = 2
 theme_override_font_sizes/font_size = 11
 
-[node name="ExportButton" type="Button" parent="UI/InfoPanel"]
-layout_mode = 0
-offset_left = 115.0
-offset_top = 644.0
-offset_right = 322.0
-offset_bottom = 690.0
-theme_override_font_sizes/font_size = 24
-text = "Экспортировать"
-
 [node name="CloseButton" type="TextureButton" parent="UI/InfoPanel"]
 layout_mode = 0
 offset_left = 354.0
@@ -331,12 +323,6 @@ texture_pressed = ExtResource("5_470gg")
 texture_hover = ExtResource("6_qwfgu")
 ignore_texture_size = true
 stretch_mode = 0
-
-[node name="ExportDialog" type="FileDialog" parent="UI"]
-oversampling_override = 1.0
-access = 2
-filters = PackedStringArray("*.txt ; Текстовые файлы", "*.doc ; Документы Word")
-use_native_dialog = true
 
 [node name="BackButton" type="TextureButton" parent="UI"]
 offset_top = -1.0
@@ -349,7 +335,5 @@ ignore_texture_size = true
 stretch_mode = 0
 
 [connection signal="text_submitted" from="UI/LineEdit" to="." method="_on_line_edit_text_submitted"]
-[connection signal="pressed" from="UI/InfoPanel/ExportButton" to="." method="_on_export_button_pressed"]
 [connection signal="pressed" from="UI/InfoPanel/CloseButton" to="." method="_on_close_button_pressed"]
-[connection signal="file_selected" from="UI/ExportDialog" to="." method="_on_export_file_selected"]
 [connection signal="pressed" from="UI/BackButton" to="." method="_on_back_button_pressed"]

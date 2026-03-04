@@ -9,43 +9,50 @@ extends Node2D
 var current_hovered_shelf: Area2D = null
 
 func _ready():
+	# 1. Прячем панель информации при старте
 	info_panel.hide()
-	tooltip_label.hide()
-	
+	edit_items_box.editable = false
+	# 2. Получаем ID текущего шкафа из глобальных настроек
 	var w_id = GlobalSettings.current_wardrobe
+	# Обновляем фоновую картинку (стену)
 	_update_background(w_id)
 
-	# 1. Сначала скрываем все шкафы, чтобы не накладывались
-	for wardrobe in $Wardrobes.get_children():
-		wardrobe.hide()
+	# 3. Сначала скрываем ВСЕ шкафы в контейнере Wardrobes
+	var wardrobes_root = get_node_or_null("Wardrobes")
+	if wardrobes_root:
+		for wardrobe in wardrobes_root.get_children():
+			wardrobe.hide()
+	else:
+		print("ОШИБКА: Узел 'Wardrobes' не найден в сцене!")
 
-	# 2. Находим нужный шкаф (например, Wardrobe3)
+	# 4. Находим и показываем КОНКРЕТНЫЙ шкаф
 	var current_wardrobe_node = get_node_or_null("Wardrobes/Wardrobe" + str(w_id))
 	
 	if current_wardrobe_node:
-		current_wardrobe_node.show() # Показываем текущий шкаф
+		current_wardrobe_node.show() # ВКЛЮЧАЕМ ВИДИМОСТЬ ШКАФА
+		print("Шкаф Wardrobe", w_id, " успешно показан.")
 		
-		# 3. Ищем узел Shelves внутри этого шкафа
+		# Ищем полки внутри этого шкафа
 		var shelves_container = current_wardrobe_node.get_node_or_null("Shelves")
-		
 		if shelves_container:
 			for shelf in shelves_container.get_children():
 				if shelf is Area2D:
-					# Получаем ID (из переменной или из имени узла)
-					var s_id = shelf.shelf_id if "shelf_id" in shelf else int(shelf.name.replace("Shelf", ""))
-					shelf.shelf_id = s_id
+					# Извлекаем ID полки из имени (например, из 'Shelf1' получим 1)
+					var s_id = int(shelf.name.replace("Shelf", ""))
 					
-					# Подключаем сигналы
-					if shelf.input_event.is_connected(_on_shelf_clicked): 
+					# Отключаем старые сигналы, чтобы не было дублей, и подключаем заново
+					if shelf.input_event.is_connected(_on_shelf_clicked):
 						shelf.input_event.disconnect(_on_shelf_clicked)
 					
 					shelf.input_event.connect(_on_shelf_clicked.bind(s_id))
-					shelf.mouse_entered.connect(_on_shelf_mouse_entered.bind(shelf))
-					shelf.mouse_exited.connect(_on_shelf_mouse_exited.bind(shelf))
 		else:
-			print("ОШИБКА: Узел Shelves не найден внутри Wardrobe", w_id)
+			print("ОШИБКА: Внутри Wardrobe", w_id, " нет узла 'Shelves'!")
 	else:
-		print("ОШИБКА: Узел Wardrobe", w_id, " не найден в Wardrobes/")
+		print("ОШИБКА: Узел Wardrobe", w_id, " не найден по пути Wardrobes/Wardrobe", w_id)
+
+	# 5. Привязываем автосохранение текста
+	if not edit_items_box.text_changed.is_connected(_on_main_text_changed):
+		edit_items_box.text_changed.connect(_on_main_text_changed)
 
 func _update_background(w_id):
 	match w_id:
@@ -64,49 +71,48 @@ func _adjust_shelf_visibility(shelf, s_id, w_id):
 
 func _on_shelf_clicked(_viewport, event, _shape_idx, s_id):
 	if event is InputEventMouseButton and event.pressed:
-		var w_id = GlobalSettings.current_wardrobe
-		var full_id = GlobalSettings.get_full_id(s_id)
+		var shelf_full_id = GlobalSettings.get_full_id(s_id)
 		
 		if event.button_index == MOUSE_BUTTON_LEFT:
-			show_info(full_id)
+			# СОБИРАЕМ ТЕКСТ ИЗ ВСЕХ ПРЕДМЕТОВ ПОЛКИ
+			var total_text = ""
+			# Проверяем предметы с 1 по 20 (запас)
+			for i in range(1, 21):
+				var item_id = str(shelf_full_id) + str(i)
+				if DataManager.cabinet_data.has(item_id):
+					var item_text = DataManager.cabinet_data[item_id].strip_edges()
+					if item_text != "":
+						total_text += "• " + item_text + "\n"
+			
+			if total_text == "": total_text = "Полка пуста"
+			
+			edit_items_box.text = total_text
+			shelf_title_label.text = "Содержимое полки №" + str(s_id)
+			info_panel.show()
 			
 		elif event.button_index == MOUSE_BUTTON_RIGHT:
-			# ПРОВЕРКА: Если шкаф 4 или 6 — не переходим в зум
-			if w_id == 4 or w_id == 6:
-				# Устанавливаем текущий редактируемый ID
-				GlobalSettings.currently_editing_id = full_id
-				
-				# Заполняем текст из базы данных
-				var data = DataManager.cabinet_data.get(str(full_id), "")
-				edit_items_box.text = ", ".join(data) if data is Array else str(data)
-				
-				# Обновляем заголовок и показываем панель
-				shelf_title_label.text = "Редактирование: Шкаф №" + str(w_id)
-				info_panel.show()
-				
-				print("Прямое редактирование для шкафа ", w_id)
-			else:
-				# Для всех остальных шкафов (1, 2, 3, 5) — обычный переход
+			# Переход в зум для шкафов 3 и 5
+			if GlobalSettings.current_wardrobe in [3, 5]:
 				GlobalSettings.current_shelf_id = s_id
 				GlobalSettings.last_scene_path = get_tree().current_scene.scene_file_path
 				get_tree().change_scene_to_file("res://zoomed_shelf.tscn")
 
+func _on_main_text_changed():
+	var id_to_save = str(GlobalSettings.currently_editing_id)
+	if id_to_save != "0":
+		DataManager.cabinet_data[id_to_save] = edit_items_box.text
+		DataManager.save_data_to_disk()
+
 func show_info(full_id: int):
-	var info_text = "Пусто"
-	# В лабе данные часто лежат под ключами типа "1301", "1401"
-	if DataManager.cabinet_data.has(str(full_id)):
-		var data = DataManager.cabinet_data[str(full_id)]
-		info_text = ", ".join(data) if data is Array else str(data)
-
-	var label = get_node_or_null("UI/InfoPanel/VBoxContainer/EditItemsBox")
-	if label:
-		label.text = info_text
-		shelf_title_label.text = "Шкаф " + str(GlobalSettings.current_wardrobe) + " | Полка " + str(full_id % 100)
-		$UI/InfoPanel.show()
-
-func _on_back_button_pressed():
-	# Возвращаемся к общему виду лаборантской (где 4 шкафа)
-	get_tree().change_scene_to_file("res://Scene_Lab_View.tscn")
+	GlobalSettings.currently_editing_id = full_id
+	var s_id_str = str(full_id)
+	
+	# Берем актуальные данные из синглтона
+	var data = DataManager.cabinet_data.get(s_id_str, "")
+	edit_items_box.text = str(data)
+	
+	shelf_title_label.text = "Шкаф " + str(GlobalSettings.current_wardrobe) + " | Полка " + str(full_id % 100)
+	info_panel.show()
 
 # Остальные функции (mouse_entered/exited) остаются такими же
 func _on_shelf_mouse_entered(shelf):
@@ -155,3 +161,11 @@ func _process(_delta):
 
 func _on_close_button_pressed():
 	info_panel.hide()
+	
+func _on_back_button_pressed():
+	# Если это шкаф из лаборантской (ID 3, 4, 5...), возвращаемся в лаборантскую
+	if GlobalSettings.current_wardrobe >= 3:
+		get_tree().change_scene_to_file("res://Scene_Lab_View.tscn")
+	else:
+		# Если это основные шкафы, возвращаемся в кабинет
+		get_tree().change_scene_to_file("res://Scene_Cabinet_View.tscn")

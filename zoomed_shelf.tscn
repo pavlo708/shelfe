@@ -1,4 +1,4 @@
-[gd_scene load_steps=141 format=3 uid="uid://cx85c7ykdde2q"]
+[gd_scene load_steps=144 format=3 uid="uid://cx85c7ykdde2q"]
 
 [ext_resource type="Script" uid="uid://dtrjs8kav5bqd" path="res://zoomed_shelf.gd" id="1_l8sh6"]
 [ext_resource type="Texture2D" uid="uid://dptncte734afe" path="res://sprites/BackButtonNorm.png" id="2_35obh"]
@@ -33,16 +33,17 @@
 [ext_resource type="Texture2D" uid="uid://q6gnsd25lfby" path="res://ShelfsWall/SWall3.png" id="28_2bro6"]
 [ext_resource type="Texture2D" uid="uid://dhi3w278dkbqy" path="res://LabShelfs/ShelfLabPC.png" id="28_rdobw"]
 [ext_resource type="Texture2D" uid="uid://ct2ta3pq25lfj" path="res://ShelfsWall/SWall2.png" id="29_raa0r"]
-[ext_resource type="Texture2D" uid="uid://cttx0644d11po" path="res://ShelfsWall/SWall4.png" id="30_yqryp"]
-[ext_resource type="Texture2D" uid="uid://c3u3ynnxw7dc8" path="res://LabShelfs/Sprite (29).png" id="31_uar1a"]
-[ext_resource type="Texture2D" uid="uid://bghrryod043an" path="res://LabShelfs/Sprite (28).png" id="32_2bj4t"]
-[ext_resource type="Texture2D" uid="uid://0ky13u017inv" path="res://LabShelfs/Sprite (6).png" id="33_raa0r"]
-[ext_resource type="Texture2D" uid="uid://coqpqcsaerp7" path="res://LabShelfs/Sprite (18).png" id="33_w3xya"]
-[ext_resource type="Texture2D" uid="uid://cu6ltr8hurhjk" path="res://LabShelfs/Sprite (19).png" id="34_bdjku"]
-[ext_resource type="Texture2D" uid="uid://dlt2bogkh6len" path="res://LabShelfs/ShelfDoorCenterLeft.png" id="34_yqryp"]
-[ext_resource type="Texture2D" uid="uid://ba2erhyggmjfp" path="res://LabShelfs/Sprite (3).png" id="35_4ypxp"]
-[ext_resource type="Texture2D" uid="uid://vh86s0irqcst" path="res://LabShelfs/Sprite (7).png" id="35_mwyvs"]
-[ext_resource type="Texture2D" uid="uid://bxmxea3voj8u4" path="res://LabShelfs/Sprite (23).png" id="35_t1waj"]
+[ext_resource type="Texture2D" uid="uid://t8fv1wm8d7ad" path="res://ShelfsWall/SWall4.png" id="30_yqryp"]
+[ext_resource type="Texture2D" uid="uid://wlrmnjon2vka" path="res://ShelfsWall/SWall5.png" id="31_2bro6"]
+[ext_resource type="Texture2D" uid="uid://bg5jljy3i2gn5" path="res://LabShelfs/ShelfDoor1.png" id="33_2bro6"]
+[ext_resource type="Texture2D" uid="uid://dqyqtejq7h1ay" path="res://LabShelfs/ShelfDoor2.png" id="34_dexhr"]
+[ext_resource type="Texture2D" uid="uid://cb7duty5sxwhl" path="res://LabShelfs/ShelfDoor3.png" id="35_cyvns"]
+[ext_resource type="Texture2D" uid="uid://b3hisf1adl8ef" path="res://LabShelfs/ShelfDoor4.png" id="36_2bro6"]
+[ext_resource type="Texture2D" uid="uid://cpnux4kyd32k1" path="res://LabShelfs/ShelfDoor5.png" id="37_2bro6"]
+[ext_resource type="Texture2D" uid="uid://bodkwte6xitut" path="res://LabShelfs/ShelfDoor6.png" id="38_2bro6"]
+[ext_resource type="Texture2D" uid="uid://d1maucwq5yjlh" path="res://LabShelfs/ShelfDoor7.png" id="39_dexhr"]
+[ext_resource type="Texture2D" uid="uid://c6mhi1ijirqmf" path="res://LabShelfs/ShelfDoor8.png" id="39_yqryp"]
+[ext_resource type="Texture2D" uid="uid://cw0osjpxx8xvv" path="res://LabShelfs/ShelfDoor9.png" id="41_2bro6"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_35obh"]
 size = Vector2(336, 149)
@@ -254,6 +255,15 @@ size = Vector2(697, 253)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_b5oxd"]
 size = Vector2(701, 192)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2qfgo"]
+size = Vector2(651, 326)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ypi2x"]
+size = Vector2(690, 329.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_im3er"]
+size = Vector2(642, 251.5)
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7ktf3"]
 size = Vector2(642, 399)
 
@@ -265,12 +275,6 @@ size = Vector2(317, 156)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_85m51"]
 size = Vector2(333.5, 163)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_ypi2x"]
-size = Vector2(690, 329.5)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_im3er"]
-size = Vector2(642, 251.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c1ig3"]
 size = Vector2(465, 559)
@@ -285,7 +289,7 @@ size = Vector2(227, 394)
 size = Vector2(627, 410.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lnwbu"]
-size = Vector2(541, 335.5)
+size = Vector2(681, 392.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ls3b6"]
 size = Vector2(485, 207.5)
@@ -321,10 +325,13 @@ size = Vector2(466.5, 232.5)
 size = Vector2(463, 209)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rn7uv"]
-size = Vector2(437.5, 187)
+size = Vector2(431, 153)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_481oj"]
-size = Vector2(444, 219)
+size = Vector2(444, 174)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yw427"]
+size = Vector2(444, 95)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_p1ief"]
 size = Vector2(582, 215)
@@ -1072,38 +1079,14 @@ visible = false
 priority = 1800
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="ItemsWall5/Area2D"]
-position = Vector2(147.5, 120)
-shape = SubResource("RectangleShape2D_7ktf3")
-
-[node name="Area2D2" type="Area2D" parent="ItemsWall5"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="ItemsWall5/Area2D2"]
-position = Vector2(373, 137)
-shape = SubResource("RectangleShape2D_wt4nx")
-
-[node name="Area2D3" type="Area2D" parent="ItemsWall5"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="ItemsWall5/Area2D3"]
-position = Vector2(160, 348)
-shape = SubResource("RectangleShape2D_vn07k")
-
-[node name="Area2D4" type="Area2D" parent="ItemsWall5"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="ItemsWall5/Area2D4"]
-position = Vector2(383.5, 348)
-shape = SubResource("RectangleShape2D_85m51")
-
-[node name="Area2D5" type="Area2D" parent="ItemsWall5"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="ItemsWall5/Area2D5"]
-position = Vector2(243.5, 572)
-shape = SubResource("RectangleShape2D_thlon")
+position = Vector2(364.5, 477)
+shape = SubResource("RectangleShape2D_2qfgo")
 
 [node name="HighlightSprite" type="Sprite2D" parent="ItemsWall5"]
 z_index = -1
-position = Vector2(239.00002, 358.5)
-scale = Vector2(0.46679685, 0.46679685)
-texture = ExtResource("14_0nqke")
+position = Vector2(349.83334, 441.625)
+scale = Vector2(0.6832682, 0.6832682)
+texture = ExtResource("30_yqryp")
 
 [node name="ItemsWall6" type="Node2D" parent="."]
 visible = false
@@ -1133,9 +1116,9 @@ shape = SubResource("RectangleShape2D_im3er")
 
 [node name="HighlightSprite" type="Sprite2D" parent="ItemsWall7"]
 z_index = -1
-position = Vector2(358, 361)
-scale = Vector2(0.46679685, 0.46679685)
-texture = ExtResource("30_yqryp")
+position = Vector2(347.55923, 405.93753)
+scale = Vector2(0.58272886, 0.58272886)
+texture = ExtResource("31_2bro6")
 
 [node name="Items3_1" type="Node2D" parent="."]
 visible = false
@@ -1533,7 +1516,7 @@ shape = SubResource("RectangleShape2D_sp66y")
 z_index = -1
 position = Vector2(346.6325, 233.42172)
 scale = Vector2(0.45425436, 0.4542544)
-texture = ExtResource("31_uar1a")
+texture = ExtResource("33_2bro6")
 
 [node name="Items5_2" type="Node2D" parent="."]
 visible = false
@@ -1549,7 +1532,7 @@ shape = SubResource("RectangleShape2D_cxa08")
 z_index = -1
 position = Vector2(359, 300)
 scale = Vector2(0.46679685, 0.46679685)
-texture = ExtResource("32_2bj4t")
+texture = ExtResource("34_dexhr")
 
 [node name="Items5_3" type="Node2D" parent="."]
 visible = false
@@ -1558,14 +1541,14 @@ visible = false
 priority = 1800
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_3/Area2D"]
-position = Vector2(242.5, 357.25)
+position = Vector2(348.5, 385.75)
 shape = SubResource("RectangleShape2D_lnwbu")
 
 [node name="HighlightSprite" type="Sprite2D" parent="Items5_3"]
 z_index = -1
-position = Vector2(239.00002, 358.5)
-scale = Vector2(0.46679685, 0.46679685)
-texture = ExtResource("33_raa0r")
+position = Vector2(348.88953, 383.4375)
+scale = Vector2(0.5816127, 0.5816127)
+texture = ExtResource("35_cyvns")
 
 [node name="Items5_4" type="Node2D" parent="."]
 visible = false
@@ -1593,7 +1576,7 @@ shape = SubResource("RectangleShape2D_0ackh")
 z_index = -1
 position = Vector2(268.4375, 357.60382)
 scale = Vector2(0.59946984, 0.5994699)
-texture = ExtResource("34_yqryp")
+texture = ExtResource("36_2bro6")
 
 [node name="Items5_5" type="Node2D" parent="."]
 visible = false
@@ -1621,7 +1604,7 @@ shape = SubResource("RectangleShape2D_bw0f1")
 z_index = -1
 position = Vector2(239.00002, 358.5)
 scale = Vector2(0.46679685, 0.46679685)
-texture = ExtResource("33_w3xya")
+texture = ExtResource("37_2bro6")
 
 [node name="Items5_6" type="Node2D" parent="."]
 visible = false
@@ -1649,7 +1632,7 @@ shape = SubResource("RectangleShape2D_r0mw6")
 z_index = -1
 position = Vector2(239.00002, 358.5)
 scale = Vector2(0.46679685, 0.46679685)
-texture = ExtResource("34_bdjku")
+texture = ExtResource("38_2bro6")
 
 [node name="Items5_7" type="Node2D" parent="."]
 visible = false
@@ -1671,7 +1654,7 @@ shape = SubResource("RectangleShape2D_ryyfx")
 z_index = -1
 position = Vector2(239.00002, 358.5)
 scale = Vector2(0.46679685, 0.46679685)
-texture = ExtResource("35_t1waj")
+texture = ExtResource("39_dexhr")
 
 [node name="Items5_8" type="Node2D" parent="."]
 visible = false
@@ -1680,20 +1663,26 @@ visible = false
 priority = 1800
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_8/Area2D"]
-position = Vector2(249.75, 240.5)
+position = Vector2(229.5, 223.5)
 shape = SubResource("RectangleShape2D_rn7uv")
 
 [node name="Area2D2" type="Area2D" parent="Items5_8"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_8/Area2D2"]
-position = Vector2(245, 496.5)
+position = Vector2(245, 410)
 shape = SubResource("RectangleShape2D_481oj")
+
+[node name="Area2D3" type="Area2D" parent="Items5_8"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_8/Area2D3"]
+position = Vector2(245, 550.5)
+shape = SubResource("RectangleShape2D_yw427")
 
 [node name="HighlightSprite" type="Sprite2D" parent="Items5_8"]
 z_index = -1
 position = Vector2(239.00002, 358.5)
 scale = Vector2(0.46679685, 0.46679685)
-texture = ExtResource("35_4ypxp")
+texture = ExtResource("39_yqryp")
 
 [node name="Items5_9" type="Node2D" parent="."]
 visible = false
@@ -1715,7 +1704,7 @@ shape = SubResource("RectangleShape2D_127mj")
 z_index = -1
 position = Vector2(346.37112, 374.34378)
 scale = Vector2(0.58182204, 0.581822)
-texture = ExtResource("35_mwyvs")
+texture = ExtResource("41_2bro6")
 
 [node name="ItemsLab6" type="Node2D" parent="."]
 visible = false
