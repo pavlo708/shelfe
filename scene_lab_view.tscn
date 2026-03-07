@@ -7,7 +7,7 @@
 [ext_resource type="Script" uid="uid://bgj70wo42ooko" path="res://shelf.gd" id="3_xf34m"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xf34m"]
-size = Vector2(63.25, 627.75)
+size = Vector2(48.25, 681)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ugxyw"]
 size = Vector2(103.125, 336)
@@ -31,7 +31,7 @@ priority = 3
 script = ExtResource("3_xf34m")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="LabWardrobe3"]
-position = Vector2(33.375, 366.125)
+position = Vector2(25.875, 376.5)
 shape = SubResource("RectangleShape2D_xf34m")
 
 [node name="LabWardrobe4" type="Area2D" parent="."]

@@ -42,3 +42,6 @@ func _draw():
 				draw_rect(rect, Color(1, 1, 1, 0.2), true)
 				draw_rect(rect, Color(1, 1, 1, 0.6), false, 2.0)
 				draw_set_transform(Vector2.ZERO, 0, Vector2.ONE)
+
+func _on_back_button_pressed():
+		get_tree().change_scene_to_file("res://scene_cabinet_view.tscn")

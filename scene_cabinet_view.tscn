@@ -50,10 +50,10 @@ position = Vector2(1141, 315.875)
 shape = SubResource("RectangleShape2D_f472g")
 
 [node name="BackButton" type="TextureButton" parent="."]
-offset_left = 1190.0
-offset_top = 3.0
-offset_right = 1265.0
-offset_bottom = 78.0
+offset_left = 16.0
+offset_top = 5.0
+offset_right = 91.0
+offset_bottom = 80.0
 texture_normal = ExtResource("2_vc6xo")
 texture_pressed = ExtResource("3_f472g")
 texture_hover = ExtResource("3_f472g")
