@@ -75,6 +75,7 @@ texture = ExtResource("2_hq1ik")
 [node name="Shelves" type="Node2D" parent="."]
 
 [node name="Shelf1" type="Area2D" parent="Shelves"]
+priority = 3
 script = ExtResource("3_7ycvg")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Shelves/Shelf1"]
@@ -228,14 +229,6 @@ offset_bottom = 722.0
 theme_override_font_sizes/font_size = 11
 text = "
 "
-
-[node name="ExportStatusLabel" type="Label" parent="UI"]
-offset_left = 237.0
-offset_top = 218.0
-offset_right = 776.0
-offset_bottom = 277.0
-theme_override_colors/font_color = Color(0, 0.99387103, 3.85046e-07, 1)
-theme_override_font_sizes/font_size = 30
 
 [node name="LineEdit" type="LineEdit" parent="UI"]
 offset_left = 1.0

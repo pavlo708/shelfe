@@ -441,10 +441,15 @@ size_flags_vertical = 4
 
 [node name="VBoxContainer" type="VBoxContainer" parent="UI/InfoPanel"]
 layout_mode = 0
-offset_right = 527.0
-offset_bottom = 40.0
+offset_right = 575.0
+offset_bottom = 714.5
 
 [node name="TitleLabel" type="Label" parent="UI/InfoPanel/VBoxContainer"]
+custom_minimum_size = Vector2(500, 25)
+layout_mode = 2
+
+[node name="EditItemsBox" type="TextEdit" parent="UI/InfoPanel/VBoxContainer"]
+custom_minimum_size = Vector2(580, 700)
 layout_mode = 2
 
 [node name="ItemsLabel" type="Label" parent="UI/InfoPanel"]
@@ -455,13 +460,6 @@ offset_right = 580.0
 offset_bottom = 715.0
 text = "
 "
-
-[node name="EditItemsBox" type="TextEdit" parent="UI/InfoPanel"]
-layout_mode = 0
-offset_left = -1.0
-offset_top = -8.0
-offset_right = 582.0
-offset_bottom = 720.0
 
 [node name="SaveButton" type="TextureButton" parent="UI/InfoPanel"]
 layout_mode = 0
@@ -478,9 +476,9 @@ stretch_mode = 0
 [node name="CloseButton" type="TextureButton" parent="UI/InfoPanel"]
 layout_mode = 0
 offset_left = 521.0
-offset_top = 1.5
+offset_top = 23.5
 offset_right = 585.0
-offset_bottom = 65.5
+offset_bottom = 87.5
 texture_normal = ExtResource("2_ljvo6")
 texture_pressed = ExtResource("3_qqtmp")
 texture_hover = ExtResource("4_27n2r")
@@ -1251,6 +1249,7 @@ scale = Vector2(0.46679685, 0.46679685)
 texture = ExtResource("34_h2514")
 
 [node name="Items3_4" type="Node2D" parent="."]
+visible = false
 
 [node name="Area2D" type="Area2D" parent="Items3_4"]
 priority = 1800

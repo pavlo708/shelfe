@@ -5,9 +5,7 @@ extends Node2D
 @onready var edit_items_box: TextEdit = $UI/InfoPanel/VBoxContainer/EditItemsBox
 @onready var shelf_title_label = $UI/InfoPanel/VBoxContainer/TitleLabel
 @onready var tooltip_label: Label = $UI/TooltipLabel
-@onready var export_status_label: Label = $UI/ExportStatusLabel
 @onready var search_input: LineEdit = $UI/LineEdit
-@onready var export_dialog: FileDialog = $UI/ExportDialog
 
 var current_hovered_shelf: Area2D = null
 func _ready():
@@ -37,23 +35,11 @@ func _ready():
 	if save_btn: save_btn.hide()
 # Эту функцию нужно вставить в main_scene.gd
 func show_info(full_id: int):
-	# 1. Получаем текст из словаря по ID
-	var info_text = ""
-	if DataManager.cabinet_data.has(str(full_id)):
-		info_text = DataManager.cabinet_data[str(full_id)]
-	else:
-		info_text = "Пусто"
-
-	# 2. Ищем узел, который отвечает за показ текста (например, Label или RichTextLabel)
-	# Предположим, у вас в сцене есть Panel/LabelInfo
-	var label = get_node_or_null("UI/InfoPanel/Label") 
-	
-	if label:
-		label.text = info_text
-		$UI/InfoPanel.show() # Показываем панель
-	else:
-		# Если узла нет, просто выводим в консоль, чтобы не было ошибки
-		print("Информация для ID ", full_id, ": ", info_text)
+	GlobalSettings.currently_editing_id = full_id
+	var data = DataManager.cabinet_data.get(str(full_id), "Пусто")
+	edit_items_box.text = str(data)
+	edit_items_box.editable = true # Разрешаем редактирование
+	info_panel.show()
 		
 func _on_shelf_clicked(_viewport, event, _shape_idx, s_id):
 	if event is InputEventMouseButton and event.pressed:

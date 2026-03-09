@@ -33,3 +33,4 @@ func _on_lab_door_clicked(_viewport, event, _shape_idx):
 func _on_back_button_pressed():
 	# Кнопка возврата в коридор (меню кабинетов)
 	get_tree().change_scene_to_file("res://Scene_Menu_Cabinets.tscn")
+	

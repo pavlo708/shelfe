@@ -169,3 +169,4 @@ func _on_back_button_pressed():
 	else:
 		# Если это основные шкафы, возвращаемся в кабинет
 		get_tree().change_scene_to_file("res://Scene_Cabinet_View.tscn")
+		

@@ -29,19 +29,25 @@ func _on_mouse_exited(area):
 	if hovered_area == area:
 		hovered_area = null
 		queue_redraw()
-
+		
+var is_hovered: bool = false
 func _draw():
-	if hovered_wardrobe != -1:
-		var area = get_node_or_null("LabWardrobe" + str(hovered_wardrobe))
-		if area:
-			var shape_node = area.get_node("CollisionShape2D")
-			if shape_node and shape_node.shape is RectangleShape2D:
-				var rect = shape_node.shape.get_rect()
-				# Рисуем поверх коллизии
-				draw_set_transform(area.position + shape_node.position, area.rotation, area.scale)
-				draw_rect(rect, Color(1, 1, 1, 0.2), true)
-				draw_rect(rect, Color(1, 1, 1, 0.6), false, 2.0)
-				draw_set_transform(Vector2.ZERO, 0, Vector2.ONE)
+	if is_hovered:
+		var shape_node = $CollisionShape2D
+		if shape_node and shape_node.shape is RectangleShape2D:
+			var rect = shape_node.shape.get_rect()
+			
+			# Сохраняем текущую матрицу трансформации, чтобы рисовать 
+			# относительно позиции CollisionShape2D, а не родителя Area2D
+			draw_set_transform(shape_node.position, shape_node.rotation, shape_node.scale)
+			
+			# Рисуем заливку и контур
+			draw_rect(rect, Color(1, 1, 1, 0.2), true)  # Полупрозрачный белый
+			draw_rect(rect, Color(1, 1, 1, 0.8), false, 2.0) # Яркий контур
+			
+			# Сбрасываем трансформацию обратно
+			draw_set_transform(Vector2.ZERO, 0, Vector2.ONE)
+
 
 func _on_back_button_pressed():
 		get_tree().change_scene_to_file("res://scene_cabinet_view.tscn")

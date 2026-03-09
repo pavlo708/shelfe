@@ -3,7 +3,7 @@ extends Node2D
 
 @onready var shelf_background = $Sprite2D
 @onready var info_panel = $UI/InfoPanel
-@onready var edit_items_box = $UI/InfoPanel/EditItemsBox
+@onready var edit_items_box = $UI/InfoPanel/VBoxContainer/EditItemsBox
 @onready var title_label: Label = $UI/InfoPanel/VBoxContainer/TitleLabel
 
 var current_shelf_id = 0
