@@ -57,9 +57,9 @@ func _on_wardrobe_clicked(_viewport, event, _shape_idx, ward_num):
 
 func _on_lab_door_clicked(_viewport, event, _shape_idx):
 	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
-		get_tree().change_scene_to_file("res://Scene_Lab_View.tscn")
+		get_tree().change_scene_to_file("res://scene_lab_view.tscn")
 
 func _on_back_button_pressed():
 	# Кнопка возврата в коридор (меню кабинетов)
-	get_tree().change_scene_to_file("res://Scene_Menu_Cabinets.tscn")
+	get_tree().change_scene_to_file("res://scene_menu_cabinets.tscn")
 	
