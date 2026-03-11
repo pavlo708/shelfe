@@ -7,21 +7,21 @@
 [ext_resource type="Script" uid="uid://bgj70wo42ooko" path="res://shelf.gd" id="3_qs1q1"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k4pne"]
-size = Vector2(201, 139)
+size = Vector2(221, 146)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vc6xo"]
-size = Vector2(92, 236)
+size = Vector2(100, 269)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_f472g"]
-size = Vector2(165.5, 458)
+size = Vector2(167, 482)
 
 [node name="Scene_Cabinet_View" type="Node2D"]
 script = ExtResource("1_76kyt")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 z_index = -1
-position = Vector2(640.9464, 272.25)
-scale = Vector2(0.8087797, 0.8087798)
+position = Vector2(681.0178, 289.25)
+scale = Vector2(0.85937494, 0.859375)
 texture = ExtResource("2_f472g")
 
 [node name="BigWardrobe" type="Area2D" parent="."]
@@ -29,7 +29,7 @@ priority = 1
 script = ExtResource("3_qs1q1")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="BigWardrobe"]
-position = Vector2(201.5, 237.5)
+position = Vector2(211.5, 252)
 shape = SubResource("RectangleShape2D_k4pne")
 
 [node name="WallWardrobe" type="Area2D" parent="."]
@@ -38,7 +38,7 @@ script = ExtResource("3_qs1q1")
 shelf_id = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="WallWardrobe"]
-position = Vector2(59, 425)
+position = Vector2(63, 441.5)
 shape = SubResource("RectangleShape2D_vc6xo")
 
 [node name="LabDoor" type="Area2D" parent="."]
@@ -47,7 +47,7 @@ script = ExtResource("3_qs1q1")
 shelf_id = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="LabDoor"]
-position = Vector2(1141, 317)
+position = Vector2(1216.5, 338)
 shape = SubResource("RectangleShape2D_f472g")
 
 [node name="BackButton" type="TextureButton" parent="."]
