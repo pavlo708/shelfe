@@ -7,7 +7,7 @@ extends Node2D
 @onready var background_sprite = $Sprite2D 
 @onready var search_input: LineEdit = $UI/LineEdit
 
-
+@onready var zoomed_scene_packed = preload("res://zoomed_shelf.tscn")
 
 var current_hovered_shelf: Area2D = null
 var active_shelves_container: Node = null 
@@ -83,7 +83,7 @@ func _on_shelf_clicked(_viewport, event, _shape_idx, s_id):
 			if w_id == 3 or w_id == 5 or w_id == 6:
 				GlobalSettings.current_shelf_id = s_id
 				GlobalSettings.last_scene_path = get_tree().current_scene.scene_file_path
-				get_tree().change_scene_to_file("res://zoomed_shelf.tscn")
+				get_tree().change_scene_to_packed(zoomed_scene_packed)
 
 func _on_main_text_changed():
 	var id_to_save = str(GlobalSettings.currently_editing_id)
