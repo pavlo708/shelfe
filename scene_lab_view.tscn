@@ -4,22 +4,22 @@
 [ext_resource type="Texture2D" uid="uid://b5r1x148ade1p" path="res://LabShelfs/Lab.png" id="2_7k0y7"]
 [ext_resource type="Texture2D" uid="uid://dptncte734afe" path="res://sprites/BackButtonNorm.png" id="2_ye6jw"]
 [ext_resource type="Texture2D" uid="uid://bos55l286lpnu" path="res://sprites/BackButtonPress.png" id="3_7k0y7"]
-[ext_resource type="Script" uid="uid://bgj70wo42ooko" path="res://shelf.gd" id="3_xf34m"]
+[ext_resource type="Script" uid="uid://bgj70wo42ooko" path="res://Shelf.gd" id="3_xf34m"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xf34m"]
-size = Vector2(48.25, 681)
+size = Vector2(50, 682)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3hm4x"]
 size = Vector2(405, 674)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pvfe0"]
-size = Vector2(303, 713.25)
+size = Vector2(307, 713.25)
 
 [node name="Scene_Lab_View" type="Node2D"]
 script = ExtResource("1_c0wth")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(640.8333, 360)
+position = Vector2(638, 356.00003)
 scale = Vector2(0.9270833, 0.9270833)
 texture = ExtResource("2_7k0y7")
 
@@ -27,14 +27,14 @@ texture = ExtResource("2_7k0y7")
 script = ExtResource("3_xf34m")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="LabWardrobe3"]
-position = Vector2(25.875, 376.5)
+position = Vector2(25, 371)
 shape = SubResource("RectangleShape2D_xf34m")
 
 [node name="LabWardrobe5" type="Area2D" parent="."]
 script = ExtResource("3_xf34m")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="LabWardrobe5"]
-position = Vector2(669.5, 342)
+position = Vector2(669.5, 339)
 shape = SubResource("RectangleShape2D_3hm4x")
 
 [node name="LabWardrobe6" type="Area2D" parent="."]
@@ -42,7 +42,7 @@ priority = 1
 script = ExtResource("3_xf34m")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="LabWardrobe6"]
-position = Vector2(1123.5, 359.375)
+position = Vector2(1121.5, 359.375)
 shape = SubResource("RectangleShape2D_pvfe0")
 
 [node name="BackButton" type="TextureButton" parent="."]
