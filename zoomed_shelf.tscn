@@ -3,30 +3,30 @@
 [ext_resource type="Script" uid="uid://dtrjs8kav5bqd" path="res://zoomed_shelf.gd" id="1_l8sh6"]
 [ext_resource type="Texture2D" uid="uid://dptncte734afe" path="res://sprites/BackButtonNorm.png" id="2_35obh"]
 [ext_resource type="Texture2D" uid="uid://c7uxcyk58mvp5" path="res://sprites/cancel_icon.png" id="2_ljvo6"]
-[ext_resource type="Texture2D" uid="uid://dlp2cs2xfh4fr" path="res://wardrobes/center11.png" id="2_qqtmp"]
 [ext_resource type="Texture2D" uid="uid://bos55l286lpnu" path="res://sprites/BackButtonPress.png" id="3_fu3jt"]
 [ext_resource type="Texture2D" uid="uid://df1286ffcxt7" path="res://sprites/cancel3_icon.png" id="3_qqtmp"]
 [ext_resource type="Texture2D" uid="uid://bh7jjljh1pbwd" path="res://sprites/cancel2_icon.png" id="4_27n2r"]
 [ext_resource type="Texture2D" uid="uid://6a4o64aj8gcm" path="res://sprites/save_icon_norm.png" id="5_xqdwa"]
 [ext_resource type="Texture2D" uid="uid://dpla03jrtpdql" path="res://sprites/save_icon_pressed.png" id="6_vy3jh"]
 [ext_resource type="Texture2D" uid="uid://c0j5cpnslxyof" path="res://sprites/save_button_hover.png" id="7_opf4h"]
-[ext_resource type="Texture2D" uid="uid://bsoaqov0leyi8" path="res://wardrobes/center12.png" id="9_vy3jh"]
-[ext_resource type="Texture2D" uid="uid://c245kfnc21u53" path="res://wardrobes/center13.png" id="10_fu3jt"]
-[ext_resource type="Texture2D" uid="uid://dfkosj4djuvsq" path="res://wardrobes/center14.png" id="10_opf4h"]
-[ext_resource type="Texture2D" uid="uid://doxe5rf66i0gv" path="res://wardrobes/center15.png" id="11_35obh"]
-[ext_resource type="Texture2D" uid="uid://ctiysidbloung" path="res://wardrobes/center16.png" id="12_fu3jt"]
-[ext_resource type="Texture2D" uid="uid://csxgq6kytdtod" path="res://wardrobes/RightDown2.png" id="14_0nqke"]
-[ext_resource type="Texture2D" uid="uid://i21vtcfyebyf" path="res://wardrobes/RightDown1.png" id="14_3vjgh"]
-[ext_resource type="Texture2D" uid="uid://diu3y4jnng4ac" path="res://wardrobes/LeftDown1.png" id="14_bsahm"]
-[ext_resource type="Texture2D" uid="uid://bx6awp68qrp1r" path="res://wardrobes/LeftUp1.png" id="14_cn1x3"]
-[ext_resource type="Texture2D" uid="uid://ddwrwn5vwhrb" path="res://wardrobes/CenterDown1.png" id="14_dxgee"]
-[ext_resource type="Texture2D" uid="uid://bn581fcombi3h" path="res://wardrobes/LeftDown2.png" id="14_edcgf"]
-[ext_resource type="Texture2D" uid="uid://cynjq1oi6g1nf" path="res://wardrobes/CenterDown2.png" id="14_olekb"]
-[ext_resource type="Texture2D" uid="uid://inf82u3im1u8" path="res://wardrobes/LeftUp2.png" id="15_0nqke"]
-[ext_resource type="Texture2D" uid="uid://cqk3eig63t2et" path="res://wardrobes/CenterUp1.png" id="16_3vjgh"]
-[ext_resource type="Texture2D" uid="uid://doecwqq15132o" path="res://wardrobes/CenterUp2.png" id="17_olekb"]
-[ext_resource type="Texture2D" uid="uid://dygpc2ufjwsf6" path="res://wardrobes/RightUp1.png" id="18_dxgee"]
-[ext_resource type="Texture2D" uid="uid://6ewjjcvt21yc" path="res://wardrobes/RigthUp2.png" id="19_bsahm"]
+[ext_resource type="Texture2D" uid="uid://dqtx5tyhv0ocy" path="res://wardrobes/Items1.png" id="9_m324c"]
+[ext_resource type="Texture2D" uid="uid://brhcpyhlct7qi" path="res://wardrobes/Items2.png" id="10_fcxso"]
+[ext_resource type="Texture2D" uid="uid://crbj5e7sgf3i2" path="res://wardrobes/Items3.png" id="11_h2514"]
+[ext_resource type="Texture2D" uid="uid://cuw07f0ecyx3s" path="res://wardrobes/Items4.png" id="12_7ktf3"]
+[ext_resource type="Texture2D" uid="uid://d1sqjsbj2hlne" path="res://wardrobes/Items5.png" id="13_wt4nx"]
+[ext_resource type="Texture2D" uid="uid://dr64onrdj6hfd" path="res://wardrobes/Items6.png" id="14_vn07k"]
+[ext_resource type="Texture2D" uid="uid://vw732xkoax5v" path="res://wardrobes/Items7.png" id="15_85m51"]
+[ext_resource type="Texture2D" uid="uid://b0jl7eghv8b0t" path="res://wardrobes/Items8.png" id="16_thlon"]
+[ext_resource type="Texture2D" uid="uid://b3fqcvok0exm4" path="res://wardrobes/Items9.png" id="17_a3kvo"]
+[ext_resource type="Texture2D" uid="uid://ennxcalnppsa" path="res://wardrobes/Items10.png" id="18_aa2tx"]
+[ext_resource type="Texture2D" uid="uid://bmhq3g7dum8ge" path="res://wardrobes/Items11.png" id="19_ccrrt"]
+[ext_resource type="Texture2D" uid="uid://b6nepnbnkuc0o" path="res://wardrobes/Items12.png" id="20_ogtxa"]
+[ext_resource type="Texture2D" uid="uid://bumyx8hxb5atp" path="res://wardrobes/Items13.png" id="21_d4ato"]
+[ext_resource type="Texture2D" uid="uid://l2fl58q7v42k" path="res://wardrobes/Items14.png" id="22_80jye"]
+[ext_resource type="Texture2D" uid="uid://dr4yg6p7t2pv8" path="res://wardrobes/Items15.png" id="23_xy0c6"]
+[ext_resource type="Texture2D" uid="uid://dl68oto6smtm7" path="res://wardrobes/Items16.png" id="24_pv1ug"]
+[ext_resource type="Texture2D" uid="uid://vpo14khos4wu" path="res://wardrobes/Items17.png" id="25_1a6b5"]
+[ext_resource type="Texture2D" uid="uid://bbibjv3c0mn44" path="res://wardrobes/Items18.png" id="26_ausqk"]
 [ext_resource type="Texture2D" uid="uid://dw0becslmblkf" path="res://ShelfsWall/SWall1.png" id="27_yqryp"]
 [ext_resource type="Texture2D" uid="uid://q6gnsd25lfby" path="res://ShelfsWall/SWall3.png" id="28_2bro6"]
 [ext_resource type="Texture2D" uid="uid://ct2ta3pq25lfj" path="res://ShelfsWall/SWall2.png" id="29_raa0r"]
@@ -151,16 +151,16 @@ size = Vector2(693, 192)
 size = Vector2(692, 205)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h2514"]
-size = Vector2(260, 326)
+size = Vector2(287, 360)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ccrrt"]
-size = Vector2(255, 324)
+size = Vector2(316, 366)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_eoamp"]
-size = Vector2(247, 322)
+size = Vector2(285, 342)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ukddd"]
-size = Vector2(241, 317)
+size = Vector2(267, 347)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cyvns"]
 size = Vector2(465, 326)
@@ -432,7 +432,7 @@ z_index = -1
 position = Vector2(453, 362)
 rotation = 1.5707964
 scale = Vector2(1.2595948, 3.5714288)
-texture = ExtResource("2_qqtmp")
+texture = ExtResource("9_m324c")
 
 [node name="UI" type="CanvasLayer" parent="."]
 
@@ -562,7 +562,7 @@ shape = SubResource("RectangleShape2D_3vjgh")
 z_index = -1
 position = Vector2(240, 360)
 scale = Vector2(0.466875, 0.466875)
-texture = ExtResource("2_qqtmp")
+texture = ExtResource("9_m324c")
 
 [node name="Items2" type="Node2D" parent="."]
 visible = false
@@ -606,7 +606,7 @@ shape = SubResource("RectangleShape2D_rdobw")
 z_index = -1
 position = Vector2(240, 360)
 scale = Vector2(0.4688281, 0.4688281)
-texture = ExtResource("9_vy3jh")
+texture = ExtResource("10_fcxso")
 
 [node name="Items3" type="Node2D" parent="."]
 visible = false
@@ -629,7 +629,7 @@ shape = SubResource("RectangleShape2D_yqryp")
 z_index = -1
 position = Vector2(240, 360)
 scale = Vector2(0.4707812, 0.4707812)
-texture = ExtResource("10_fu3jt")
+texture = ExtResource("11_h2514")
 
 [node name="Items4" type="Node2D" parent="."]
 visible = false
@@ -651,7 +651,7 @@ shape = SubResource("RectangleShape2D_uar1a")
 z_index = -1
 position = Vector2(240.95999, 361.44)
 scale = Vector2(0.4707812, 0.4707812)
-texture = ExtResource("10_opf4h")
+texture = ExtResource("12_7ktf3")
 
 [node name="Items5" type="Node2D" parent="."]
 visible = false
@@ -703,7 +703,7 @@ shape = SubResource("RectangleShape2D_t1waj")
 z_index = -1
 position = Vector2(239.45999, 359.19)
 scale = Vector2(0.46785152, 0.46785152)
-texture = ExtResource("11_35obh")
+texture = ExtResource("13_wt4nx")
 
 [node name="Items6" type="Node2D" parent="."]
 visible = false
@@ -731,7 +731,7 @@ shape = SubResource("RectangleShape2D_vmirf")
 z_index = -1
 position = Vector2(239.00002, 358.5)
 scale = Vector2(0.46679685, 0.46679685)
-texture = ExtResource("12_fu3jt")
+texture = ExtResource("14_vn07k")
 
 [node name="Items7" type="Node2D" parent="."]
 visible = false
@@ -753,7 +753,7 @@ shape = SubResource("RectangleShape2D_fcxso")
 z_index = -1
 position = Vector2(360, 361)
 scale = Vector2(0.46679685, 0.46679685)
-texture = ExtResource("14_cn1x3")
+texture = ExtResource("15_85m51")
 
 [node name="Items8" type="Node2D" parent="."]
 visible = false
@@ -775,7 +775,7 @@ shape = SubResource("RectangleShape2D_d4ato")
 z_index = -1
 position = Vector2(360, 360)
 scale = Vector2(0.46679685, 0.46679685)
-texture = ExtResource("15_0nqke")
+texture = ExtResource("16_thlon")
 
 [node name="Items9" type="Node2D" parent="."]
 visible = false
@@ -784,20 +784,20 @@ visible = false
 priority = 900
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Items9/Area2D"]
-position = Vector2(154, 395)
+position = Vector2(167.5, 378)
 shape = SubResource("RectangleShape2D_h2514")
 
 [node name="Area2D2" type="Area2D" parent="Items9"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Items9/Area2D2"]
-position = Vector2(455.5, 396)
+position = Vector2(486, 375)
 shape = SubResource("RectangleShape2D_ccrrt")
 
 [node name="HighlightSprite" type="Sprite2D" parent="Items9"]
 z_index = -1
-position = Vector2(317, 359)
-scale = Vector2(0.46679685, 0.46679685)
-texture = ExtResource("16_3vjgh")
+position = Vector2(349.87894, 334.69922)
+scale = Vector2(0.5153984, 0.5153984)
+texture = ExtResource("17_a3kvo")
 
 [node name="Items10" type="Node2D" parent="."]
 visible = false
@@ -806,20 +806,20 @@ visible = false
 priority = 1000
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Items10/Area2D"]
-position = Vector2(162.5, 387)
+position = Vector2(181.5, 360)
 shape = SubResource("RectangleShape2D_eoamp")
 
 [node name="Area2D2" type="Area2D" parent="Items10"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Items10/Area2D2"]
-position = Vector2(409.5, 387.5)
+position = Vector2(463.5, 363.5)
 shape = SubResource("RectangleShape2D_ukddd")
 
 [node name="HighlightSprite" type="Sprite2D" parent="Items10"]
 z_index = -1
-position = Vector2(308, 359)
-scale = Vector2(0.46679685, 0.46679685)
-texture = ExtResource("17_olekb")
+position = Vector2(353.52048, 328.46094)
+scale = Vector2(0.5388229, 0.5388229)
+texture = ExtResource("18_aa2tx")
 
 [node name="Items11" type="Node2D" parent="."]
 visible = false
@@ -841,7 +841,7 @@ shape = SubResource("RectangleShape2D_85b2i")
 z_index = -1
 position = Vector2(360, 363)
 scale = Vector2(0.46679685, 0.46679685)
-texture = ExtResource("18_dxgee")
+texture = ExtResource("19_ccrrt")
 
 [node name="Items12" type="Node2D" parent="."]
 visible = false
@@ -869,7 +869,7 @@ shape = SubResource("RectangleShape2D_xy0c6")
 z_index = -1
 position = Vector2(360, 359)
 scale = Vector2(0.46679685, 0.46679685)
-texture = ExtResource("19_bsahm")
+texture = ExtResource("20_ogtxa")
 
 [node name="Items13" type="Node2D" parent="."]
 visible = false
@@ -897,7 +897,7 @@ shape = SubResource("RectangleShape2D_raa0r")
 z_index = -1
 position = Vector2(239.00002, 358.5)
 scale = Vector2(0.46679685, 0.46679685)
-texture = ExtResource("14_bsahm")
+texture = ExtResource("21_d4ato")
 
 [node name="Items14" type="Node2D" parent="."]
 visible = false
@@ -925,7 +925,7 @@ shape = SubResource("RectangleShape2D_vn07k")
 z_index = -1
 position = Vector2(239.00002, 358.5)
 scale = Vector2(0.46679685, 0.46679685)
-texture = ExtResource("14_edcgf")
+texture = ExtResource("22_80jye")
 
 [node name="Items15" type="Node2D" parent="."]
 visible = false
@@ -971,7 +971,7 @@ shape = SubResource("RectangleShape2D_dgqc6")
 z_index = -1
 position = Vector2(294.93753, 360.23322)
 scale = Vector2(0.65638953, 0.65638953)
-texture = ExtResource("14_dxgee")
+texture = ExtResource("23_xy0c6")
 
 [node name="Items16" type="Node2D" parent="."]
 visible = false
@@ -1011,7 +1011,7 @@ shape = SubResource("RectangleShape2D_pnvni")
 z_index = -1
 position = Vector2(308, 355)
 scale = Vector2(0.46679685, 0.46679685)
-texture = ExtResource("14_olekb")
+texture = ExtResource("24_pv1ug")
 
 [node name="Items17" type="Node2D" parent="."]
 visible = false
@@ -1051,7 +1051,7 @@ shape = SubResource("RectangleShape2D_sfmv8")
 z_index = -1
 position = Vector2(239.00002, 358.5)
 scale = Vector2(0.46679685, 0.46679685)
-texture = ExtResource("14_3vjgh")
+texture = ExtResource("25_1a6b5")
 
 [node name="Items18" type="Node2D" parent="."]
 visible = false
@@ -1091,7 +1091,7 @@ shape = SubResource("RectangleShape2D_thlon")
 z_index = -1
 position = Vector2(239.00002, 358.5)
 scale = Vector2(0.46679685, 0.46679685)
-texture = ExtResource("14_0nqke")
+texture = ExtResource("26_ausqk")
 
 [node name="ItemsWall1" type="Node2D" parent="."]
 visible = false
