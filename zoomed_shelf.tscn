@@ -1,8 +1,7 @@
-[gd_scene load_steps=176 format=3 uid="uid://cx85c7ykdde2q"]
+[gd_scene load_steps=175 format=3 uid="uid://cx85c7ykdde2q"]
 
 [ext_resource type="Script" uid="uid://dtrjs8kav5bqd" path="res://zoomed_shelf.gd" id="1_l8sh6"]
 [ext_resource type="Texture2D" uid="uid://dptncte734afe" path="res://sprites/BackButtonNorm.png" id="2_35obh"]
-[ext_resource type="Texture2D" uid="uid://dpf5mvi0hnodv" path="res://sprites/ZoomedBG.png" id="2_j3c15"]
 [ext_resource type="Texture2D" uid="uid://c7uxcyk58mvp5" path="res://sprites/cancel_icon.png" id="2_ljvo6"]
 [ext_resource type="Texture2D" uid="uid://dlp2cs2xfh4fr" path="res://wardrobes/center11.png" id="2_qqtmp"]
 [ext_resource type="Texture2D" uid="uid://bos55l286lpnu" path="res://sprites/BackButtonPress.png" id="3_fu3jt"]
@@ -433,7 +432,7 @@ z_index = -1
 position = Vector2(453, 362)
 rotation = 1.5707964
 scale = Vector2(1.2595948, 3.5714288)
-texture = ExtResource("2_j3c15")
+texture = ExtResource("2_qqtmp")
 
 [node name="UI" type="CanvasLayer" parent="."]
 

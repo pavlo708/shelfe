@@ -83,7 +83,7 @@ func _on_search_submitted(new_text: String):
 				var shelf_full_id_int = int(key_str.substr(0, 4))
 				
 				# Проверяем, в этом ли мы шкафу
-				if (shelf_full_id_int / 100.0) * 100 == expected_base:
+				if int(shelf_full_id_int / 100.0) * 100 == expected_base:
 					var local_id = shelf_full_id_int % 100
 					if not local_id in found_ids:
 						found_ids.append(local_id)
@@ -99,20 +99,33 @@ func _clear_search_highlights():
 		var hl = shelf.get_node_or_null("SearchHighlightRect")
 		if hl: hl.queue_free()
 
-func _add_highlight_rect(shelf: Area2D):
+func _add_highlight_rect(target_node: Area2D):
 	var hl = ColorRect.new()
-	hl.name = "SearchHighlightRect"
-	hl.color = Color(1, 0, 0, 0.4) # Красный полупрозрачный цвет для найденного (можно поменять)
-	hl.mouse_filter = Control.MOUSE_FILTER_IGNORE # Чтобы клики проходили сквозь него
+	hl.color = Color(1.0, 0.0, 0.0, 0.6) # Красный с прозрачностью 60%
+	hl.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	hl.z_index = 10
 	
-	# Подгоняем размер под форму полки
-	for child in shelf.get_children():
-		if child is CollisionShape2D and child.shape is RectangleShape2D:
-			hl.size = child.shape.size
-			hl.position = child.position - (hl.size / 2.0)
-			break
-			
-	shelf.add_child(hl)
+	# Определяем размер по CollisionShape2D (как и раньше)
+	var shape_node = target_node.get_node_or_null("CollisionShape2D")
+	if shape_node and shape_node.shape is RectangleShape2D:
+		var rect_size = shape_node.shape.size
+		hl.size = rect_size
+		hl.position = shape_node.position - (rect_size / 2.0)
+	else:
+		hl.size = Vector2(100, 40) # Запасной размер
+		hl.position = Vector2(-50, -20)
+
+	target_node.add_child(hl)
+
+	# --- ЛОГИКА МИГАНИЯ ---
+	var tween = create_tween()
+	# Зацикливаем мигание: меняем прозрачность (alpha) от 0.6 до 0.1 и обратно
+	tween.set_loops(6) # Мигнет 6 раз (примерно по 0.5 сек на цикл = 3 секунды)
+	tween.tween_property(hl, "modulate:a", 0.1, 0.25).set_trans(Tween.TRANS_SINE)
+	tween.tween_property(hl, "modulate:a", 0.6, 0.25).set_trans(Tween.TRANS_SINE)
+	
+	# После завершения всех циклов удаляем объект
+	tween.finished.connect(hl.queue_free)
 
 func _on_search_text_changed(new_text: String):
 	if new_text == "": _clear_search_highlights()

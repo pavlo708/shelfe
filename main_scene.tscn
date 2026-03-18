@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://dge7bdn56432n" path="res://main_scene.gd" id="1_671wp"]
 [ext_resource type="Texture2D" uid="uid://lt0dowfjcwjh" path="res://wardrobes/BestBg.png" id="2_hq1ik"]
-[ext_resource type="Script" uid="uid://bgj70wo42ooko" path="res://shelf.gd" id="3_7ycvg"]
+[ext_resource type="Script" uid="uid://bgj70wo42ooko" path="res://Shelf.gd" id="3_7ycvg"]
 [ext_resource type="Texture2D" uid="uid://dptncte734afe" path="res://sprites/BackButtonNorm.png" id="7_66tet"]
 [ext_resource type="Texture2D" uid="uid://bos55l286lpnu" path="res://sprites/BackButtonPress.png" id="8_7ycvg"]
 [ext_resource type="Texture2D" uid="uid://c7uxcyk58mvp5" path="res://sprites/cancel_icon.png" id="22_fv2he"]
