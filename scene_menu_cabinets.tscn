@@ -1,7 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://cxom2fnqidhpe"]
+[gd_scene format=3 uid="uid://cxom2fnqidhpe"]
 
 [ext_resource type="Script" uid="uid://bsfpc04dmpra3" path="res://scene_menu_cabinets.gd" id="1_j71vs"]
-[ext_resource type="Texture2D" uid="uid://bd3p7idjxlm16" path="res://LabShelfs/Coridor.png" id="2_j71vs"]
+[ext_resource type="Texture2D" uid="uid://bd3p7idjxlm16" path="res://assets/images/LabShelfs/Coridor.png" id="2_j71vs"]
 [ext_resource type="Script" uid="uid://bgj70wo42ooko" path="res://Shelf.gd" id="3_h0g32"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_j71vs"]
@@ -10,27 +10,27 @@ size = Vector2(93, 136)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h0g32"]
 size = Vector2(277, 572.75)
 
-[node name="Scene_Menu_Cabinets" type="Node2D"]
+[node name="Scene_Menu_Cabinets" type="Node2D" unique_id=1257618289]
 script = ExtResource("1_j71vs")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=349947340]
 position = Vector2(646.8513, 337)
 scale = Vector2(1.0735811, 0.8502358)
 texture = ExtResource("2_j71vs")
 
-[node name="Door1" type="Area2D" parent="."]
+[node name="Door1" type="Area2D" parent="." unique_id=1041329484]
 priority = 1
 script = ExtResource("3_h0g32")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Door1"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Door1" unique_id=2112613661]
 position = Vector2(187.5, 282)
 shape = SubResource("RectangleShape2D_j71vs")
 
-[node name="Door2" type="Area2D" parent="."]
+[node name="Door2" type="Area2D" parent="." unique_id=641415910]
 priority = 1
 script = ExtResource("3_h0g32")
 shelf_id = 2
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Door2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Door2" unique_id=707884046]
 position = Vector2(914, 423.375)
 shape = SubResource("RectangleShape2D_h0g32")
