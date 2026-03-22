@@ -43,7 +43,7 @@ func _on_wardrobe_click(_viewport, event, _shape_idx, wardrobe_id):
 	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
 		GlobalSettings.current_wardrobe = wardrobe_id
 		# Переходим в сцену, где отрисован конкретный шкаф с полками
-		get_tree().change_scene_to_file("res://main_scene_lab.tscn")
+		get_tree().change_scene_to_file("res://main/main_scene_lab.tscn")
 
 
 func _on_mouse_entered(area):
@@ -75,4 +75,4 @@ func _draw():
 
 
 func _on_back_button_pressed():
-		get_tree().change_scene_to_file("res://scene_cabinet_view.tscn")
+		get_tree().change_scene_to_file("res://scenes/scene_cabinet_view.tscn")

@@ -6,7 +6,7 @@ extends Node2D
 @onready var tooltip_label: Label = $UI/TooltipLabel
 @onready var search_input: LineEdit = $UI/LineEdit
 
-@onready var zoomed_scene_packed = preload("res://zoomed_shelf.tscn")
+@onready var zoomed_scene_packed = preload("res://main/zoomed_shelf.tscn")
 var current_hovered_shelf: Area2D = null
 
 func _ready():
@@ -152,7 +152,7 @@ func _process(_delta):
 		tooltip_label.global_position = get_global_mouse_position() + Vector2(15, 15)
 
 func _on_back_button_pressed():
-	get_tree().change_scene_to_file("res://scene_cabinet_view.tscn")
+	get_tree().change_scene_to_file("res://scenes/scene_cabinet_view.tscn")
 
 func _on_close_button_pressed():
 	info_panel.hide()

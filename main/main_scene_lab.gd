@@ -7,7 +7,7 @@ extends Node2D
 @onready var background_sprite = $Sprite2D 
 @onready var search_input: LineEdit = $UI/LineEdit
 
-@onready var zoomed_scene_packed = preload("res://zoomed_shelf.tscn")
+@onready var zoomed_scene_packed = preload("res://main/zoomed_shelf.tscn")
 
 var current_hovered_shelf: Area2D = null
 var active_shelves_container: Node = null 
@@ -184,6 +184,6 @@ func _on_close_button_pressed():
 	
 func _on_back_button_pressed():
 	if GlobalSettings.current_wardrobe >= 3:
-		get_tree().change_scene_to_file("res://scene_lab_view.tscn")
+		get_tree().change_scene_to_file("res://scenes/scene_lab_view.tscn")
 	else:
-		get_tree().change_scene_to_file("res://scene_cabinet_view.tscn")
+		get_tree().change_scene_to_file("res://scenes/scene_cabinet_view.tscn")

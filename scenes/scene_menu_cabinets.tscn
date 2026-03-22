@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://cxom2fnqidhpe"]
 
-[ext_resource type="Script" uid="uid://bsfpc04dmpra3" path="res://scene_menu_cabinets.gd" id="1_j71vs"]
+[ext_resource type="Script" uid="uid://bsfpc04dmpra3" path="res://scenes/scene_menu_cabinets.gd" id="1_j71vs"]
 [ext_resource type="Texture2D" uid="uid://bd3p7idjxlm16" path="res://assets/images/LabShelfs/Coridor.png" id="2_j71vs"]
-[ext_resource type="Script" uid="uid://bgj70wo42ooko" path="res://Shelf.gd" id="3_h0g32"]
+[ext_resource type="Script" uid="uid://bgj70wo42ooko" path="res://components/Shelf.gd" id="3_h0g32"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_j71vs"]
 size = Vector2(93, 136)

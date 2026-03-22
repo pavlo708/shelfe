@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://4pxtnb4t3od2"]
 
-[ext_resource type="Script" uid="uid://bnfep7nnyc4v0" path="res://main_scene_lab.gd" id="1_7ijfx"]
+[ext_resource type="Script" uid="uid://bnfep7nnyc4v0" path="res://main/main_scene_lab.gd" id="1_7ijfx"]
 [ext_resource type="Texture2D" uid="uid://bp5ab7n35cxbt" path="res://assets/images/LabShelfs/Lab.png" id="2_470gg"]
-[ext_resource type="Script" uid="uid://bgj70wo42ooko" path="res://Shelf.gd" id="3_gnvfl"]
+[ext_resource type="Script" uid="uid://bgj70wo42ooko" path="res://components/Shelf.gd" id="3_gnvfl"]
 [ext_resource type="Texture2D" uid="uid://cdfyskp0x6427" path="res://assets/images/LabShelfs/Shelf.png" id="3_ynyxu"]
 [ext_resource type="Texture2D" uid="uid://c7uxcyk58mvp5" path="res://assets/images/Sprites/cancel_icon.png" id="4_ynyxu"]
 [ext_resource type="Texture2D" uid="uid://df1286ffcxt7" path="res://assets/images/Sprites/cancel3_icon.png" id="5_470gg"]
