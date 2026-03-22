@@ -8,17 +8,21 @@
 
 config_version=5
 
+[animation]
+
+compatibility/default_parent_skeleton_in_mesh_instance_3d=true
+
 [application]
 
 config/name="wardrobe"
 run/main_scene="uid://cxom2fnqidhpe"
-config/features=PackedStringArray("4.5", "Forward Plus")
-config/icon="res://icon.svg"
+config/features=PackedStringArray("4.6", "Forward Plus")
+config/icon="uid://bgecm2qkdhycr"
 
 [autoload]
 
-DataManager="*res://DataManager.gd"
-GlobalSettings="*res://GlobalSettings.gd"
+DataManager="*uid://bul15bfu60jm1"
+GlobalSettings="*uid://dlcbxky0ljuym"
 
 [display]
 

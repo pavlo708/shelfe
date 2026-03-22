@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://cedfrxkhjamte"]
+[gd_scene format=3 uid="uid://cedfrxkhjamte"]
 
 [sub_resource type="GDScript" id="GDScript_ybj2d"]
 script/source = "##shelf_scene
@@ -18,5 +18,5 @@ script/source = "##shelf_scene
 			#label.text += \"- \" + item + \"\\n\"
 "
 
-[node name="ShelfeScene" type="Node2D"]
+[node name="ShelfeScene" type="Node2D" unique_id=521938829]
 script = SubResource("GDScript_ybj2d")
