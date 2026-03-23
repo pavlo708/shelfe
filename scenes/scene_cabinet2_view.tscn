@@ -1,0 +1,53 @@
+[gd_scene format=3 uid="uid://c4lbw0gpe48v7"]
+
+[ext_resource type="Script" uid="uid://g6l21e4wmtdh" path="res://scenes/scene_cabinet_2_view.gd" id="1_1atgt"]
+[ext_resource type="Texture2D" uid="uid://cnp0s8r7fhr6i" path="res://assets/images/Cabinet2/Cabinet.png" id="2_1atgt"]
+[ext_resource type="Script" uid="uid://bgj70wo42ooko" path="res://components/Shelf.gd" id="3_180fh"]
+[ext_resource type="Texture2D" uid="uid://dptncte734afe" path="res://assets/images/Sprites/BackButtonNorm.png" id="4_wge0i"]
+[ext_resource type="Texture2D" uid="uid://bos55l286lpnu" path="res://assets/images/Sprites/BackButtonPress.png" id="5_gs7tw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k4pne"]
+size = Vector2(127.75, 101)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_f472g"]
+size = Vector2(248, 603)
+
+[node name="Scene_Cabinet_View" type="Node2D" unique_id=379733142]
+script = ExtResource("1_1atgt")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1970661755]
+z_index = -1
+position = Vector2(639.39294, 359.92856)
+scale = Vector2(0.8315196, 0.7013114)
+texture = ExtResource("2_1atgt")
+
+[node name="BigWardrobe" type="Area2D" parent="." unique_id=622418368]
+priority = 1
+script = ExtResource("3_180fh")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BigWardrobe" unique_id=1585881447]
+position = Vector2(64.125, 306.5)
+shape = SubResource("RectangleShape2D_k4pne")
+
+[node name="LabDoor" type="Area2D" parent="." unique_id=20255267]
+visible = false
+priority = 1
+script = ExtResource("3_180fh")
+shelf_id = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LabDoor" unique_id=639960085]
+position = Vector2(1115, 420.5)
+shape = SubResource("RectangleShape2D_f472g")
+
+[node name="BackButton" type="TextureButton" parent="." unique_id=1021522416]
+offset_left = 16.0
+offset_top = 5.0
+offset_right = 91.0
+offset_bottom = 80.0
+texture_normal = ExtResource("4_wge0i")
+texture_pressed = ExtResource("5_gs7tw")
+texture_hover = ExtResource("5_gs7tw")
+ignore_texture_size = true
+stretch_mode = 0
+
+[connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]

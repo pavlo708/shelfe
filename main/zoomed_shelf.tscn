@@ -9,92 +9,104 @@
 [ext_resource type="Texture2D" uid="uid://6a4o64aj8gcm" path="res://assets/images/Sprites/save_icon_norm.png" id="5_xqdwa"]
 [ext_resource type="Texture2D" uid="uid://dpla03jrtpdql" path="res://assets/images/Sprites/save_icon_pressed.png" id="6_vy3jh"]
 [ext_resource type="Texture2D" uid="uid://c0j5cpnslxyof" path="res://assets/images/Sprites/save_button_hover.png" id="7_opf4h"]
-[ext_resource type="Texture2D" uid="uid://dqtx5tyhv0ocy" path="res://assets/images/Wardrobes/Items1.png" id="9_m324c"]
-[ext_resource type="Texture2D" uid="uid://brhcpyhlct7qi" path="res://assets/images/Wardrobes/Items2.png" id="10_fcxso"]
-[ext_resource type="Texture2D" uid="uid://crbj5e7sgf3i2" path="res://assets/images/Wardrobes/Items3.png" id="11_h2514"]
-[ext_resource type="Texture2D" uid="uid://cuw07f0ecyx3s" path="res://assets/images/Wardrobes/Items4.png" id="12_7ktf3"]
-[ext_resource type="Texture2D" uid="uid://d1sqjsbj2hlne" path="res://assets/images/Wardrobes/Items5.png" id="13_wt4nx"]
-[ext_resource type="Texture2D" uid="uid://dr64onrdj6hfd" path="res://assets/images/Wardrobes/Items6.png" id="14_vn07k"]
-[ext_resource type="Texture2D" uid="uid://vw732xkoax5v" path="res://assets/images/Wardrobes/Items7.png" id="15_85m51"]
-[ext_resource type="Texture2D" uid="uid://b0jl7eghv8b0t" path="res://assets/images/Wardrobes/Items8.png" id="16_thlon"]
-[ext_resource type="Texture2D" uid="uid://b3fqcvok0exm4" path="res://assets/images/Wardrobes/Items9.png" id="17_a3kvo"]
-[ext_resource type="Texture2D" uid="uid://ennxcalnppsa" path="res://assets/images/Wardrobes/Items10.png" id="18_aa2tx"]
-[ext_resource type="Texture2D" uid="uid://bmhq3g7dum8ge" path="res://assets/images/Wardrobes/Items11.png" id="19_ccrrt"]
-[ext_resource type="Texture2D" uid="uid://b6nepnbnkuc0o" path="res://assets/images/Wardrobes/Items12.png" id="20_ogtxa"]
-[ext_resource type="Texture2D" uid="uid://bumyx8hxb5atp" path="res://assets/images/Wardrobes/Items13.png" id="21_d4ato"]
-[ext_resource type="Texture2D" uid="uid://l2fl58q7v42k" path="res://assets/images/Wardrobes/Items14.png" id="22_80jye"]
-[ext_resource type="Texture2D" uid="uid://dr4yg6p7t2pv8" path="res://assets/images/Wardrobes/Items15.png" id="23_xy0c6"]
-[ext_resource type="Texture2D" uid="uid://dl68oto6smtm7" path="res://assets/images/Wardrobes/Items16.png" id="24_pv1ug"]
-[ext_resource type="Texture2D" uid="uid://vpo14khos4wu" path="res://assets/images/Wardrobes/Items17.png" id="25_1a6b5"]
-[ext_resource type="Texture2D" uid="uid://bbibjv3c0mn44" path="res://assets/images/Wardrobes/Items18.png" id="26_ausqk"]
-[ext_resource type="Texture2D" uid="uid://dw0becslmblkf" path="res://assets/images/ShelfsWall/SWall1.png" id="27_yqryp"]
-[ext_resource type="Texture2D" uid="uid://q6gnsd25lfby" path="res://assets/images/ShelfsWall/SWall3.png" id="28_2bro6"]
-[ext_resource type="Texture2D" uid="uid://ct2ta3pq25lfj" path="res://assets/images/ShelfsWall/SWall2.png" id="29_raa0r"]
-[ext_resource type="Texture2D" uid="uid://t8fv1wm8d7ad" path="res://assets/images/ShelfsWall/SWall4.png" id="30_yqryp"]
-[ext_resource type="Texture2D" uid="uid://wlrmnjon2vka" path="res://assets/images/ShelfsWall/SWall5.png" id="31_2bro6"]
-[ext_resource type="Texture2D" uid="uid://hs8c5fgskibp" path="res://assets/images/LabShelfs/Shelf3_1.png" id="32_m324c"]
-[ext_resource type="Texture2D" uid="uid://dkxqo0vj5sc4d" path="res://assets/images/LabShelfs/Shelf3_2.png" id="33_fcxso"]
-[ext_resource type="Texture2D" uid="uid://cwkxd0atifjp5" path="res://assets/images/LabShelfs/Shelf3_3.png" id="34_h2514"]
-[ext_resource type="Texture2D" uid="uid://cvu04fts3plik" path="res://assets/images/LabShelfs/Shelf3_4.png" id="35_7ktf3"]
-[ext_resource type="Texture2D" uid="uid://c0n7iyvo40jgn" path="res://assets/images/LabShelfs/Shelf3_6.png" id="36_wt4nx"]
-[ext_resource type="Texture2D" uid="uid://bt4fv1gju18hp" path="res://assets/images/LabShelfs/Shelf3_7.png" id="37_vn07k"]
-[ext_resource type="Texture2D" uid="uid://btw2ycb3muecr" path="res://assets/images/LabShelfs/Shelf3_8.png" id="38_85m51"]
-[ext_resource type="Texture2D" uid="uid://y0xdiqhf4vdx" path="res://assets/images/LabShelfs/Shelf4_1.png" id="40_m324c"]
-[ext_resource type="Texture2D" uid="uid://bkdahb81oiowj" path="res://assets/images/LabShelfs/Shelf4_2.png" id="41_fcxso"]
-[ext_resource type="Texture2D" uid="uid://bgutq3bfsmfwt" path="res://assets/images/LabShelfs/Shelf4_3.png" id="42_h2514"]
-[ext_resource type="Texture2D" uid="uid://cck8743b2nx6s" path="res://assets/images/LabShelfs/Shelf4_4.png" id="43_7ktf3"]
-[ext_resource type="Texture2D" uid="uid://l74bv8r6mpra" path="res://assets/images/LabShelfs/Shelf4_5.png" id="44_wt4nx"]
-[ext_resource type="Texture2D" uid="uid://biildlvkqwk4c" path="res://assets/images/LabShelfs/Shelf4_6.png" id="45_vn07k"]
-[ext_resource type="Texture2D" uid="uid://phtba0p8ob7d" path="res://assets/images/LabShelfs/Shelf4_7.png" id="46_m324c"]
-[ext_resource type="Texture2D" uid="uid://csdruo6lh13h6" path="res://assets/images/LabShelfs/Shelf4_8.png" id="47_fcxso"]
-[ext_resource type="Texture2D" uid="uid://bok82812cgp1j" path="res://assets/images/LabShelfs/Shelf4_9.png" id="48_h2514"]
-[ext_resource type="Texture2D" uid="uid://b3c3mkau313s0" path="res://assets/images/LabShelfs/Shelf5_2.png" id="49_fcxso"]
-[ext_resource type="Texture2D" uid="uid://brgiahle3cu1d" path="res://assets/images/LabShelfs/Shelf5_1.png" id="49_h2514"]
+[ext_resource type="Texture2D" uid="uid://dqtx5tyhv0ocy" path="res://assets/images/Cabinet1/Wardrobes/Items1.png" id="9_olv1b"]
+[ext_resource type="Texture2D" uid="uid://brhcpyhlct7qi" path="res://assets/images/Cabinet1/Wardrobes/Items2.png" id="10_fcxso"]
+[ext_resource type="Texture2D" uid="uid://crbj5e7sgf3i2" path="res://assets/images/Cabinet1/Wardrobes/Items3.png" id="11_h2514"]
+[ext_resource type="Texture2D" uid="uid://cuw07f0ecyx3s" path="res://assets/images/Cabinet1/Wardrobes/Items4.png" id="12_7ktf3"]
+[ext_resource type="Texture2D" uid="uid://d1sqjsbj2hlne" path="res://assets/images/Cabinet1/Wardrobes/Items5.png" id="13_wt4nx"]
+[ext_resource type="Texture2D" uid="uid://dr64onrdj6hfd" path="res://assets/images/Cabinet1/Wardrobes/Items6.png" id="14_vn07k"]
+[ext_resource type="Texture2D" uid="uid://vw732xkoax5v" path="res://assets/images/Cabinet1/Wardrobes/Items7.png" id="15_85m51"]
+[ext_resource type="Texture2D" uid="uid://b0jl7eghv8b0t" path="res://assets/images/Cabinet1/Wardrobes/Items8.png" id="16_thlon"]
+[ext_resource type="Texture2D" uid="uid://b3fqcvok0exm4" path="res://assets/images/Cabinet1/Wardrobes/Items9.png" id="17_a3kvo"]
+[ext_resource type="Texture2D" uid="uid://ennxcalnppsa" path="res://assets/images/Cabinet1/Wardrobes/Items10.png" id="18_aa2tx"]
+[ext_resource type="Texture2D" uid="uid://bmhq3g7dum8ge" path="res://assets/images/Cabinet1/Wardrobes/Items11.png" id="19_ccrrt"]
+[ext_resource type="Texture2D" uid="uid://b6nepnbnkuc0o" path="res://assets/images/Cabinet1/Wardrobes/Items12.png" id="20_ogtxa"]
+[ext_resource type="Texture2D" uid="uid://bumyx8hxb5atp" path="res://assets/images/Cabinet1/Wardrobes/Items13.png" id="21_d4ato"]
+[ext_resource type="Texture2D" uid="uid://l2fl58q7v42k" path="res://assets/images/Cabinet1/Wardrobes/Items14.png" id="22_80jye"]
+[ext_resource type="Texture2D" uid="uid://dr4yg6p7t2pv8" path="res://assets/images/Cabinet1/Wardrobes/Items15.png" id="23_xy0c6"]
+[ext_resource type="Texture2D" uid="uid://dl68oto6smtm7" path="res://assets/images/Cabinet1/Wardrobes/Items16.png" id="24_pv1ug"]
+[ext_resource type="Texture2D" uid="uid://vpo14khos4wu" path="res://assets/images/Cabinet1/Wardrobes/Items17.png" id="25_1a6b5"]
+[ext_resource type="Texture2D" uid="uid://bbibjv3c0mn44" path="res://assets/images/Cabinet1/Wardrobes/Items18.png" id="26_ausqk"]
+[ext_resource type="Texture2D" uid="uid://dw0becslmblkf" path="res://assets/images/Cabinet1/ShelfsWall/SWall1.png" id="27_yqryp"]
+[ext_resource type="Texture2D" uid="uid://q6gnsd25lfby" path="res://assets/images/Cabinet1/ShelfsWall/SWall3.png" id="28_2bro6"]
+[ext_resource type="Texture2D" uid="uid://ct2ta3pq25lfj" path="res://assets/images/Cabinet1/ShelfsWall/SWall2.png" id="29_raa0r"]
+[ext_resource type="Texture2D" uid="uid://t8fv1wm8d7ad" path="res://assets/images/Cabinet1/ShelfsWall/SWall4.png" id="30_yqryp"]
+[ext_resource type="Texture2D" uid="uid://wlrmnjon2vka" path="res://assets/images/Cabinet1/ShelfsWall/SWall5.png" id="31_2bro6"]
+[ext_resource type="Texture2D" uid="uid://hs8c5fgskibp" path="res://assets/images/Cabinet1/LabShelfs/Shelf3_1.png" id="32_m324c"]
+[ext_resource type="Texture2D" uid="uid://dkxqo0vj5sc4d" path="res://assets/images/Cabinet1/LabShelfs/Shelf3_2.png" id="33_fcxso"]
+[ext_resource type="Texture2D" uid="uid://cwkxd0atifjp5" path="res://assets/images/Cabinet1/LabShelfs/Shelf3_3.png" id="34_h2514"]
+[ext_resource type="Texture2D" uid="uid://cvu04fts3plik" path="res://assets/images/Cabinet1/LabShelfs/Shelf3_4.png" id="35_7ktf3"]
+[ext_resource type="Texture2D" uid="uid://c0n7iyvo40jgn" path="res://assets/images/Cabinet1/LabShelfs/Shelf3_6.png" id="36_wt4nx"]
+[ext_resource type="Texture2D" uid="uid://bt4fv1gju18hp" path="res://assets/images/Cabinet1/LabShelfs/Shelf3_7.png" id="37_vn07k"]
+[ext_resource type="Texture2D" uid="uid://btw2ycb3muecr" path="res://assets/images/Cabinet1/LabShelfs/Shelf3_8.png" id="38_85m51"]
+[ext_resource type="Texture2D" uid="uid://y0xdiqhf4vdx" path="res://assets/images/Cabinet1/LabShelfs/Shelf4_1.png" id="40_m324c"]
+[ext_resource type="Texture2D" uid="uid://bkdahb81oiowj" path="res://assets/images/Cabinet1/LabShelfs/Shelf4_2.png" id="41_fcxso"]
+[ext_resource type="Texture2D" uid="uid://bgutq3bfsmfwt" path="res://assets/images/Cabinet1/LabShelfs/Shelf4_3.png" id="42_h2514"]
+[ext_resource type="Texture2D" uid="uid://cck8743b2nx6s" path="res://assets/images/Cabinet1/LabShelfs/Shelf4_4.png" id="43_7ktf3"]
+[ext_resource type="Texture2D" uid="uid://l74bv8r6mpra" path="res://assets/images/Cabinet1/LabShelfs/Shelf4_5.png" id="44_wt4nx"]
+[ext_resource type="Texture2D" uid="uid://biildlvkqwk4c" path="res://assets/images/Cabinet1/LabShelfs/Shelf4_6.png" id="45_vn07k"]
+[ext_resource type="Texture2D" uid="uid://phtba0p8ob7d" path="res://assets/images/Cabinet1/LabShelfs/Shelf4_7.png" id="46_m324c"]
+[ext_resource type="Texture2D" uid="uid://csdruo6lh13h6" path="res://assets/images/Cabinet1/LabShelfs/Shelf4_8.png" id="47_fcxso"]
+[ext_resource type="Texture2D" uid="uid://bok82812cgp1j" path="res://assets/images/Cabinet1/LabShelfs/Shelf4_9.png" id="48_h2514"]
+[ext_resource type="Texture2D" uid="uid://b3c3mkau313s0" path="res://assets/images/Cabinet1/LabShelfs/Shelf5_2.png" id="49_fcxso"]
+[ext_resource type="Texture2D" uid="uid://cuxrwggybs31r" path="res://assets/images/Cabinet2/Wardrobes/Items1.png" id="49_g2kbi"]
+[ext_resource type="Texture2D" uid="uid://brgiahle3cu1d" path="res://assets/images/Cabinet1/LabShelfs/Shelf5_1.png" id="49_h2514"]
+[ext_resource type="Texture2D" uid="uid://b253340dv4476" path="res://assets/images/Cabinet2/Wardrobes/Items2.png" id="50_wqwx8"]
+[ext_resource type="Texture2D" uid="uid://bjgyotqi547pw" path="res://assets/images/Cabinet2/Wardrobes/Items3.png" id="51_2sco6"]
+[ext_resource type="Texture2D" uid="uid://dnk8qpfsy8u3k" path="res://assets/images/Cabinet2/Wardrobes/Items4.png" id="52_pjmp8"]
+[ext_resource type="Texture2D" uid="uid://dv72qrgfbme6v" path="res://assets/images/Cabinet2/Wardrobes/Items5.png" id="53_g0y37"]
+[ext_resource type="Texture2D" uid="uid://d1p2dg30q6ars" path="res://assets/images/Cabinet2/Wardrobes/Items6.png" id="54_olv1b"]
+[ext_resource type="Texture2D" uid="uid://d0tesodrjcb2" path="res://assets/images/Cabinet2/Wardrobes/Items7.png" id="55_cohqv"]
+[ext_resource type="Texture2D" uid="uid://ctbm5ek2vyjx5" path="res://assets/images/Cabinet2/Wardrobes/Items8.png" id="56_wwih5"]
+[ext_resource type="Texture2D" uid="uid://bnid121x2bths" path="res://assets/images/Cabinet2/Wardrobes/Items9.png" id="57_su443"]
+[ext_resource type="Texture2D" uid="uid://3ie7ts21qbmd" path="res://assets/images/Cabinet2/Wardrobes/Items10.png" id="58_ti5al"]
+[ext_resource type="Texture2D" uid="uid://bqeve2e5lqgol" path="res://assets/images/Cabinet2/Wardrobes/Items11.png" id="59_8btmo"]
+[ext_resource type="Texture2D" uid="uid://dj2n8b6j78vp5" path="res://assets/images/Cabinet2/Wardrobes/Items12.png" id="60_3c7rq"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_35obh"]
 size = Vector2(336, 149)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fu3jt"]
-size = Vector2(223.0625, 102)
+size = Vector2(256.0625, 121)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jik5t"]
-size = Vector2(211.5, 133)
+size = Vector2(240, 149)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_sfjxu"]
-size = Vector2(76.4375, 95)
+size = Vector2(87, 106)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lovc7"]
-size = Vector2(100, 181)
+size = Vector2(118, 208)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_54kvq"]
-size = Vector2(33, 92)
+size = Vector2(36, 106)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tfpit"]
-size = Vector2(143.5, 111)
+size = Vector2(163, 138)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cn1x3"]
-size = Vector2(133.25, 82)
+size = Vector2(150, 82)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0nqke"]
-size = Vector2(48, 110)
+size = Vector2(55, 122)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3vjgh"]
-size = Vector2(408, 126)
+size = Vector2(471, 148)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_olekb"]
-size = Vector2(143, 122)
+size = Vector2(148, 122)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fwqdl"]
-size = Vector2(127.5, 180)
+size = Vector2(130, 180)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mpf17"]
-size = Vector2(103, 164)
+size = Vector2(96, 178)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dbdrj"]
-size = Vector2(456, 173)
+size = Vector2(489, 182)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rdobw"]
-size = Vector2(438, 148)
+size = Vector2(469, 168)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0es4x"]
 size = Vector2(469, 393)
@@ -340,10 +352,10 @@ size = Vector2(132, 183)
 size = Vector2(438, 141)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_iehvj"]
-size = Vector2(385, 389)
+size = Vector2(385, 330)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_sp66y"]
-size = Vector2(227, 394)
+size = Vector2(227, 274)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cxa08"]
 size = Vector2(627, 410.5)
@@ -409,13 +421,13 @@ size = Vector2(366, 169)
 size = Vector2(603, 446)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pv1ug"]
-size = Vector2(316, 188)
+size = Vector2(306, 166)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_85m51"]
 size = Vector2(316, 74)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ia4o6"]
-size = Vector2(316, 99)
+size = Vector2(309, 110)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5tj8q"]
 size = Vector2(316, 95)
@@ -423,20 +435,122 @@ size = Vector2(316, 95)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rvych"]
 size = Vector2(316, 93)
 
-[node name="ZoomedShelf" type="Node2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wqwx8"]
+size = Vector2(480, 152)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2sco6"]
+size = Vector2(456, 258)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pjmp8"]
+size = Vector2(466, 204)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gy10w"]
+size = Vector2(472, 177)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_msedi"]
+size = Vector2(414, 193)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_y4jkw"]
+size = Vector2(453, 114)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_honqv"]
+size = Vector2(487, 187)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ui4jk"]
+size = Vector2(490, 131)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x3v8y"]
+size = Vector2(447, 152)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g0y37"]
+size = Vector2(492, 204)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dd004"]
+size = Vector2(507, 246)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_olv1b"]
+size = Vector2(494, 125)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bqc32"]
+size = Vector2(483, 217)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_iffkd"]
+size = Vector2(461, 195)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kywbr"]
+size = Vector2(458, 168)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cohqv"]
+size = Vector2(448, 185)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wwih5"]
+size = Vector2(434, 177)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_su443"]
+size = Vector2(405, 120)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ti5al"]
+size = Vector2(700, 613)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t4bte"]
+size = Vector2(530, 166)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8btmo"]
+size = Vector2(140, 223)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3c7rq"]
+size = Vector2(675, 295)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8q4kv"]
+size = Vector2(135.5, 341.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bjjo3"]
+size = Vector2(548, 186)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0jvjn"]
+size = Vector2(558, 131)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qn335"]
+size = Vector2(498, 316)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a5l40"]
+size = Vector2(185, 290)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1p6pw"]
+size = Vector2(469, 288.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w5r4b"]
+size = Vector2(205, 291)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_l15km"]
+size = Vector2(681, 269)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lsyqw"]
+size = Vector2(652, 421)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hkv72"]
+size = Vector2(477.5, 196.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_d2x42"]
+size = Vector2(264, 229)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qttls"]
+size = Vector2(372, 278)
+
+[node name="ZoomedShelf" type="Node2D" unique_id=1114582848]
 script = ExtResource("1_l8sh6")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1532789741]
 visible = false
 z_index = -1
 position = Vector2(453, 362)
 rotation = 1.5707964
 scale = Vector2(1.2595948, 3.5714288)
-texture = ExtResource("9_m324c")
+texture = ExtResource("9_olv1b")
 
-[node name="UI" type="CanvasLayer" parent="."]
+[node name="UI" type="CanvasLayer" parent="." unique_id=1840150783]
 
-[node name="InfoPanel" type="Panel" parent="UI"]
+[node name="InfoPanel" type="Panel" parent="UI" unique_id=585876213]
 anchors_preset = 6
 anchor_left = 1.0
 anchor_top = 0.5
@@ -450,20 +564,20 @@ grow_vertical = 2
 size_flags_horizontal = 8
 size_flags_vertical = 4
 
-[node name="VBoxContainer" type="VBoxContainer" parent="UI/InfoPanel"]
+[node name="VBoxContainer" type="VBoxContainer" parent="UI/InfoPanel" unique_id=1928685134]
 layout_mode = 0
 offset_right = 575.0
 offset_bottom = 714.5
 
-[node name="TitleLabel" type="Label" parent="UI/InfoPanel/VBoxContainer"]
+[node name="TitleLabel" type="Label" parent="UI/InfoPanel/VBoxContainer" unique_id=1748025845]
 custom_minimum_size = Vector2(500, 25)
 layout_mode = 2
 
-[node name="EditItemsBox" type="TextEdit" parent="UI/InfoPanel/VBoxContainer"]
+[node name="EditItemsBox" type="TextEdit" parent="UI/InfoPanel/VBoxContainer" unique_id=296783197]
 custom_minimum_size = Vector2(580, 700)
 layout_mode = 2
 
-[node name="ItemsLabel" type="Label" parent="UI/InfoPanel"]
+[node name="ItemsLabel" type="Label" parent="UI/InfoPanel" unique_id=1864473552]
 layout_mode = 0
 offset_left = -1.0
 offset_top = -7.0
@@ -472,7 +586,7 @@ offset_bottom = 715.0
 text = "
 "
 
-[node name="SaveButton" type="TextureButton" parent="UI/InfoPanel"]
+[node name="SaveButton" type="TextureButton" parent="UI/InfoPanel" unique_id=1151157640]
 layout_mode = 0
 offset_left = 26.0
 offset_top = 613.0
@@ -484,7 +598,7 @@ texture_hover = ExtResource("7_opf4h")
 ignore_texture_size = true
 stretch_mode = 0
 
-[node name="CloseButton" type="TextureButton" parent="UI/InfoPanel"]
+[node name="CloseButton" type="TextureButton" parent="UI/InfoPanel" unique_id=2124403747]
 layout_mode = 0
 offset_left = 521.0
 offset_top = 23.5
@@ -496,1200 +610,1546 @@ texture_hover = ExtResource("4_27n2r")
 ignore_texture_size = true
 stretch_mode = 0
 
-[node name="InfoPanel" type="Area2D" parent="."]
+[node name="InfoPanel" type="Area2D" parent="." unique_id=1884497960]
 visible = false
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="InfoPanel"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InfoPanel" unique_id=1878905311]
 visible = false
 position = Vector2(200, 285.5)
 shape = SubResource("RectangleShape2D_35obh")
 
-[node name="Items1" type="Node2D" parent="."]
+[node name="Items1" type="Node2D" parent="." unique_id=561395191]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items1"]
+[node name="Area2D" type="Area2D" parent="Items1" unique_id=16925237]
 priority = 100
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items1/Area2D"]
-position = Vector2(131.46875, 201)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items1/Area2D" unique_id=616511771]
+position = Vector2(147.96875, 191.5)
 shape = SubResource("RectangleShape2D_fu3jt")
 
-[node name="Area2D1" type="Area2D" parent="Items1"]
+[node name="Area2D1" type="Area2D" parent="Items1" unique_id=1869819319]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items1/Area2D1"]
-position = Vector2(352.25, 187.5)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items1/Area2D1" unique_id=519446573]
+position = Vector2(401, 171.5)
 shape = SubResource("RectangleShape2D_jik5t")
 
-[node name="Area2D2" type="Area2D" parent="Items1"]
+[node name="Area2D2" type="Area2D" parent="Items1" unique_id=1220270315]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items1/Area2D2"]
-position = Vector2(184.78125, 426.5)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items1/Area2D2" unique_id=491122117]
+position = Vector2(209.5, 446)
 shape = SubResource("RectangleShape2D_sfjxu")
 
-[node name="Area2D3" type="Area2D" parent="Items1"]
+[node name="Area2D3" type="Area2D" parent="Items1" unique_id=1793842656]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items1/Area2D3"]
-position = Vector2(97, 376.5)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items1/Area2D3" unique_id=1533053953]
+position = Vector2(106, 390)
 shape = SubResource("RectangleShape2D_lovc7")
 
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="Items1/Area2D3"]
-position = Vector2(163.5, 333)
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Items1/Area2D3" unique_id=178549100]
+position = Vector2(183, 340)
 shape = SubResource("RectangleShape2D_54kvq")
 
-[node name="Area2D4" type="Area2D" parent="Items1"]
+[node name="Area2D4" type="Area2D" parent="Items1" unique_id=271471338]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items1/Area2D4"]
-position = Vector2(316.25, 422.5)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items1/Area2D4" unique_id=1444117827]
+position = Vector2(359.5, 436)
 shape = SubResource("RectangleShape2D_tfpit")
 
-[node name="Area2D5" type="Area2D" parent="Items1"]
+[node name="Area2D5" type="Area2D" parent="Items1" unique_id=372778969]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items1/Area2D5"]
-position = Vector2(370.375, 326)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items1/Area2D5" unique_id=2047815753]
+position = Vector2(422, 326)
 shape = SubResource("RectangleShape2D_cn1x3")
 
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="Items1/Area2D5"]
-position = Vector2(412, 423)
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Items1/Area2D5" unique_id=1865227946]
+position = Vector2(468.5, 428)
 shape = SubResource("RectangleShape2D_0nqke")
 
-[node name="Area2D8" type="Area2D" parent="Items1"]
+[node name="Area2D8" type="Area2D" parent="Items1" unique_id=1021431968]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items1/Area2D8"]
-position = Vector2(248, 599)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items1/Area2D8" unique_id=1086811125]
+position = Vector2(279.5, 643)
 shape = SubResource("RectangleShape2D_3vjgh")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items1"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items1" unique_id=900654802]
 z_index = -1
-position = Vector2(240, 360)
-scale = Vector2(0.466875, 0.466875)
-texture = ExtResource("9_m324c")
+position = Vector2(272.48, 368.39984)
+scale = Vector2(0.5342187, 0.5342187)
+texture = ExtResource("9_olv1b")
 
-[node name="Items2" type="Node2D" parent="."]
+[node name="Items2" type="Node2D" parent="." unique_id=1236278515]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items2"]
+[node name="Area2D" type="Area2D" parent="Items2" unique_id=1097868900]
 priority = 200
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items2/Area2D"]
-position = Vector2(93.5, 185)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items2/Area2D" unique_id=1793782855]
+position = Vector2(96, 185)
 shape = SubResource("RectangleShape2D_olekb")
 
-[node name="Area2D2" type="Area2D" parent="Items2"]
+[node name="Area2D2" type="Area2D" parent="Items2" unique_id=238499369]
 priority = 201
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items2/Area2D2"]
-position = Vector2(243.25, 157)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items2/Area2D2" unique_id=1082844372]
+position = Vector2(261, 157)
 shape = SubResource("RectangleShape2D_fwqdl")
 
-[node name="Area2D3" type="Area2D" parent="Items2"]
+[node name="Area2D3" type="Area2D" parent="Items2" unique_id=1513791725]
 priority = 202
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items2/Area2D3"]
-position = Vector2(390.5, 165)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items2/Area2D3" unique_id=764905033]
+position = Vector2(419, 158)
 shape = SubResource("RectangleShape2D_mpf17")
 
-[node name="Area2D4" type="Area2D" parent="Items2"]
+[node name="Area2D4" type="Area2D" parent="Items2" unique_id=2001402015]
 priority = 203
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items2/Area2D4"]
-position = Vector2(241, 405.5)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items2/Area2D4" unique_id=882921819]
+position = Vector2(254.5, 410)
 shape = SubResource("RectangleShape2D_dbdrj")
 
-[node name="Area2D5" type="Area2D" parent="Items2"]
+[node name="Area2D5" type="Area2D" parent="Items2" unique_id=611141787]
 priority = 204
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items2/Area2D5"]
-position = Vector2(248, 611)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items2/Area2D5" unique_id=281123255]
+position = Vector2(263.5, 621)
 shape = SubResource("RectangleShape2D_rdobw")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items2"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items2" unique_id=1873522639]
 z_index = -1
-position = Vector2(240, 360)
-scale = Vector2(0.4688281, 0.4688281)
+position = Vector2(253.48001, 362.27158)
+scale = Vector2(0.5010156, 0.5010156)
 texture = ExtResource("10_fcxso")
 
-[node name="Items3" type="Node2D" parent="."]
+[node name="Items3" type="Node2D" parent="." unique_id=679296966]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items3"]
+[node name="Area2D" type="Area2D" parent="Items3" unique_id=511502411]
 priority = 300
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3/Area2D" unique_id=1836576773]
 position = Vector2(237.5, 288.5)
 shape = SubResource("RectangleShape2D_0es4x")
 
-[node name="Area2D2" type="Area2D" parent="Items3"]
+[node name="Area2D2" type="Area2D" parent="Items3" unique_id=1314518610]
 priority = 301
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3/Area2D2" unique_id=1522592168]
 position = Vector2(240.5, 604.5)
 shape = SubResource("RectangleShape2D_yqryp")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items3"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items3" unique_id=922884905]
 z_index = -1
 position = Vector2(240, 360)
 scale = Vector2(0.4707812, 0.4707812)
 texture = ExtResource("11_h2514")
 
-[node name="Items4" type="Node2D" parent="."]
+[node name="Items4" type="Node2D" parent="." unique_id=1381364230]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items4"]
+[node name="Area2D" type="Area2D" parent="Items4" unique_id=495371379]
 priority = 3
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items4/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items4/Area2D" unique_id=1569361437]
 position = Vector2(242.5, 259.5)
 shape = SubResource("RectangleShape2D_edcgf")
 
-[node name="Area2D2" type="Area2D" parent="Items4"]
+[node name="Area2D2" type="Area2D" parent="Items4" unique_id=1164905324]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items4/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items4/Area2D2" unique_id=727934257]
 position = Vector2(240.25, 592.5)
 shape = SubResource("RectangleShape2D_uar1a")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items4"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items4" unique_id=620540591]
 z_index = -1
 position = Vector2(240.95999, 361.44)
 scale = Vector2(0.4707812, 0.4707812)
 texture = ExtResource("12_7ktf3")
 
-[node name="Items5" type="Node2D" parent="."]
+[node name="Items5" type="Node2D" parent="." unique_id=2122848745]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items5"]
+[node name="Area2D" type="Area2D" parent="Items5" unique_id=1398937112]
 priority = 500
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5/Area2D" unique_id=582260999]
 position = Vector2(92.5, 192.5)
 shape = SubResource("RectangleShape2D_bsahm")
 
-[node name="Area2D2" type="Area2D" parent="Items5"]
+[node name="Area2D2" type="Area2D" parent="Items5" unique_id=1189190317]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5/Area2D2" unique_id=1596929001]
 position = Vector2(344, 141.5)
 shape = SubResource("RectangleShape2D_2bj4t")
 
-[node name="Area2D3" type="Area2D" parent="Items5"]
+[node name="Area2D3" type="Area2D" parent="Items5" unique_id=1649679214]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5/Area2D3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5/Area2D3" unique_id=1898595964]
 position = Vector2(107.515625, 391)
 shape = SubResource("RectangleShape2D_w3xya")
 
-[node name="Area2D4" type="Area2D" parent="Items5"]
+[node name="Area2D4" type="Area2D" parent="Items5" unique_id=1551112625]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5/Area2D4"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5/Area2D4" unique_id=291340911]
 position = Vector2(336.625, 365.5)
 shape = SubResource("RectangleShape2D_bdjku")
 
-[node name="Area2D5" type="Area2D" parent="Items5"]
+[node name="Area2D5" type="Area2D" parent="Items5" unique_id=1762096339]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5/Area2D5"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5/Area2D5" unique_id=333726188]
 position = Vector2(83, 589.5)
 shape = SubResource("RectangleShape2D_4ypxp")
 
-[node name="Area2D6" type="Area2D" parent="Items5"]
+[node name="Area2D6" type="Area2D" parent="Items5" unique_id=1546136547]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5/Area2D6"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5/Area2D6" unique_id=516079044]
 position = Vector2(218.5, 580)
 shape = SubResource("RectangleShape2D_mwyvs")
 
-[node name="Area2D7" type="Area2D" parent="Items5"]
+[node name="Area2D7" type="Area2D" parent="Items5" unique_id=2100997783]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5/Area2D7"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5/Area2D7" unique_id=1967514827]
 position = Vector2(371.6875, 598)
 shape = SubResource("RectangleShape2D_t1waj")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items5"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items5" unique_id=1927276717]
 z_index = -1
 position = Vector2(239.45999, 359.19)
 scale = Vector2(0.46785152, 0.46785152)
 texture = ExtResource("13_wt4nx")
 
-[node name="Items6" type="Node2D" parent="."]
+[node name="Items6" type="Node2D" parent="." unique_id=489832836]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items6"]
+[node name="Area2D" type="Area2D" parent="Items6" unique_id=1697067870]
 priority = 600
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items6/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items6/Area2D" unique_id=1097512400]
 position = Vector2(238.21875, 159.5)
 shape = SubResource("RectangleShape2D_2bro6")
 
-[node name="Area2D2" type="Area2D" parent="Items6"]
+[node name="Area2D2" type="Area2D" parent="Items6" unique_id=1631087097]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items6/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items6/Area2D2" unique_id=757602199]
 position = Vector2(239, 377)
 shape = SubResource("RectangleShape2D_dexhr")
 
-[node name="Area2D3" type="Area2D" parent="Items6"]
+[node name="Area2D3" type="Area2D" parent="Items6" unique_id=1381499067]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items6/Area2D3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items6/Area2D3" unique_id=269751075]
 position = Vector2(239.5, 590.5)
 shape = SubResource("RectangleShape2D_vmirf")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items6"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items6" unique_id=1016226108]
 z_index = -1
 position = Vector2(239.00002, 358.5)
 scale = Vector2(0.46679685, 0.46679685)
 texture = ExtResource("14_vn07k")
 
-[node name="Items7" type="Node2D" parent="."]
+[node name="Items7" type="Node2D" parent="." unique_id=1927708244]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items7"]
+[node name="Area2D" type="Area2D" parent="Items7" unique_id=1853367332]
 priority = 1100
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7/Area2D" unique_id=1388978586]
 position = Vector2(363, 254)
 shape = SubResource("RectangleShape2D_m324c")
 
-[node name="Area2D2" type="Area2D" parent="Items7"]
+[node name="Area2D2" type="Area2D" parent="Items7" unique_id=1506477069]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7/Area2D2" unique_id=772271870]
 position = Vector2(363, 487)
 shape = SubResource("RectangleShape2D_fcxso")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items7"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items7" unique_id=114055014]
 z_index = -1
 position = Vector2(360, 361)
 scale = Vector2(0.46679685, 0.46679685)
 texture = ExtResource("15_85m51")
 
-[node name="Items8" type="Node2D" parent="."]
+[node name="Items8" type="Node2D" parent="." unique_id=1951696683]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items8"]
+[node name="Area2D" type="Area2D" parent="Items8" unique_id=2093507400]
 priority = 1200
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items8/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items8/Area2D" unique_id=1857840867]
 position = Vector2(366.5, 250)
 shape = SubResource("RectangleShape2D_ogtxa")
 
-[node name="Area2D2" type="Area2D" parent="Items8"]
+[node name="Area2D2" type="Area2D" parent="Items8" unique_id=636986476]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items8/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items8/Area2D2" unique_id=1588277402]
 position = Vector2(352, 475.5)
 shape = SubResource("RectangleShape2D_d4ato")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items8"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items8" unique_id=154757521]
 z_index = -1
 position = Vector2(360, 360)
 scale = Vector2(0.46679685, 0.46679685)
 texture = ExtResource("16_thlon")
 
-[node name="Items9" type="Node2D" parent="."]
+[node name="Items9" type="Node2D" parent="." unique_id=1925920084]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items9"]
+[node name="Area2D" type="Area2D" parent="Items9" unique_id=15682257]
 priority = 900
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items9/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items9/Area2D" unique_id=1909998571]
 position = Vector2(167.5, 378)
 shape = SubResource("RectangleShape2D_h2514")
 
-[node name="Area2D2" type="Area2D" parent="Items9"]
+[node name="Area2D2" type="Area2D" parent="Items9" unique_id=1415752893]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items9/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items9/Area2D2" unique_id=555818453]
 position = Vector2(486, 375)
 shape = SubResource("RectangleShape2D_ccrrt")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items9"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items9" unique_id=2079705525]
 z_index = -1
 position = Vector2(349.87894, 334.69922)
 scale = Vector2(0.5153984, 0.5153984)
 texture = ExtResource("17_a3kvo")
 
-[node name="Items10" type="Node2D" parent="."]
+[node name="Items10" type="Node2D" parent="." unique_id=735868730]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items10"]
+[node name="Area2D" type="Area2D" parent="Items10" unique_id=1108058]
 priority = 1000
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items10/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items10/Area2D" unique_id=664223599]
 position = Vector2(181.5, 360)
 shape = SubResource("RectangleShape2D_eoamp")
 
-[node name="Area2D2" type="Area2D" parent="Items10"]
+[node name="Area2D2" type="Area2D" parent="Items10" unique_id=1487780858]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items10/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items10/Area2D2" unique_id=1288610136]
 position = Vector2(463.5, 363.5)
 shape = SubResource("RectangleShape2D_ukddd")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items10"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items10" unique_id=82935131]
 z_index = -1
 position = Vector2(353.52048, 328.46094)
 scale = Vector2(0.5388229, 0.5388229)
 texture = ExtResource("18_aa2tx")
 
-[node name="Items11" type="Node2D" parent="."]
+[node name="Items11" type="Node2D" parent="." unique_id=903153426]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items11"]
+[node name="Area2D" type="Area2D" parent="Items11" unique_id=105074593]
 priority = 700
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items11/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items11/Area2D" unique_id=679886430]
 position = Vector2(271.5, 370)
 shape = SubResource("RectangleShape2D_cyvns")
 
-[node name="Area2D2" type="Area2D" parent="Items11"]
+[node name="Area2D2" type="Area2D" parent="Items11" unique_id=517051312]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items11/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items11/Area2D2" unique_id=264110767]
 position = Vector2(601.5, 439)
 shape = SubResource("RectangleShape2D_85b2i")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items11"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items11" unique_id=1437211229]
 z_index = -1
 position = Vector2(360, 363)
 scale = Vector2(0.46679685, 0.46679685)
 texture = ExtResource("19_ccrrt")
 
-[node name="Items12" type="Node2D" parent="."]
+[node name="Items12" type="Node2D" parent="." unique_id=242095201]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items12"]
+[node name="Area2D" type="Area2D" parent="Items12" unique_id=703523111]
 priority = 800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items12/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items12/Area2D" unique_id=2075014]
 position = Vector2(140, 349)
 shape = SubResource("RectangleShape2D_80jye")
 
-[node name="Area2D2" type="Area2D" parent="Items12"]
+[node name="Area2D2" type="Area2D" parent="Items12" unique_id=1937215305]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items12/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items12/Area2D2" unique_id=56454290]
 position = Vector2(355, 376.5)
 shape = SubResource("RectangleShape2D_agogr")
 
-[node name="Area2D3" type="Area2D" parent="Items12"]
+[node name="Area2D3" type="Area2D" parent="Items12" unique_id=1513920761]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items12/Area2D3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items12/Area2D3" unique_id=683031364]
 position = Vector2(571.5, 412)
 shape = SubResource("RectangleShape2D_xy0c6")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items12"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items12" unique_id=432726564]
 z_index = -1
 position = Vector2(360, 359)
 scale = Vector2(0.46679685, 0.46679685)
 texture = ExtResource("20_ogtxa")
 
-[node name="Items13" type="Node2D" parent="."]
+[node name="Items13" type="Node2D" parent="." unique_id=1336644517]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items13"]
+[node name="Area2D" type="Area2D" parent="Items13" unique_id=387829969]
 priority = 1300
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items13/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items13/Area2D" unique_id=777593390]
 position = Vector2(104.5, 136.5)
 shape = SubResource("RectangleShape2D_j3c15")
 
-[node name="Area2D2" type="Area2D" parent="Items13"]
+[node name="Area2D2" type="Area2D" parent="Items13" unique_id=950656438]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items13/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items13/Area2D2" unique_id=303840820]
 position = Vector2(331, 143)
 shape = SubResource("RectangleShape2D_jnrln")
 
-[node name="Area2D3" type="Area2D" parent="Items13"]
+[node name="Area2D3" type="Area2D" parent="Items13" unique_id=1360387403]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items13/Area2D3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items13/Area2D3" unique_id=1399490111]
 position = Vector2(236, 428.5)
 shape = SubResource("RectangleShape2D_raa0r")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items13"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items13" unique_id=713728150]
 z_index = -1
 position = Vector2(239.00002, 358.5)
 scale = Vector2(0.46679685, 0.46679685)
 texture = ExtResource("21_d4ato")
 
-[node name="Items14" type="Node2D" parent="."]
+[node name="Items14" type="Node2D" parent="." unique_id=1532961820]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items14"]
+[node name="Area2D" type="Area2D" parent="Items14" unique_id=1064513515]
 priority = 1400
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items14/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items14/Area2D" unique_id=1042252485]
 position = Vector2(237.5, 162.5)
 shape = SubResource("RectangleShape2D_b2qrr")
 
-[node name="Area2D2" type="Area2D" parent="Items14"]
+[node name="Area2D2" type="Area2D" parent="Items14" unique_id=951246480]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items14/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items14/Area2D2" unique_id=1812718778]
 position = Vector2(185.5, 469)
 shape = SubResource("RectangleShape2D_7ktf3")
 
-[node name="Area2D3" type="Area2D" parent="Items14"]
+[node name="Area2D3" type="Area2D" parent="Items14" unique_id=322727157]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items14/Area2D3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items14/Area2D3" unique_id=1772728735]
 position = Vector2(398.5, 454.5)
 shape = SubResource("RectangleShape2D_vn07k")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items14"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items14" unique_id=704136148]
 z_index = -1
 position = Vector2(239.00002, 358.5)
 scale = Vector2(0.46679685, 0.46679685)
 texture = ExtResource("22_80jye")
 
-[node name="Items15" type="Node2D" parent="."]
+[node name="Items15" type="Node2D" parent="." unique_id=2124749425]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items15"]
+[node name="Area2D" type="Area2D" parent="Items15" unique_id=1130350555]
 priority = 1500
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items15/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items15/Area2D" unique_id=1927592822]
 position = Vector2(305, 123)
 shape = SubResource("RectangleShape2D_srj61")
 
-[node name="Area2D2" type="Area2D" parent="Items15"]
+[node name="Area2D2" type="Area2D" parent="Items15" unique_id=190949042]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items15/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items15/Area2D2" unique_id=1890607973]
 position = Vector2(296, 277.5)
 shape = SubResource("RectangleShape2D_koryk")
 
-[node name="Area2D3" type="Area2D" parent="Items15"]
+[node name="Area2D3" type="Area2D" parent="Items15" unique_id=1215338790]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items15/Area2D3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items15/Area2D3" unique_id=405264367]
 position = Vector2(293.5, 374)
 shape = SubResource("RectangleShape2D_3wjff")
 
-[node name="Area2D4" type="Area2D" parent="Items15"]
+[node name="Area2D4" type="Area2D" parent="Items15" unique_id=571652332]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items15/Area2D4"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items15/Area2D4" unique_id=315409860]
 position = Vector2(142.5, 492)
 shape = SubResource("RectangleShape2D_iw500")
 
-[node name="Area2D5" type="Area2D" parent="Items15"]
+[node name="Area2D5" type="Area2D" parent="Items15" unique_id=482184399]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items15/Area2D5"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items15/Area2D5" unique_id=523292667]
 position = Vector2(380.5, 491)
 shape = SubResource("RectangleShape2D_hmovb")
 
-[node name="Area2D6" type="Area2D" parent="Items15"]
+[node name="Area2D6" type="Area2D" parent="Items15" unique_id=949713604]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items15/Area2D6"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items15/Area2D6" unique_id=826905217]
 position = Vector2(297, 596.5)
 shape = SubResource("RectangleShape2D_dgqc6")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items15"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items15" unique_id=753452382]
 z_index = -1
 position = Vector2(294.93753, 360.23322)
 scale = Vector2(0.65638953, 0.65638953)
 texture = ExtResource("23_xy0c6")
 
-[node name="Items16" type="Node2D" parent="."]
+[node name="Items16" type="Node2D" parent="." unique_id=1276416785]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items16"]
+[node name="Area2D" type="Area2D" parent="Items16" unique_id=1235674605]
 priority = 1600
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items16/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items16/Area2D" unique_id=296351353]
 position = Vector2(315.5, 177.5)
 shape = SubResource("RectangleShape2D_a3kvo")
 
-[node name="Area2D2" type="Area2D" parent="Items16"]
+[node name="Area2D2" type="Area2D" parent="Items16" unique_id=440435190]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items16/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items16/Area2D2" unique_id=1407244733]
 position = Vector2(366, 413)
 shape = SubResource("RectangleShape2D_aa2tx")
 
-[node name="Area2D5" type="Area2D" parent="Items16"]
+[node name="Area2D5" type="Area2D" parent="Items16" unique_id=392838096]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items16/Area2D5"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items16/Area2D5" unique_id=2114796934]
 position = Vector2(138.5, 413)
 shape = SubResource("RectangleShape2D_n871k")
 
-[node name="Area2D3" type="Area2D" parent="Items16"]
+[node name="Area2D3" type="Area2D" parent="Items16" unique_id=1511762879]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items16/Area2D3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items16/Area2D3" unique_id=858527488]
 position = Vector2(224, 598)
 shape = SubResource("RectangleShape2D_ausqk")
 
-[node name="Area2D4" type="Area2D" parent="Items16"]
+[node name="Area2D4" type="Area2D" parent="Items16" unique_id=1361139778]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items16/Area2D4"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items16/Area2D4" unique_id=1596167350]
 position = Vector2(458.5, 598)
 shape = SubResource("RectangleShape2D_pnvni")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items16"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items16" unique_id=76101830]
 z_index = -1
 position = Vector2(308, 355)
 scale = Vector2(0.46679685, 0.46679685)
 texture = ExtResource("24_pv1ug")
 
-[node name="Items17" type="Node2D" parent="."]
+[node name="Items17" type="Node2D" parent="." unique_id=603015506]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items17"]
+[node name="Area2D" type="Area2D" parent="Items17" unique_id=441383078]
 priority = 1700
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items17/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items17/Area2D" unique_id=1297814372]
 position = Vector2(234.5, 147)
 shape = SubResource("RectangleShape2D_uyxis")
 
-[node name="Area2D2" type="Area2D" parent="Items17"]
+[node name="Area2D2" type="Area2D" parent="Items17" unique_id=1753982977]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items17/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items17/Area2D2" unique_id=133053882]
 position = Vector2(233.5, 282.5)
 shape = SubResource("RectangleShape2D_j6y5j")
 
-[node name="Area2D3" type="Area2D" parent="Items17"]
+[node name="Area2D3" type="Area2D" parent="Items17" unique_id=1358148616]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items17/Area2D3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items17/Area2D3" unique_id=1140505723]
 position = Vector2(122.5, 424.5)
 shape = SubResource("RectangleShape2D_gqevb")
 
-[node name="Area2D4" type="Area2D" parent="Items17"]
+[node name="Area2D4" type="Area2D" parent="Items17" unique_id=1394318343]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items17/Area2D4"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items17/Area2D4" unique_id=895574438]
 position = Vector2(331.5, 427.5)
 shape = SubResource("RectangleShape2D_l8ac1")
 
-[node name="Area2D5" type="Area2D" parent="Items17"]
+[node name="Area2D5" type="Area2D" parent="Items17" unique_id=444621862]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items17/Area2D5"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items17/Area2D5" unique_id=2136697705]
 position = Vector2(228, 589.5)
 shape = SubResource("RectangleShape2D_sfmv8")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items17"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items17" unique_id=1090240493]
 z_index = -1
 position = Vector2(239.00002, 358.5)
 scale = Vector2(0.46679685, 0.46679685)
 texture = ExtResource("25_1a6b5")
 
-[node name="Items18" type="Node2D" parent="."]
+[node name="Items18" type="Node2D" parent="." unique_id=635064283]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items18"]
+[node name="Area2D" type="Area2D" parent="Items18" unique_id=405328864]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items18/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items18/Area2D" unique_id=1682617401]
 position = Vector2(139.5, 122)
 shape = SubResource("RectangleShape2D_ghuna")
 
-[node name="Area2D2" type="Area2D" parent="Items18"]
+[node name="Area2D2" type="Area2D" parent="Items18" unique_id=260421228]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items18/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items18/Area2D2" unique_id=658658204]
 position = Vector2(373, 137)
 shape = SubResource("RectangleShape2D_q6uxm")
 
-[node name="Area2D3" type="Area2D" parent="Items18"]
+[node name="Area2D3" type="Area2D" parent="Items18" unique_id=380507470]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items18/Area2D3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items18/Area2D3" unique_id=77735480]
 position = Vector2(159, 346)
 shape = SubResource("RectangleShape2D_1tgfj")
 
-[node name="Area2D4" type="Area2D" parent="Items18"]
+[node name="Area2D4" type="Area2D" parent="Items18" unique_id=745156135]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items18/Area2D4"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items18/Area2D4" unique_id=312838237]
 position = Vector2(381.5, 347)
 shape = SubResource("RectangleShape2D_asffg")
 
-[node name="Area2D5" type="Area2D" parent="Items18"]
+[node name="Area2D5" type="Area2D" parent="Items18" unique_id=1942573481]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items18/Area2D5"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items18/Area2D5" unique_id=1454168982]
 position = Vector2(243.5, 572)
 shape = SubResource("RectangleShape2D_thlon")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items18"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items18" unique_id=1982489085]
 z_index = -1
 position = Vector2(239.00002, 358.5)
 scale = Vector2(0.46679685, 0.46679685)
 texture = ExtResource("26_ausqk")
 
-[node name="ItemsWall1" type="Node2D" parent="."]
+[node name="ItemsWall1" type="Node2D" parent="." unique_id=922799839]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="ItemsWall1"]
+[node name="Area2D" type="Area2D" parent="ItemsWall1" unique_id=1490201598]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="ItemsWall1/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ItemsWall1/Area2D" unique_id=1543582621]
 position = Vector2(348.5, 336.5)
 shape = SubResource("RectangleShape2D_1a6b5")
 
-[node name="HighlightSprite" type="Sprite2D" parent="ItemsWall1"]
+[node name="HighlightSprite" type="Sprite2D" parent="ItemsWall1" unique_id=2042649341]
 z_index = -1
 position = Vector2(348.55914, 410.9375)
 scale = Vector2(0.58272874, 0.58272874)
 texture = ExtResource("27_yqryp")
 
-[node name="ItemsWall2" type="Node2D" parent="."]
+[node name="ItemsWall2" type="Node2D" parent="." unique_id=743208925]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="ItemsWall2"]
+[node name="Area2D" type="Area2D" parent="ItemsWall2" unique_id=1518429042]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="ItemsWall2/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ItemsWall2/Area2D" unique_id=491756591]
 position = Vector2(354.5, 223)
 shape = SubResource("RectangleShape2D_b5oxd")
 
-[node name="HighlightSprite" type="Sprite2D" parent="ItemsWall2"]
+[node name="HighlightSprite" type="Sprite2D" parent="ItemsWall2" unique_id=189412086]
 z_index = -1
 position = Vector2(356, 238)
 scale = Vector2(0.46679685, 0.46679685)
 texture = ExtResource("28_2bro6")
 
-[node name="ItemsWall3" type="Node2D" parent="."]
+[node name="ItemsWall3" type="Node2D" parent="." unique_id=2120349032]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="ItemsWall3"]
+[node name="Area2D" type="Area2D" parent="ItemsWall3" unique_id=790442138]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="ItemsWall3/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ItemsWall3/Area2D" unique_id=1379957204]
 position = Vector2(354.5, 223)
 shape = SubResource("RectangleShape2D_b5oxd")
 
-[node name="HighlightSprite" type="Sprite2D" parent="ItemsWall3"]
+[node name="HighlightSprite" type="Sprite2D" parent="ItemsWall3" unique_id=2033285293]
 z_index = -1
 position = Vector2(356, 238)
 scale = Vector2(0.46679685, 0.46679685)
 texture = ExtResource("28_2bro6")
 
-[node name="ItemsWall4" type="Node2D" parent="."]
+[node name="ItemsWall4" type="Node2D" parent="." unique_id=117256535]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="ItemsWall4"]
+[node name="Area2D" type="Area2D" parent="ItemsWall4" unique_id=1349646661]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="ItemsWall4/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ItemsWall4/Area2D" unique_id=348161119]
 position = Vector2(354.5, 223)
 shape = SubResource("RectangleShape2D_b5oxd")
 
-[node name="HighlightSprite" type="Sprite2D" parent="ItemsWall4"]
+[node name="HighlightSprite" type="Sprite2D" parent="ItemsWall4" unique_id=2072531119]
 z_index = -1
 position = Vector2(356, 238)
 scale = Vector2(0.46679685, 0.46679685)
 texture = ExtResource("28_2bro6")
 
-[node name="ItemsWall5" type="Node2D" parent="."]
+[node name="ItemsWall5" type="Node2D" parent="." unique_id=1795391122]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="ItemsWall5"]
+[node name="Area2D" type="Area2D" parent="ItemsWall5" unique_id=2100129269]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="ItemsWall5/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ItemsWall5/Area2D" unique_id=1482816826]
 position = Vector2(364.5, 477)
 shape = SubResource("RectangleShape2D_2qfgo")
 
-[node name="HighlightSprite" type="Sprite2D" parent="ItemsWall5"]
+[node name="HighlightSprite" type="Sprite2D" parent="ItemsWall5" unique_id=2053344812]
 z_index = -1
 position = Vector2(349.83334, 441.625)
 scale = Vector2(0.6832682, 0.6832682)
 texture = ExtResource("30_yqryp")
 
-[node name="ItemsWall6" type="Node2D" parent="."]
+[node name="ItemsWall6" type="Node2D" parent="." unique_id=1681274988]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="ItemsWall6"]
+[node name="Area2D" type="Area2D" parent="ItemsWall6" unique_id=1865101121]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="ItemsWall6/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ItemsWall6/Area2D" unique_id=431813730]
 position = Vector2(348, 360.25)
 shape = SubResource("RectangleShape2D_ypi2x")
 
-[node name="HighlightSprite" type="Sprite2D" parent="ItemsWall6"]
+[node name="HighlightSprite" type="Sprite2D" parent="ItemsWall6" unique_id=1060109763]
 z_index = -1
 position = Vector2(350.2288, 406.4375)
 scale = Vector2(0.58384484, 0.5838448)
 texture = ExtResource("29_raa0r")
 
-[node name="ItemsWall7" type="Node2D" parent="."]
+[node name="ItemsWall7" type="Node2D" parent="." unique_id=1791284971]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="ItemsWall7"]
+[node name="Area2D" type="Area2D" parent="ItemsWall7" unique_id=400102485]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="ItemsWall7/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ItemsWall7/Area2D" unique_id=1674573769]
 position = Vector2(335, 440.75)
 shape = SubResource("RectangleShape2D_im3er")
 
-[node name="HighlightSprite" type="Sprite2D" parent="ItemsWall7"]
+[node name="HighlightSprite" type="Sprite2D" parent="ItemsWall7" unique_id=444457673]
 z_index = -1
 position = Vector2(347.55923, 405.93753)
 scale = Vector2(0.58272886, 0.58272886)
 texture = ExtResource("31_2bro6")
 
-[node name="Items3_1" type="Node2D" parent="."]
+[node name="Items3_1" type="Node2D" parent="." unique_id=515892170]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items3_1"]
+[node name="Area2D" type="Area2D" parent="Items3_1" unique_id=411288125]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_1/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_1/Area2D" unique_id=1395974568]
 position = Vector2(328, 226.25)
 shape = SubResource("RectangleShape2D_yvx5i")
 
-[node name="Area2D2" type="Area2D" parent="Items3_1"]
+[node name="Area2D2" type="Area2D" parent="Items3_1" unique_id=701555155]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_1/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_1/Area2D2" unique_id=1649608515]
 position = Vector2(351, 455)
 shape = SubResource("RectangleShape2D_6iui7")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items3_1"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items3_1" unique_id=1409898784]
 z_index = -1
 position = Vector2(358, 338)
 scale = Vector2(0.46679685, 0.46679685)
 texture = ExtResource("32_m324c")
 
-[node name="Items3_2" type="Node2D" parent="."]
+[node name="Items3_2" type="Node2D" parent="." unique_id=1066180475]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items3_2"]
+[node name="Area2D" type="Area2D" parent="Items3_2" unique_id=1550844037]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_2/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_2/Area2D" unique_id=407957569]
 position = Vector2(367, 350.75)
 shape = SubResource("RectangleShape2D_0o1ub")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items3_2"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items3_2" unique_id=102483458]
 z_index = -1
 position = Vector2(339, 351)
 scale = Vector2(0.46679685, 0.46679685)
 texture = ExtResource("33_fcxso")
 
-[node name="Items3_3" type="Node2D" parent="."]
+[node name="Items3_3" type="Node2D" parent="." unique_id=228118998]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items3_3"]
+[node name="Area2D" type="Area2D" parent="Items3_3" unique_id=293515800]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_3/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_3/Area2D" unique_id=1842439582]
 position = Vector2(373, 201.75)
 shape = SubResource("RectangleShape2D_yondx")
 
-[node name="Area2D2" type="Area2D" parent="Items3_3"]
+[node name="Area2D2" type="Area2D" parent="Items3_3" unique_id=157180437]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_3/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_3/Area2D2" unique_id=885183033]
 position = Vector2(376, 457)
 shape = SubResource("RectangleShape2D_wt4nx")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items3_3"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items3_3" unique_id=91478176]
 z_index = -1
 position = Vector2(349, 326)
 scale = Vector2(0.46679685, 0.46679685)
 texture = ExtResource("34_h2514")
 
-[node name="Items3_4" type="Node2D" parent="."]
+[node name="Items3_4" type="Node2D" parent="." unique_id=20689742]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items3_4"]
+[node name="Area2D" type="Area2D" parent="Items3_4" unique_id=2124465913]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_4/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_4/Area2D" unique_id=2092285845]
 position = Vector2(221.5, 93)
 shape = SubResource("RectangleShape2D_nofvq")
 
-[node name="Area2D2" type="Area2D" parent="Items3_4"]
+[node name="Area2D2" type="Area2D" parent="Items3_4" unique_id=232132210]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_4/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_4/Area2D2" unique_id=382317879]
 position = Vector2(214.5, 291.5)
 shape = SubResource("RectangleShape2D_vkmcx")
 
-[node name="Area2D3" type="Area2D" parent="Items3_4"]
+[node name="Area2D3" type="Area2D" parent="Items3_4" unique_id=114079067]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_4/Area2D3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_4/Area2D3" unique_id=1840906493]
 position = Vector2(217.5, 457.5)
 shape = SubResource("RectangleShape2D_elpe4")
 
-[node name="Area2D4" type="Area2D" parent="Items3_4"]
+[node name="Area2D4" type="Area2D" parent="Items3_4" unique_id=1921468355]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_4/Area2D4"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_4/Area2D4" unique_id=1432190823]
 position = Vector2(220.5, 629)
 shape = SubResource("RectangleShape2D_hdw57")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items3_4"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items3_4" unique_id=612319343]
 z_index = -1
 position = Vector2(239.00002, 358.5)
 scale = Vector2(0.46679685, 0.46679685)
 texture = ExtResource("35_7ktf3")
 
-[node name="Items3_5" type="Node2D" parent="."]
+[node name="Items3_5" type="Node2D" parent="." unique_id=855112325]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items3_5"]
+[node name="Area2D" type="Area2D" parent="Items3_5" unique_id=1434304430]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_5/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_5/Area2D" unique_id=1206724136]
 position = Vector2(233, 69.5)
 shape = SubResource("RectangleShape2D_uepsy")
 
-[node name="Area2D2" type="Area2D" parent="Items3_5"]
+[node name="Area2D2" type="Area2D" parent="Items3_5" unique_id=1755227983]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_5/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_5/Area2D2" unique_id=2081946460]
 position = Vector2(231.5, 232.5)
 shape = SubResource("RectangleShape2D_g66ll")
 
-[node name="Area2D3" type="Area2D" parent="Items3_5"]
+[node name="Area2D3" type="Area2D" parent="Items3_5" unique_id=505173033]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_5/Area2D3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_5/Area2D3" unique_id=36031872]
 position = Vector2(232, 392.5)
 shape = SubResource("RectangleShape2D_omknb")
 
-[node name="Area2D4" type="Area2D" parent="Items3_5"]
+[node name="Area2D4" type="Area2D" parent="Items3_5" unique_id=393665929]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_5/Area2D4"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_5/Area2D4" unique_id=532459174]
 position = Vector2(229.5, 537)
 shape = SubResource("RectangleShape2D_402bc")
 
-[node name="Area2D5" type="Area2D" parent="Items3_5"]
+[node name="Area2D5" type="Area2D" parent="Items3_5" unique_id=243490600]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_5/Area2D5"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_5/Area2D5" unique_id=1242225326]
 position = Vector2(236.5, 654.5)
 shape = SubResource("RectangleShape2D_wrni5")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items3_5"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items3_5" unique_id=117573070]
 z_index = -1
 position = Vector2(239.00002, 358.5)
 scale = Vector2(0.46679685, 0.46679685)
 texture = ExtResource("36_wt4nx")
 
-[node name="Items3_6" type="Node2D" parent="."]
+[node name="Items3_6" type="Node2D" parent="." unique_id=55480841]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items3_6"]
+[node name="Area2D" type="Area2D" parent="Items3_6" unique_id=481207010]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_6/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_6/Area2D" unique_id=45809740]
 position = Vector2(250.25, 96)
 shape = SubResource("RectangleShape2D_v25kx")
 
-[node name="Area2D2" type="Area2D" parent="Items3_6"]
+[node name="Area2D2" type="Area2D" parent="Items3_6" unique_id=659202631]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_6/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_6/Area2D2" unique_id=82298207]
 position = Vector2(242.5, 304)
 shape = SubResource("RectangleShape2D_fe1ah")
 
-[node name="Area2D3" type="Area2D" parent="Items3_6"]
+[node name="Area2D3" type="Area2D" parent="Items3_6" unique_id=1994749875]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_6/Area2D3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_6/Area2D3" unique_id=1458271242]
 position = Vector2(242, 499)
 shape = SubResource("RectangleShape2D_adkfm")
 
-[node name="Area2D4" type="Area2D" parent="Items3_6"]
+[node name="Area2D4" type="Area2D" parent="Items3_6" unique_id=141558692]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_6/Area2D4"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_6/Area2D4" unique_id=1447654040]
 position = Vector2(242.5, 647.5)
 shape = SubResource("RectangleShape2D_vwxlw")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items3_6"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items3_6" unique_id=48446323]
 z_index = -1
 position = Vector2(239.00002, 358.5)
 scale = Vector2(0.46679685, 0.46679685)
 texture = ExtResource("37_vn07k")
 
-[node name="Items3_7" type="Node2D" parent="."]
+[node name="Items3_7" type="Node2D" parent="." unique_id=1185459171]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items3_7"]
+[node name="Area2D" type="Area2D" parent="Items3_7" unique_id=2069873249]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_7/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_7/Area2D" unique_id=867650844]
 position = Vector2(245.25, 130.5)
 shape = SubResource("RectangleShape2D_7vqof")
 
-[node name="Area2D2" type="Area2D" parent="Items3_7"]
+[node name="Area2D2" type="Area2D" parent="Items3_7" unique_id=1892940225]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_7/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_7/Area2D2" unique_id=910158490]
 position = Vector2(181.5, 359)
 shape = SubResource("RectangleShape2D_dxfin")
 
-[node name="Area2D3" type="Area2D" parent="Items3_7"]
+[node name="Area2D3" type="Area2D" parent="Items3_7" unique_id=1802827761]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_7/Area2D3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_7/Area2D3" unique_id=838907626]
 position = Vector2(404, 361.5)
 shape = SubResource("RectangleShape2D_yt7cg")
 
-[node name="Area2D4" type="Area2D" parent="Items3_7"]
+[node name="Area2D4" type="Area2D" parent="Items3_7" unique_id=527705574]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_7/Area2D4"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items3_7/Area2D4" unique_id=675811926]
 position = Vector2(252, 539.5)
 shape = SubResource("RectangleShape2D_h2nmo")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items3_7"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items3_7" unique_id=2046803632]
 z_index = -1
 position = Vector2(239.00002, 358.5)
 scale = Vector2(0.46679685, 0.46679685)
 texture = ExtResource("38_85m51")
 
-[node name="Items5_1" type="Node2D" parent="."]
+[node name="Items5_1" type="Node2D" parent="." unique_id=962139010]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items5_1"]
+[node name="Area2D" type="Area2D" parent="Items5_1" unique_id=720042035]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_1/Area2D"]
-position = Vector2(242.5, 202.5)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_1/Area2D" unique_id=1734418074]
+position = Vector2(242.5, 257)
 shape = SubResource("RectangleShape2D_iehvj")
 
-[node name="Area2D2" type="Area2D" parent="Items5_1"]
+[node name="Area2D2" type="Area2D" parent="Items5_1" unique_id=2097985988]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_1/Area2D2"]
-position = Vector2(551.5, 202)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_1/Area2D2" unique_id=1626295715]
+position = Vector2(551.5, 281)
 shape = SubResource("RectangleShape2D_sp66y")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items5_1"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items5_1" unique_id=1929913903]
 z_index = -1
 position = Vector2(346.6325, 233.42172)
 scale = Vector2(0.45425436, 0.4542544)
 texture = ExtResource("40_m324c")
 
-[node name="Items5_2" type="Node2D" parent="."]
+[node name="Items5_2" type="Node2D" parent="." unique_id=1865186264]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items5_2"]
+[node name="Area2D" type="Area2D" parent="Items5_2" unique_id=1885823190]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_2/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_2/Area2D" unique_id=1965191516]
 position = Vector2(369.5, 297.75)
 shape = SubResource("RectangleShape2D_cxa08")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items5_2"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items5_2" unique_id=2087122687]
 z_index = -1
 position = Vector2(359, 300)
 scale = Vector2(0.46679685, 0.46679685)
 texture = ExtResource("41_fcxso")
 
-[node name="Items5_3" type="Node2D" parent="."]
+[node name="Items5_3" type="Node2D" parent="." unique_id=522603173]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items5_3"]
+[node name="Area2D" type="Area2D" parent="Items5_3" unique_id=918778747]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_3/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_3/Area2D" unique_id=1079376355]
 position = Vector2(348.5, 385.75)
 shape = SubResource("RectangleShape2D_lnwbu")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items5_3"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items5_3" unique_id=1498279355]
 z_index = -1
 position = Vector2(348.88953, 383.4375)
 scale = Vector2(0.5816127, 0.5816127)
 texture = ExtResource("42_h2514")
 
-[node name="Items5_4" type="Node2D" parent="."]
+[node name="Items5_4" type="Node2D" parent="." unique_id=1635110181]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items5_4"]
+[node name="Area2D" type="Area2D" parent="Items5_4" unique_id=1488980399]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_4/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_4/Area2D" unique_id=847595036]
 position = Vector2(254.5, 117.25)
 shape = SubResource("RectangleShape2D_ls3b6")
 
-[node name="Area2D2" type="Area2D" parent="Items5_4"]
+[node name="Area2D2" type="Area2D" parent="Items5_4" unique_id=595780228]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_4/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_4/Area2D2" unique_id=1119165752]
 position = Vector2(269.5, 382)
 shape = SubResource("RectangleShape2D_37yr0")
 
-[node name="Area2D3" type="Area2D" parent="Items5_4"]
+[node name="Area2D3" type="Area2D" parent="Items5_4" unique_id=1871221266]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_4/Area2D3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_4/Area2D3" unique_id=897273305]
 position = Vector2(246, 597)
 shape = SubResource("RectangleShape2D_0ackh")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items5_4"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items5_4" unique_id=1154749290]
 z_index = -1
 position = Vector2(268.4375, 357.60382)
 scale = Vector2(0.59946984, 0.5994699)
 texture = ExtResource("43_7ktf3")
 
-[node name="Items5_5" type="Node2D" parent="."]
+[node name="Items5_5" type="Node2D" parent="." unique_id=969049026]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items5_5"]
+[node name="Area2D" type="Area2D" parent="Items5_5" unique_id=1682177461]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_5/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_5/Area2D" unique_id=989015225]
 position = Vector2(239.75, 138)
 shape = SubResource("RectangleShape2D_kydsv")
 
-[node name="Area2D2" type="Area2D" parent="Items5_5"]
+[node name="Area2D2" type="Area2D" parent="Items5_5" unique_id=194599516]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_5/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_5/Area2D2" unique_id=754891163]
 position = Vector2(244.5, 376)
 shape = SubResource("RectangleShape2D_iw62e")
 
-[node name="Area2D3" type="Area2D" parent="Items5_5"]
+[node name="Area2D3" type="Area2D" parent="Items5_5" unique_id=1812418937]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_5/Area2D3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_5/Area2D3" unique_id=1465464073]
 position = Vector2(234.5, 582)
 shape = SubResource("RectangleShape2D_bw0f1")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items5_5"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items5_5" unique_id=1858943379]
 z_index = -1
 position = Vector2(239.00002, 358.5)
 scale = Vector2(0.46679685, 0.46679685)
 texture = ExtResource("44_wt4nx")
 
-[node name="Items5_6" type="Node2D" parent="."]
+[node name="Items5_6" type="Node2D" parent="." unique_id=21633423]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items5_6"]
+[node name="Area2D" type="Area2D" parent="Items5_6" unique_id=517606129]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_6/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_6/Area2D" unique_id=983210206]
 position = Vector2(246.75, 180)
 shape = SubResource("RectangleShape2D_n0b2y")
 
-[node name="Area2D2" type="Area2D" parent="Items5_6"]
+[node name="Area2D2" type="Area2D" parent="Items5_6" unique_id=2014661041]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_6/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_6/Area2D2" unique_id=370212888]
 position = Vector2(249, 394.5)
 shape = SubResource("RectangleShape2D_5f7g5")
 
-[node name="Area2D3" type="Area2D" parent="Items5_6"]
+[node name="Area2D3" type="Area2D" parent="Items5_6" unique_id=722261854]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_6/Area2D3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_6/Area2D3" unique_id=719956694]
 position = Vector2(240.5, 598.5)
 shape = SubResource("RectangleShape2D_r0mw6")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items5_6"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items5_6" unique_id=1684044921]
 z_index = -1
 position = Vector2(239.00002, 358.5)
 scale = Vector2(0.46679685, 0.46679685)
 texture = ExtResource("45_vn07k")
 
-[node name="Items5_7" type="Node2D" parent="."]
+[node name="Items5_7" type="Node2D" parent="." unique_id=137129879]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items5_7"]
+[node name="Area2D" type="Area2D" parent="Items5_7" unique_id=2024206879]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_7/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_7/Area2D" unique_id=643669531]
 position = Vector2(235.25, 187.5)
 shape = SubResource("RectangleShape2D_4bvtk")
 
-[node name="Area2D2" type="Area2D" parent="Items5_7"]
+[node name="Area2D2" type="Area2D" parent="Items5_7" unique_id=1387734333]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_7/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_7/Area2D2" unique_id=1038269473]
 position = Vector2(244.5, 388.5)
 shape = SubResource("RectangleShape2D_ryyfx")
 
-[node name="Area2D3" type="Area2D" parent="Items5_7"]
+[node name="Area2D3" type="Area2D" parent="Items5_7" unique_id=2120116088]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_7/Area2D3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_7/Area2D3" unique_id=1439211299]
 position = Vector2(244.5, 582)
 shape = SubResource("RectangleShape2D_qp3v3")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items5_7"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items5_7" unique_id=2086664576]
 z_index = -1
 position = Vector2(239.00002, 358.5)
 scale = Vector2(0.46679685, 0.46679685)
 texture = ExtResource("46_m324c")
 
-[node name="Items5_8" type="Node2D" parent="."]
+[node name="Items5_8" type="Node2D" parent="." unique_id=1096462483]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items5_8"]
+[node name="Area2D" type="Area2D" parent="Items5_8" unique_id=696516141]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_8/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_8/Area2D" unique_id=936681263]
 position = Vector2(230.5, 168.5)
 shape = SubResource("RectangleShape2D_rn7uv")
 
-[node name="Area2D2" type="Area2D" parent="Items5_8"]
+[node name="Area2D2" type="Area2D" parent="Items5_8" unique_id=14242243]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_8/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_8/Area2D2" unique_id=805652468]
 position = Vector2(227, 356.5)
 shape = SubResource("RectangleShape2D_481oj")
 
-[node name="Area2D3" type="Area2D" parent="Items5_8"]
+[node name="Area2D3" type="Area2D" parent="Items5_8" unique_id=529365429]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_8/Area2D3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_8/Area2D3" unique_id=790042994]
 position = Vector2(230, 519)
 shape = SubResource("RectangleShape2D_yw427")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items5_8"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items5_8" unique_id=772370974]
 z_index = -1
 position = Vector2(233.45209, 360.17816)
 scale = Vector2(0.46396077, 0.46396077)
 texture = ExtResource("47_fcxso")
 
-[node name="Items5_9" type="Node2D" parent="."]
+[node name="Items5_9" type="Node2D" parent="." unique_id=1156610202]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items5_9"]
+[node name="Area2D" type="Area2D" parent="Items5_9" unique_id=156342688]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_9/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_9/Area2D" unique_id=1650168782]
 position = Vector2(247.5, 169.5)
 shape = SubResource("RectangleShape2D_p1ief")
 
-[node name="Area2D2" type="Area2D" parent="Items5_9"]
+[node name="Area2D2" type="Area2D" parent="Items5_9" unique_id=939748355]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_9/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_9/Area2D2" unique_id=1816890460]
 position = Vector2(238.5, 394)
 shape = SubResource("RectangleShape2D_127mj")
 
-[node name="Area2D3" type="Area2D" parent="Items5_9"]
+[node name="Area2D3" type="Area2D" parent="Items5_9" unique_id=885657128]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_9/Area2D3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items5_9/Area2D3" unique_id=49650082]
 position = Vector2(187, 578.5)
 shape = SubResource("RectangleShape2D_70rog")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items5_9"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items5_9" unique_id=875943454]
 z_index = -1
 position = Vector2(263.40088, 359.89365)
 scale = Vector2(0.6108904, 0.6108904)
 texture = ExtResource("48_h2514")
 
-[node name="Items6_1" type="Node2D" parent="."]
+[node name="Items6_1" type="Node2D" parent="." unique_id=243682535]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items6_1"]
+[node name="Area2D" type="Area2D" parent="Items6_1" unique_id=1638784969]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items6_1/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items6_1/Area2D" unique_id=509623523]
 position = Vector2(328.5, 323)
 shape = SubResource("RectangleShape2D_f47ql")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items6_1"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items6_1" unique_id=1190636579]
 z_index = -1
 position = Vector2(302, 360)
 scale = Vector2(0.51464844, 0.5146484)
 texture = ExtResource("49_h2514")
 
-[node name="Items6_2" type="Node2D" parent="."]
+[node name="Items6_2" type="Node2D" parent="." unique_id=1846895944]
 visible = false
 
-[node name="Area2D" type="Area2D" parent="Items6_2"]
+[node name="Area2D" type="Area2D" parent="Items6_2" unique_id=2063184419]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items6_2/Area2D"]
-position = Vector2(200, 160)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items6_2/Area2D" unique_id=1572417068]
+position = Vector2(203, 169.5)
 shape = SubResource("RectangleShape2D_pv1ug")
 
-[node name="Area2D2" type="Area2D" parent="Items6_2"]
+[node name="Area2D2" type="Area2D" parent="Items6_2" unique_id=1789298213]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items6_2/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items6_2/Area2D2" unique_id=204515817]
 position = Vector2(200, 306)
 shape = SubResource("RectangleShape2D_85m51")
 
-[node name="Area2D3" type="Area2D" parent="Items6_2"]
+[node name="Area2D3" type="Area2D" parent="Items6_2" unique_id=1254287805]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items6_2/Area2D3"]
-position = Vector2(200, 404.5)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items6_2/Area2D3" unique_id=2007654219]
+position = Vector2(202.5, 407)
 shape = SubResource("RectangleShape2D_ia4o6")
 
-[node name="Area2D4" type="Area2D" parent="Items6_2"]
+[node name="Area2D4" type="Area2D" parent="Items6_2" unique_id=290933912]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items6_2/Area2D4"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items6_2/Area2D4" unique_id=1761840461]
 position = Vector2(200, 520.5)
 shape = SubResource("RectangleShape2D_5tj8q")
 
-[node name="Area2D5" type="Area2D" parent="Items6_2"]
+[node name="Area2D5" type="Area2D" parent="Items6_2" unique_id=1458713998]
 priority = 1800
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Items6_2/Area2D5"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items6_2/Area2D5" unique_id=1777833333]
 position = Vector2(200, 636.5)
 shape = SubResource("RectangleShape2D_rvych")
 
-[node name="HighlightSprite" type="Sprite2D" parent="Items6_2"]
+[node name="HighlightSprite" type="Sprite2D" parent="Items6_2" unique_id=793376404]
 z_index = -1
 position = Vector2(200.37502, 360.92188)
 scale = Vector2(0.51464844, 0.5146484)
 texture = ExtResource("49_fcxso")
 
-[node name="BackButton" type="TextureButton" parent="."]
+[node name="Items7_1" type="Node2D" parent="." unique_id=1680170277]
+visible = false
+
+[node name="Area2D" type="Area2D" parent="Items7_1" unique_id=1401944042]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_1/Area2D" unique_id=2071159495]
+position = Vector2(259, 142)
+shape = SubResource("RectangleShape2D_wqwx8")
+
+[node name="Area2D2" type="Area2D" parent="Items7_1" unique_id=931843078]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_1/Area2D2" unique_id=191397232]
+position = Vector2(255, 363)
+shape = SubResource("RectangleShape2D_2sco6")
+
+[node name="Area2D3" type="Area2D" parent="Items7_1" unique_id=1952885106]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_1/Area2D3" unique_id=1658254503]
+position = Vector2(250, 616)
+shape = SubResource("RectangleShape2D_pjmp8")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Items7_1" unique_id=1267370422]
+z_index = -1
+position = Vector2(256.875, 360.66458)
+scale = Vector2(0.50024414, 0.5002441)
+texture = ExtResource("49_g2kbi")
+
+[node name="Items7_2" type="Node2D" parent="." unique_id=1431231174]
+visible = false
+
+[node name="Area2D" type="Area2D" parent="Items7_2" unique_id=596739824]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_2/Area2D" unique_id=1905989984]
+position = Vector2(246, 145.5)
+shape = SubResource("RectangleShape2D_gy10w")
+
+[node name="Area2D2" type="Area2D" parent="Items7_2" unique_id=96607832]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_2/Area2D2" unique_id=1279611358]
+position = Vector2(243, 356.5)
+shape = SubResource("RectangleShape2D_msedi")
+
+[node name="Area2D3" type="Area2D" parent="Items7_2" unique_id=2113935830]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_2/Area2D3" unique_id=1639449651]
+position = Vector2(247.5, 653)
+shape = SubResource("RectangleShape2D_y4jkw")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Items7_2" unique_id=662628472]
+z_index = -1
+position = Vector2(249.12498, 360.2063)
+scale = Vector2(0.48608395, 0.48608387)
+texture = ExtResource("50_wqwx8")
+
+[node name="Items7_3" type="Node2D" parent="." unique_id=1819303162]
+visible = false
+
+[node name="Area2D" type="Area2D" parent="Items7_3" unique_id=1183045424]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_3/Area2D" unique_id=1562390405]
+position = Vector2(268.5, 171.5)
+shape = SubResource("RectangleShape2D_honqv")
+
+[node name="Area2D2" type="Area2D" parent="Items7_3" unique_id=2011507122]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_3/Area2D2" unique_id=1857962452]
+position = Vector2(259, 450.5)
+shape = SubResource("RectangleShape2D_ui4jk")
+
+[node name="Area2D3" type="Area2D" parent="Items7_3" unique_id=1166972017]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_3/Area2D3" unique_id=997755561]
+position = Vector2(268.5, 613)
+shape = SubResource("RectangleShape2D_x3v8y")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Items7_3" unique_id=1621389781]
+z_index = -1
+position = Vector2(264, 367)
+scale = Vector2(0.51464844, 0.5146484)
+texture = ExtResource("51_2sco6")
+
+[node name="Items7_4" type="Node2D" parent="." unique_id=926776020]
+visible = false
+
+[node name="Area2D" type="Area2D" parent="Items7_4" unique_id=488191721]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_4/Area2D" unique_id=40060888]
+position = Vector2(265, 156)
+shape = SubResource("RectangleShape2D_g0y37")
+
+[node name="Area2D2" type="Area2D" parent="Items7_4" unique_id=190139941]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_4/Area2D2" unique_id=1679108535]
+position = Vector2(264.5, 392)
+shape = SubResource("RectangleShape2D_dd004")
+
+[node name="Area2D3" type="Area2D" parent="Items7_4" unique_id=1764837858]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_4/Area2D3" unique_id=1948579051]
+position = Vector2(262, 679.5)
+shape = SubResource("RectangleShape2D_olv1b")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Items7_4" unique_id=1094948128]
+z_index = -1
+position = Vector2(265, 395)
+scale = Vector2(0.51464844, 0.5146484)
+texture = ExtResource("52_pjmp8")
+
+[node name="Items7_5" type="Node2D" parent="." unique_id=1434838350]
+visible = false
+
+[node name="Area2D" type="Area2D" parent="Items7_5" unique_id=1619656048]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_5/Area2D" unique_id=1413307239]
+position = Vector2(252.5, 151.5)
+shape = SubResource("RectangleShape2D_bqc32")
+
+[node name="Area2D2" type="Area2D" parent="Items7_5" unique_id=1169408266]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_5/Area2D2" unique_id=2035138744]
+position = Vector2(267.5, 387.5)
+shape = SubResource("RectangleShape2D_iffkd")
+
+[node name="Area2D3" type="Area2D" parent="Items7_5" unique_id=2142531258]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_5/Area2D3" unique_id=419834955]
+position = Vector2(268, 634)
+shape = SubResource("RectangleShape2D_kywbr")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Items7_5" unique_id=702529372]
+z_index = -1
+position = Vector2(258, 369)
+scale = Vector2(0.51464844, 0.5146484)
+texture = ExtResource("53_g0y37")
+
+[node name="Items7_6" type="Node2D" parent="." unique_id=850413170]
+visible = false
+
+[node name="Area2D" type="Area2D" parent="Items7_6" unique_id=1386782532]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_6/Area2D" unique_id=1993583872]
+position = Vector2(251, 152.5)
+shape = SubResource("RectangleShape2D_cohqv")
+
+[node name="Area2D2" type="Area2D" parent="Items7_6" unique_id=917424656]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_6/Area2D2" unique_id=1673127311]
+position = Vector2(259, 369.5)
+shape = SubResource("RectangleShape2D_wwih5")
+
+[node name="Area2D3" type="Area2D" parent="Items7_6" unique_id=1887463180]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_6/Area2D3" unique_id=2027852550]
+position = Vector2(261.5, 643)
+shape = SubResource("RectangleShape2D_su443")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Items7_6" unique_id=1233337127]
+z_index = -1
+position = Vector2(249.24998, 361.59933)
+scale = Vector2(0.4936523, 0.49365225)
+texture = ExtResource("54_olv1b")
+
+[node name="Items7_7" type="Node2D" parent="." unique_id=626901265]
+visible = false
+
+[node name="Area2D" type="Area2D" parent="Items7_7" unique_id=32364411]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_7/Area2D" unique_id=554607908]
+position = Vector2(350, 387.5)
+shape = SubResource("RectangleShape2D_ti5al")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Items7_7" unique_id=1157144351]
+z_index = -1
+position = Vector2(344.00003, 362)
+scale = Vector2(0.70556647, 0.7055664)
+texture = ExtResource("55_cohqv")
+
+[node name="Items7_8" type="Node2D" parent="." unique_id=2143492720]
+visible = false
+
+[node name="Area2D" type="Area2D" parent="Items7_8" unique_id=707183656]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_8/Area2D" unique_id=61945921]
+position = Vector2(266, 228)
+shape = SubResource("RectangleShape2D_t4bte")
+
+[node name="Area2D2" type="Area2D" parent="Items7_8" unique_id=325755740]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_8/Area2D2" unique_id=1891333956]
+position = Vector2(630, 211.5)
+shape = SubResource("RectangleShape2D_8btmo")
+
+[node name="Area2D3" type="Area2D" parent="Items7_8" unique_id=1012815562]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_8/Area2D3" unique_id=624894568]
+position = Vector2(358.5, 535.5)
+shape = SubResource("RectangleShape2D_3c7rq")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Items7_8" unique_id=1766778398]
+z_index = -1
+position = Vector2(342.875, 361.875)
+scale = Vector2(0.701416, 0.70141596)
+texture = ExtResource("56_wwih5")
+
+[node name="Items7_9" type="Node2D" parent="." unique_id=747157119]
+visible = false
+
+[node name="Area2D" type="Area2D" parent="Items7_9" unique_id=565006331]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_9/Area2D" unique_id=389219068]
+position = Vector2(71.25, 193.25)
+shape = SubResource("RectangleShape2D_8q4kv")
+
+[node name="Area2D2" type="Area2D" parent="Items7_9" unique_id=1172856367]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_9/Area2D2" unique_id=289184736]
+position = Vector2(418, 134)
+shape = SubResource("RectangleShape2D_bjjo3")
+
+[node name="Area2D3" type="Area2D" parent="Items7_9" unique_id=248028041]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_9/Area2D3" unique_id=1025927950]
+position = Vector2(418, 296.5)
+shape = SubResource("RectangleShape2D_0jvjn")
+
+[node name="Area2D4" type="Area2D" parent="Items7_9" unique_id=1450709511]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_9/Area2D4" unique_id=2145437059]
+position = Vector2(261, 541)
+shape = SubResource("RectangleShape2D_qn335")
+
+[node name="Area2D5" type="Area2D" parent="Items7_9" unique_id=298387903]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_9/Area2D5" unique_id=1440980008]
+position = Vector2(602.5, 526)
+shape = SubResource("RectangleShape2D_a5l40")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Items7_9" unique_id=1522266684]
+z_index = -1
+position = Vector2(348.74997, 360.75)
+scale = Vector2(0.6860351, 0.7036132)
+texture = ExtResource("57_su443")
+
+[node name="Items7_10" type="Node2D" parent="." unique_id=459674357]
+visible = false
+
+[node name="Area2D" type="Area2D" parent="Items7_10" unique_id=134216954]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_10/Area2D" unique_id=2104193180]
+position = Vector2(247.5, 166.75)
+shape = SubResource("RectangleShape2D_1p6pw")
+
+[node name="Area2D2" type="Area2D" parent="Items7_10" unique_id=1603425852]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_10/Area2D2" unique_id=1051305224]
+position = Vector2(585.5, 171.5)
+shape = SubResource("RectangleShape2D_w5r4b")
+
+[node name="Area2D3" type="Area2D" parent="Items7_10" unique_id=1546879505]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_10/Area2D3" unique_id=1152764799]
+position = Vector2(349.5, 468.5)
+shape = SubResource("RectangleShape2D_l15km")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Items7_10" unique_id=1970255409]
+z_index = -1
+position = Vector2(349.3977, 307.25)
+scale = Vector2(0.597168, 0.5971679)
+texture = ExtResource("58_ti5al")
+
+[node name="Items7_11" type="Node2D" parent="." unique_id=1673533186]
+visible = false
+
+[node name="Area2D" type="Area2D" parent="Items7_11" unique_id=1435535339]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_11/Area2D" unique_id=65144573]
+position = Vector2(355, 316.5)
+shape = SubResource("RectangleShape2D_lsyqw")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Items7_11" unique_id=1137335785]
+z_index = -1
+position = Vector2(348.5039, 277.25)
+scale = Vector2(0.5385742, 0.53857416)
+texture = ExtResource("59_8btmo")
+
+[node name="Items7_12" type="Node2D" parent="." unique_id=1207567165]
+visible = false
+
+[node name="Area2D" type="Area2D" parent="Items7_12" unique_id=1318701295]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_12/Area2D" unique_id=684916535]
+position = Vector2(249.25, 228.25)
+shape = SubResource("RectangleShape2D_hkv72")
+
+[node name="Area2D2" type="Area2D" parent="Items7_12" unique_id=1244007072]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_12/Area2D2" unique_id=535816665]
+position = Vector2(180, 515.5)
+shape = SubResource("RectangleShape2D_d2x42")
+
+[node name="Area2D3" type="Area2D" parent="Items7_12" unique_id=1446268711]
+priority = 1800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Items7_12/Area2D3" unique_id=1168319541]
+position = Vector2(502, 506)
+shape = SubResource("RectangleShape2D_qttls")
+
+[node name="HighlightSprite" type="Sprite2D" parent="Items7_12" unique_id=1985464900]
+z_index = -1
+position = Vector2(348.75, 362.75)
+scale = Vector2(0.6821289, 0.70556635)
+texture = ExtResource("60_3c7rq")
+
+[node name="BackButton" type="TextureButton" parent="." unique_id=1531190810]
 offset_left = -3.0
 offset_top = -21.0
 offset_right = 90.0

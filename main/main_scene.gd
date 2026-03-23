@@ -152,7 +152,13 @@ func _process(_delta):
 		tooltip_label.global_position = get_global_mouse_position() + Vector2(15, 15)
 
 func _on_back_button_pressed():
-	get_tree().change_scene_to_file("res://scenes/scene_cabinet_view.tscn")
+	if GlobalSettings.current_cabinet == 1:
+		get_tree().change_scene_to_file("res://scenes/scene_cabinet_view.tscn")
+	elif GlobalSettings.current_cabinet == 2:
+		get_tree().change_scene_to_file("res://scenes/scene_cabinet2_view.tscn")
+	else:
+		# На случай, если есть другие кабинеты или лаборантская
+		get_tree().change_scene_to_file("res://scenes/scene_menu_cabinets.tscn")
 
 func _on_close_button_pressed():
 	info_panel.hide()

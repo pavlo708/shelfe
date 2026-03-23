@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bcwdlyke21ojo"]
 
 [ext_resource type="Script" uid="uid://dge7bdn56432n" path="res://main/main_scene.gd" id="1_18nlu"]
-[ext_resource type="Texture2D" uid="uid://doyus8t0g7848" path="res://assets/images/Wardrobes/Shelf.png" id="2_c1pb6"]
+[ext_resource type="Texture2D" uid="uid://doyus8t0g7848" path="res://assets/images/Cabinet1/Wardrobes/Shelf.png" id="2_c1pb6"]
 [ext_resource type="Script" uid="uid://bgj70wo42ooko" path="res://components/Shelf.gd" id="3_6wevv"]
 [ext_resource type="Texture2D" uid="uid://c7uxcyk58mvp5" path="res://assets/images/Sprites/cancel_icon.png" id="4_e1cbu"]
 [ext_resource type="Texture2D" uid="uid://df1286ffcxt7" path="res://assets/images/Sprites/cancel3_icon.png" id="5_mngbo"]

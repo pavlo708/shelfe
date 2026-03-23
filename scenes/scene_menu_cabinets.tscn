@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cxom2fnqidhpe"]
 
 [ext_resource type="Script" uid="uid://bsfpc04dmpra3" path="res://scenes/scene_menu_cabinets.gd" id="1_j71vs"]
-[ext_resource type="Texture2D" uid="uid://bd3p7idjxlm16" path="res://assets/images/LabShelfs/Coridor.png" id="2_j71vs"]
+[ext_resource type="Texture2D" uid="uid://bd3p7idjxlm16" path="res://assets/images/Cabinet1/LabShelfs/Coridor.png" id="2_jgyu8"]
 [ext_resource type="Script" uid="uid://bgj70wo42ooko" path="res://components/Shelf.gd" id="3_h0g32"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_j71vs"]
@@ -16,7 +16,7 @@ script = ExtResource("1_j71vs")
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=349947340]
 position = Vector2(646.8513, 337)
 scale = Vector2(1.0735811, 0.8502358)
-texture = ExtResource("2_j71vs")
+texture = ExtResource("2_jgyu8")
 
 [node name="Door1" type="Area2D" parent="." unique_id=1041329484]
 priority = 1

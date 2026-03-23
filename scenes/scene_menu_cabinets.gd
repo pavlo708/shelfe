@@ -34,4 +34,9 @@ func _on_area_mouse_exited(area: Area2D):
 func _on_door_clicked(_viewport, event, _shape_idx, cabinet_num):
 	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
 		GlobalSettings.current_cabinet = cabinet_num
-		get_tree().change_scene_to_file("res://scenes/scene_cabinet_view.tscn")
+		
+		# Проверяем номер кабинета и загружаем соответствующую сцену
+		if cabinet_num == 1:
+			get_tree().change_scene_to_file("res://scenes/scene_cabinet_view.tscn")
+		elif cabinet_num == 2:
+			get_tree().change_scene_to_file("res://scenes/scene_cabinet2_view.tscn")

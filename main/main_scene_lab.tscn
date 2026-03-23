@@ -1,15 +1,15 @@
 [gd_scene format=3 uid="uid://4pxtnb4t3od2"]
 
 [ext_resource type="Script" uid="uid://bnfep7nnyc4v0" path="res://main/main_scene_lab.gd" id="1_7ijfx"]
-[ext_resource type="Texture2D" uid="uid://bp5ab7n35cxbt" path="res://assets/images/LabShelfs/Lab.png" id="2_470gg"]
+[ext_resource type="Texture2D" uid="uid://bp5ab7n35cxbt" path="res://assets/images/Cabinet1/LabShelfs/Lab.png" id="2_470gg"]
 [ext_resource type="Script" uid="uid://bgj70wo42ooko" path="res://components/Shelf.gd" id="3_gnvfl"]
-[ext_resource type="Texture2D" uid="uid://cdfyskp0x6427" path="res://assets/images/LabShelfs/Shelf.png" id="3_ynyxu"]
+[ext_resource type="Texture2D" uid="uid://cdfyskp0x6427" path="res://assets/images/Cabinet1/LabShelfs/Shelf.png" id="3_ynyxu"]
 [ext_resource type="Texture2D" uid="uid://c7uxcyk58mvp5" path="res://assets/images/Sprites/cancel_icon.png" id="4_ynyxu"]
 [ext_resource type="Texture2D" uid="uid://df1286ffcxt7" path="res://assets/images/Sprites/cancel3_icon.png" id="5_470gg"]
-[ext_resource type="Texture2D" uid="uid://dp2wwdbwm1hx5" path="res://assets/images/LabShelfs/ShelfLabDoor1.png" id="5_qwfgu"]
+[ext_resource type="Texture2D" uid="uid://dp2wwdbwm1hx5" path="res://assets/images/Cabinet1/LabShelfs/ShelfLabDoor1.png" id="5_qwfgu"]
 [ext_resource type="Texture2D" uid="uid://bh7jjljh1pbwd" path="res://assets/images/Sprites/cancel2_icon.png" id="6_qwfgu"]
 [ext_resource type="Texture2D" uid="uid://dptncte734afe" path="res://assets/images/Sprites/BackButtonNorm.png" id="7_r8llx"]
-[ext_resource type="Texture2D" uid="uid://c6ybvxnw5r443" path="res://assets/images/LabShelfs/Shelf5.png" id="8_qwfgu"]
+[ext_resource type="Texture2D" uid="uid://c6ybvxnw5r443" path="res://assets/images/Cabinet1/LabShelfs/Shelf5.png" id="8_qwfgu"]
 [ext_resource type="Texture2D" uid="uid://bos55l286lpnu" path="res://assets/images/Sprites/BackButtonPress.png" id="8_uua08"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qwfgu"]
@@ -66,190 +66,190 @@ size = Vector2(304, 52)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r8llx"]
 size = Vector2(289, 596)
 
-[node name="MainSceneLab" type="Node2D"]
+[node name="MainSceneLab" type="Node2D" unique_id=522043615]
 script = ExtResource("1_7ijfx")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1762268992]
 visible = false
 z_index = -1
 position = Vector2(440.35068, 375.31204)
 scale = Vector2(0.6372081, 0.63720816)
 texture = ExtResource("2_470gg")
 
-[node name="Wardrobes" type="Node2D" parent="."]
+[node name="Wardrobes" type="Node2D" parent="." unique_id=1938646580]
 
-[node name="Wardrobe3" type="Node2D" parent="Wardrobes"]
-visible = false
+[node name="Wardrobe3" type="Node2D" parent="Wardrobes" unique_id=1660400632]
 
-[node name="ShelfLab" type="Sprite2D" parent="Wardrobes/Wardrobe3"]
+[node name="ShelfLab" type="Sprite2D" parent="Wardrobes/Wardrobe3" unique_id=1015935867]
 position = Vector2(439.1094, 334.00293)
 scale = Vector2(0.8147167, 0.8147167)
 texture = ExtResource("3_ynyxu")
 
-[node name="Shelves" type="Node2D" parent="Wardrobes/Wardrobe3"]
+[node name="Shelves" type="Node2D" parent="Wardrobes/Wardrobe3" unique_id=1406994500]
 
-[node name="Shelf1" type="Area2D" parent="Wardrobes/Wardrobe3/Shelves"]
+[node name="Shelf1" type="Area2D" parent="Wardrobes/Wardrobe3/Shelves" unique_id=605266755]
 script = ExtResource("3_gnvfl")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe3/Shelves/Shelf1"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe3/Shelves/Shelf1" unique_id=860626853]
 position = Vector2(106, 71.625)
 shape = SubResource("RectangleShape2D_qwfgu")
 
-[node name="Shelf2" type="Area2D" parent="Wardrobes/Wardrobe3/Shelves"]
+[node name="Shelf2" type="Area2D" parent="Wardrobes/Wardrobe3/Shelves" unique_id=688859570]
 script = ExtResource("3_gnvfl")
 shelf_id = 2
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe3/Shelves/Shelf2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe3/Shelves/Shelf2" unique_id=282376565]
 position = Vector2(320.5, 70)
 shape = SubResource("RectangleShape2D_gyfs4")
 
-[node name="Shelf3" type="Area2D" parent="Wardrobes/Wardrobe3/Shelves"]
+[node name="Shelf3" type="Area2D" parent="Wardrobes/Wardrobe3/Shelves" unique_id=2006323482]
 script = ExtResource("3_gnvfl")
 shelf_id = 3
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe3/Shelves/Shelf3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe3/Shelves/Shelf3" unique_id=2012012173]
 position = Vector2(534, 70.875)
 shape = SubResource("RectangleShape2D_d5x1h")
 
-[node name="Shelf4" type="Area2D" parent="Wardrobes/Wardrobe3/Shelves"]
+[node name="Shelf4" type="Area2D" parent="Wardrobes/Wardrobe3/Shelves" unique_id=1937917645]
 script = ExtResource("3_gnvfl")
 shelf_id = 4
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe3/Shelves/Shelf4"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe3/Shelves/Shelf4" unique_id=857164318]
 position = Vector2(756.5, 232.9375)
 shape = SubResource("RectangleShape2D_8mm7a")
 
-[node name="Shelf5" type="Area2D" parent="Wardrobes/Wardrobe3/Shelves"]
+[node name="Shelf5" type="Area2D" parent="Wardrobes/Wardrobe3/Shelves" unique_id=2139408007]
 script = ExtResource("3_gnvfl")
 shelf_id = 5
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe3/Shelves/Shelf5"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe3/Shelves/Shelf5" unique_id=218470823]
 position = Vector2(319, 401)
 shape = SubResource("RectangleShape2D_krirx")
 
-[node name="Shelf6" type="Area2D" parent="Wardrobes/Wardrobe3/Shelves"]
+[node name="Shelf6" type="Area2D" parent="Wardrobes/Wardrobe3/Shelves" unique_id=596818549]
 script = ExtResource("3_gnvfl")
 shelf_id = 6
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe3/Shelves/Shelf6"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe3/Shelves/Shelf6" unique_id=786318965]
 position = Vector2(536.5, 400)
 shape = SubResource("RectangleShape2D_gnvfl")
 
-[node name="Shelf7" type="Area2D" parent="Wardrobes/Wardrobe3/Shelves"]
+[node name="Shelf7" type="Area2D" parent="Wardrobes/Wardrobe3/Shelves" unique_id=1085140013]
 script = ExtResource("3_gnvfl")
 shelf_id = 7
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe3/Shelves/Shelf7"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe3/Shelves/Shelf7" unique_id=1191018487]
 position = Vector2(759.5, 562)
 shape = SubResource("RectangleShape2D_ynyxu")
 
-[node name="Wardrobe5" type="Node2D" parent="Wardrobes"]
+[node name="Wardrobe5" type="Node2D" parent="Wardrobes" unique_id=1437648855]
+visible = false
 
-[node name="ShelfLabDoor1" type="Sprite2D" parent="Wardrobes/Wardrobe5"]
+[node name="ShelfLabDoor1" type="Sprite2D" parent="Wardrobes/Wardrobe5" unique_id=1130913976]
 position = Vector2(295, 306)
 scale = Vector2(0.6593605, 0.6593605)
 texture = ExtResource("5_qwfgu")
 
-[node name="Shelves" type="Node2D" parent="Wardrobes/Wardrobe5"]
+[node name="Shelves" type="Node2D" parent="Wardrobes/Wardrobe5" unique_id=1514286012]
 
-[node name="Shelf1" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves"]
+[node name="Shelf1" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves" unique_id=401719369]
 script = ExtResource("3_gnvfl")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf1"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf1" unique_id=1441910162]
 position = Vector2(109.5, 95)
 shape = SubResource("RectangleShape2D_uua08")
 
-[node name="Shelf2" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves"]
+[node name="Shelf2" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves" unique_id=2024848785]
 script = ExtResource("3_gnvfl")
 shelf_id = 2
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf2" unique_id=1566499719]
 position = Vector2(293.5, 95.5)
 shape = SubResource("RectangleShape2D_icla3")
 
-[node name="Shelf3" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves"]
+[node name="Shelf3" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves" unique_id=533680283]
 script = ExtResource("3_gnvfl")
 shelf_id = 3
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf3" unique_id=1704520813]
 position = Vector2(477, 94.5)
 shape = SubResource("RectangleShape2D_52in3")
 
-[node name="Shelf4" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves"]
+[node name="Shelf4" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves" unique_id=1303965006]
 script = ExtResource("3_gnvfl")
 shelf_id = 4
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf4"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf4" unique_id=598346474]
 position = Vector2(118, 291.5)
 shape = SubResource("RectangleShape2D_muw3u")
 
-[node name="Shelf5" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves"]
+[node name="Shelf5" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves" unique_id=1001029835]
 script = ExtResource("3_gnvfl")
 shelf_id = 5
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf5"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf5" unique_id=312324770]
 position = Vector2(294.5625, 290.5)
 shape = SubResource("RectangleShape2D_wsdc5")
 
-[node name="Shelf6" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves"]
+[node name="Shelf6" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves" unique_id=1151688244]
 script = ExtResource("3_gnvfl")
 shelf_id = 6
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf6"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf6" unique_id=1792666768]
 position = Vector2(474, 290.5)
 shape = SubResource("RectangleShape2D_66sy7")
 
-[node name="Shelf7" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves"]
+[node name="Shelf7" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves" unique_id=851153506]
 script = ExtResource("3_gnvfl")
 shelf_id = 7
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf7"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf7" unique_id=113042228]
 position = Vector2(114.5, 546.5)
 shape = SubResource("RectangleShape2D_xmmaf")
 
-[node name="Shelf8" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves"]
+[node name="Shelf8" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves" unique_id=1707550371]
 script = ExtResource("3_gnvfl")
 shelf_id = 8
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf8"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf8" unique_id=1835015479]
 position = Vector2(293, 547.5)
 shape = SubResource("RectangleShape2D_soqeh")
 
-[node name="Shelf9" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves"]
+[node name="Shelf9" type="Area2D" parent="Wardrobes/Wardrobe5/Shelves" unique_id=1689355111]
 script = ExtResource("3_gnvfl")
 shelf_id = 9
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf9"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe5/Shelves/Shelf9" unique_id=887844292]
 position = Vector2(470, 546)
 shape = SubResource("RectangleShape2D_7o5yb")
 
-[node name="Wardrobe6" type="Node2D" parent="Wardrobes"]
+[node name="Wardrobe6" type="Node2D" parent="Wardrobes" unique_id=81092580]
 visible = false
 
-[node name="ShelfLabDoor2" type="Sprite2D" parent="Wardrobes/Wardrobe6"]
+[node name="ShelfLabDoor2" type="Sprite2D" parent="Wardrobes/Wardrobe6" unique_id=1991179484]
 position = Vector2(188.12502, 337.01563)
 scale = Vector2(0.48665363, 0.48665363)
 texture = ExtResource("8_qwfgu")
 
-[node name="Shelves" type="Node2D" parent="Wardrobes/Wardrobe6"]
+[node name="Shelves" type="Node2D" parent="Wardrobes/Wardrobe6" unique_id=227770647]
 
-[node name="Shelf1" type="Area2D" parent="Wardrobes/Wardrobe6/Shelves"]
+[node name="Shelf1" type="Area2D" parent="Wardrobes/Wardrobe6/Shelves" unique_id=1950723359]
 script = ExtResource("3_gnvfl")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe6/Shelves/Shelf1"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe6/Shelves/Shelf1" unique_id=619294021]
 position = Vector2(173, 28)
 shape = SubResource("RectangleShape2D_470gg")
 
-[node name="Shelf2" type="Area2D" parent="Wardrobes/Wardrobe6/Shelves"]
+[node name="Shelf2" type="Area2D" parent="Wardrobes/Wardrobe6/Shelves" unique_id=624900685]
 script = ExtResource("3_gnvfl")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe6/Shelves/Shelf2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wardrobes/Wardrobe6/Shelves/Shelf2" unique_id=718747443]
 position = Vector2(178.5, 362)
 shape = SubResource("RectangleShape2D_r8llx")
 
-[node name="UI" type="CanvasLayer" parent="."]
+[node name="UI" type="CanvasLayer" parent="." unique_id=559080238]
 
-[node name="TooltipLabel" type="Label" parent="UI"]
+[node name="TooltipLabel" type="Label" parent="UI" unique_id=1850696965]
 z_index = 10
 offset_left = 882.0
 offset_top = 42.0
@@ -259,7 +259,7 @@ theme_override_font_sizes/font_size = 11
 text = "
 "
 
-[node name="LineEdit" type="LineEdit" parent="UI"]
+[node name="LineEdit" type="LineEdit" parent="UI" unique_id=446974363]
 offset_left = 1.0
 offset_top = 672.0
 offset_right = 879.0
@@ -267,30 +267,30 @@ offset_bottom = 722.0
 theme_override_font_sizes/font_size = 28
 placeholder_text = "Поиск"
 
-[node name="InfoPanel" type="Panel" parent="UI"]
+[node name="InfoPanel" type="Panel" parent="UI" unique_id=1844594736]
 offset_left = 879.0
 offset_top = 2.0
 offset_right = 1281.0
 offset_bottom = 721.0
 
-[node name="VBoxContainer" type="VBoxContainer" parent="UI/InfoPanel"]
+[node name="VBoxContainer" type="VBoxContainer" parent="UI/InfoPanel" unique_id=1990592041]
 layout_mode = 0
 offset_right = 400.0
 offset_bottom = 719.0
 
-[node name="TitleLabel" type="Label" parent="UI/InfoPanel/VBoxContainer"]
+[node name="TitleLabel" type="Label" parent="UI/InfoPanel/VBoxContainer" unique_id=1568631330]
 z_index = 10
 layout_mode = 2
 theme_override_font_sizes/font_size = 11
 text = "
 "
 
-[node name="EditItemsBox" type="TextEdit" parent="UI/InfoPanel/VBoxContainer"]
+[node name="EditItemsBox" type="TextEdit" parent="UI/InfoPanel/VBoxContainer" unique_id=705391214]
 custom_minimum_size = Vector2(350, 680)
 layout_mode = 2
 theme_override_font_sizes/font_size = 11
 
-[node name="CloseButton" type="TextureButton" parent="UI/InfoPanel"]
+[node name="CloseButton" type="TextureButton" parent="UI/InfoPanel" unique_id=1119717105]
 layout_mode = 0
 offset_left = 354.0
 offset_right = 398.0
@@ -301,7 +301,7 @@ texture_hover = ExtResource("6_qwfgu")
 ignore_texture_size = true
 stretch_mode = 0
 
-[node name="BackButton" type="TextureButton" parent="UI"]
+[node name="BackButton" type="TextureButton" parent="UI" unique_id=929015430]
 offset_top = -1.0
 offset_right = 94.0
 offset_bottom = 93.0

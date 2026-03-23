@@ -1,0 +1,221 @@
+[gd_scene format=3 uid="uid://biadmwoao2yk1"]
+
+[ext_resource type="Script" uid="uid://dge7bdn56432n" path="res://main/main_scene.gd" id="1_gr1wd"]
+[ext_resource type="Texture2D" uid="uid://csxcsaoftg7gr" path="res://assets/images/Cabinet2/Wardrobes/Wardrobe.png" id="2_gr1wd"]
+[ext_resource type="Script" uid="uid://bgj70wo42ooko" path="res://components/Shelf.gd" id="3_6mxxb"]
+[ext_resource type="Texture2D" uid="uid://c7uxcyk58mvp5" path="res://assets/images/Sprites/cancel_icon.png" id="4_1uyqr"]
+[ext_resource type="Texture2D" uid="uid://df1286ffcxt7" path="res://assets/images/Sprites/cancel3_icon.png" id="5_wpa8c"]
+[ext_resource type="Texture2D" uid="uid://bh7jjljh1pbwd" path="res://assets/images/Sprites/cancel2_icon.png" id="6_jembt"]
+[ext_resource type="Texture2D" uid="uid://dptncte734afe" path="res://assets/images/Sprites/BackButtonNorm.png" id="7_y8ysa"]
+[ext_resource type="Texture2D" uid="uid://bos55l286lpnu" path="res://assets/images/Sprites/BackButtonPress.png" id="8_lo7bj"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_671wp"]
+size = Vector2(137, 195)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mo76n"]
+size = Vector2(143, 191)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_42l1d"]
+size = Vector2(144, 194)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8mm7a"]
+size = Vector2(134, 197)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hq1ik"]
+size = Vector2(149, 193)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nfk4m"]
+size = Vector2(139, 191)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_66tet"]
+size = Vector2(138.96094, 129.625)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7ycvg"]
+size = Vector2(137.75, 126.625)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wr18j"]
+size = Vector2(139, 127.75)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qwutr"]
+size = Vector2(141.53125, 127.25)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5smuj"]
+size = Vector2(138, 128.25)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_y5ved"]
+size = Vector2(144, 130.25)
+
+[node name="MainScene" type="Node2D" unique_id=768220085]
+script = ExtResource("1_gr1wd")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=412417714]
+z_index = -1
+position = Vector2(438.9129, 328.33496)
+scale = Vector2(0.73139524, 0.7313953)
+texture = ExtResource("2_gr1wd")
+
+[node name="Shelves" type="Node2D" parent="." unique_id=1409203549]
+
+[node name="Shelf1" type="Area2D" parent="Shelves" unique_id=1297421638]
+priority = 3
+script = ExtResource("3_6mxxb")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Shelves/Shelf1" unique_id=807344726]
+position = Vector2(77.5, 351.5)
+shape = SubResource("RectangleShape2D_671wp")
+
+[node name="Shelf2" type="Area2D" parent="Shelves" unique_id=1651627178]
+script = ExtResource("3_6mxxb")
+shelf_id = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Shelves/Shelf2" unique_id=1802663950]
+position = Vector2(219.5, 351.5)
+shape = SubResource("RectangleShape2D_mo76n")
+
+[node name="Shelf3" type="Area2D" parent="Shelves" unique_id=1703004661]
+script = ExtResource("3_6mxxb")
+shelf_id = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Shelves/Shelf3" unique_id=1040479693]
+position = Vector2(366, 352)
+shape = SubResource("RectangleShape2D_42l1d")
+
+[node name="Shelf4" type="Area2D" parent="Shelves" unique_id=1019151611]
+script = ExtResource("3_6mxxb")
+shelf_id = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Shelves/Shelf4" unique_id=1876323228]
+position = Vector2(507, 352.5)
+shape = SubResource("RectangleShape2D_8mm7a")
+
+[node name="Shelf5" type="Area2D" parent="Shelves" unique_id=2075345152]
+script = ExtResource("3_6mxxb")
+shelf_id = 5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Shelves/Shelf5" unique_id=1306048634]
+position = Vector2(650.5, 354.5)
+shape = SubResource("RectangleShape2D_hq1ik")
+
+[node name="Shelf6" type="Area2D" parent="Shelves" unique_id=101426530]
+script = ExtResource("3_6mxxb")
+shelf_id = 6
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Shelves/Shelf6" unique_id=1729166375]
+position = Vector2(796.5, 354.5)
+shape = SubResource("RectangleShape2D_nfk4m")
+
+[node name="Shelf7" type="Area2D" parent="Shelves" unique_id=534868777]
+script = ExtResource("3_6mxxb")
+shelf_id = 7
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Shelves/Shelf7" unique_id=1886378024]
+position = Vector2(80.51953, 515.8125)
+shape = SubResource("RectangleShape2D_66tet")
+
+[node name="Shelf8" type="Area2D" parent="Shelves" unique_id=2130228307]
+script = ExtResource("3_6mxxb")
+shelf_id = 8
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Shelves/Shelf8" unique_id=441646214]
+position = Vector2(222.125, 514.3125)
+shape = SubResource("RectangleShape2D_7ycvg")
+
+[node name="Shelf9" type="Area2D" parent="Shelves" unique_id=1246334744]
+script = ExtResource("3_6mxxb")
+shelf_id = 9
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Shelves/Shelf9" unique_id=1904171106]
+position = Vector2(363.5, 514.875)
+shape = SubResource("RectangleShape2D_wr18j")
+
+[node name="Shelf10" type="Area2D" parent="Shelves" unique_id=1211635399]
+script = ExtResource("3_6mxxb")
+shelf_id = 10
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Shelves/Shelf10" unique_id=1070304175]
+position = Vector2(508.23438, 515.625)
+shape = SubResource("RectangleShape2D_qwutr")
+
+[node name="Shelf11" type="Area2D" parent="Shelves" unique_id=1205610567]
+script = ExtResource("3_6mxxb")
+shelf_id = 11
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Shelves/Shelf11" unique_id=1008676581]
+position = Vector2(651, 517.125)
+shape = SubResource("RectangleShape2D_5smuj")
+
+[node name="Shelf12" type="Area2D" parent="Shelves" unique_id=2124343427]
+script = ExtResource("3_6mxxb")
+shelf_id = 12
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Shelves/Shelf12" unique_id=556126939]
+position = Vector2(796, 518.125)
+shape = SubResource("RectangleShape2D_y5ved")
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=34095499]
+
+[node name="TooltipLabel" type="Label" parent="UI" unique_id=1811001314]
+z_index = 10
+offset_left = 885.0
+offset_top = 3.0
+offset_right = 1280.0
+offset_bottom = 722.0
+theme_override_font_sizes/font_size = 11
+text = "
+"
+
+[node name="LineEdit" type="LineEdit" parent="UI" unique_id=1861766933]
+offset_left = 1.0
+offset_top = 672.0
+offset_right = 879.0
+offset_bottom = 722.0
+theme_override_font_sizes/font_size = 28
+placeholder_text = "Поиск"
+
+[node name="InfoPanel" type="Panel" parent="UI" unique_id=778930982]
+offset_left = 879.0
+offset_top = 2.0
+offset_right = 1281.0
+offset_bottom = 721.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="UI/InfoPanel" unique_id=562602218]
+layout_mode = 0
+offset_right = 400.0
+offset_bottom = 719.0
+
+[node name="TitleLabel" type="Label" parent="UI/InfoPanel/VBoxContainer" unique_id=876981439]
+z_index = 10
+layout_mode = 2
+theme_override_font_sizes/font_size = 11
+text = "
+"
+
+[node name="EditItemsBox" type="TextEdit" parent="UI/InfoPanel/VBoxContainer" unique_id=1422251010]
+custom_minimum_size = Vector2(350, 680)
+layout_mode = 2
+theme_override_font_sizes/font_size = 11
+
+[node name="CloseButton" type="TextureButton" parent="UI/InfoPanel" unique_id=1603902046]
+layout_mode = 0
+offset_left = 354.0
+offset_right = 398.0
+offset_bottom = 44.0
+texture_normal = ExtResource("4_1uyqr")
+texture_pressed = ExtResource("5_wpa8c")
+texture_hover = ExtResource("6_jembt")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="BackButton" type="TextureButton" parent="UI" unique_id=2071228689]
+offset_top = 3.0
+offset_right = 117.0
+offset_bottom = 120.0
+texture_normal = ExtResource("7_y8ysa")
+texture_pressed = ExtResource("8_lo7bj")
+texture_hover = ExtResource("8_lo7bj")
+ignore_texture_size = true
+stretch_mode = 0
+
+[connection signal="text_submitted" from="UI/LineEdit" to="." method="_on_line_edit_text_submitted"]
+[connection signal="pressed" from="UI/InfoPanel/CloseButton" to="." method="_on_close_button_pressed"]
+[connection signal="pressed" from="UI/BackButton" to="." method="_on_back_button_pressed"]

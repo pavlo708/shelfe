@@ -26,7 +26,8 @@ func _ready():
 		2: target_name = "ItemsWall" + str(current_shelf_id)
 		3: target_name = "Items3_" + str(current_shelf_id)
 		5: target_name = "Items5_" + str(current_shelf_id)
-		6: target_name = "Items6_" + str(current_shelf_id) # Добавьте эту строку
+		6: target_name = "Items6_" + str(current_shelf_id) 
+		7: target_name = "Items7_" + str(current_shelf_id) 
 
 	current_group = get_node_or_null(target_name)
 	

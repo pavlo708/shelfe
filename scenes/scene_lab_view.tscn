@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bvebvvdvu2t21"]
 
 [ext_resource type="Script" uid="uid://b3dgqgbw0lql4" path="res://scenes/scene_lab_view.gd" id="1_c0wth"]
-[ext_resource type="Texture2D" uid="uid://bp5ab7n35cxbt" path="res://assets/images/LabShelfs/Lab.png" id="2_7k0y7"]
+[ext_resource type="Texture2D" uid="uid://bp5ab7n35cxbt" path="res://assets/images/Cabinet1/LabShelfs/Lab.png" id="2_68wmg"]
 [ext_resource type="Texture2D" uid="uid://dptncte734afe" path="res://assets/images/Sprites/BackButtonNorm.png" id="2_ye6jw"]
 [ext_resource type="Texture2D" uid="uid://bos55l286lpnu" path="res://assets/images/Sprites/BackButtonPress.png" id="3_7k0y7"]
 [ext_resource type="Script" uid="uid://bgj70wo42ooko" path="res://components/Shelf.gd" id="3_xf34m"]
@@ -15,37 +15,37 @@ size = Vector2(405, 674)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pvfe0"]
 size = Vector2(311, 713.25)
 
-[node name="Scene_Lab_View" type="Node2D"]
+[node name="Scene_Lab_View" type="Node2D" unique_id=121517153]
 script = ExtResource("1_c0wth")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1023163214]
 position = Vector2(639.79156, 357)
 scale = Vector2(0.9296873, 0.92968744)
-texture = ExtResource("2_7k0y7")
+texture = ExtResource("2_68wmg")
 
-[node name="LabWardrobe3" type="Area2D" parent="."]
+[node name="LabWardrobe3" type="Area2D" parent="." unique_id=514887998]
 script = ExtResource("3_xf34m")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="LabWardrobe3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LabWardrobe3" unique_id=928697742]
 position = Vector2(25, 371)
 shape = SubResource("RectangleShape2D_xf34m")
 
-[node name="LabWardrobe5" type="Area2D" parent="."]
+[node name="LabWardrobe5" type="Area2D" parent="." unique_id=171680076]
 script = ExtResource("3_xf34m")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="LabWardrobe5"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LabWardrobe5" unique_id=760516807]
 position = Vector2(669.5, 339)
 shape = SubResource("RectangleShape2D_3hm4x")
 
-[node name="LabWardrobe6" type="Area2D" parent="."]
+[node name="LabWardrobe6" type="Area2D" parent="." unique_id=1703813077]
 priority = 1
 script = ExtResource("3_xf34m")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="LabWardrobe6"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LabWardrobe6" unique_id=1999528928]
 position = Vector2(1123.5, 359.375)
 shape = SubResource("RectangleShape2D_pvfe0")
 
-[node name="BackButton" type="TextureButton" parent="."]
+[node name="BackButton" type="TextureButton" parent="." unique_id=301058104]
 offset_left = 14.0
 offset_top = -15.0
 offset_right = 95.0
